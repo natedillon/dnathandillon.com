@@ -13,4 +13,3 @@ keep_files: ['css']
 
 # Build settings
 markdown: kramdown
-theme: minima
