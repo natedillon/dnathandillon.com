@@ -2,8 +2,8 @@
 title: D. Nathan Dillon
 email: nate@natedillon.com
 description: The portfolio website of D. Nathan Dillon.
-baseurl: ""
-url: "http://dnathandillon.com"
+baseurl: ''
+url: 'http://dnathandillon.com'
 twitter_username: NatoriousFAT
 github_username:  natedillon
 
@@ -16,9 +16,15 @@ exclude: [
   'package.json',
   'README.md',
 ]
+include: [
+  '_pages',
+]
 keep_files: [
   'css',
 ]
 
 # Build settings
 markdown: kramdown
+
+# Outputting
+permalink: /:title/
