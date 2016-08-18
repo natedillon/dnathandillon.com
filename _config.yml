@@ -8,7 +8,14 @@ twitter_username: NatoriousFAT
 github_username:  natedillon
 
 # Global configuration
-exclude: ['node_modules', 'css', '_css']
+exclude: [
+  '_css',
+  'Gemfile',
+  'Gruntfile.js',
+  'node_modules',
+  'package.json',
+  'README.md',
+]
 keep_files: ['css']
 
 # Build settings
