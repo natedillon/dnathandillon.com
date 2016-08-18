@@ -73,6 +73,6 @@ module.exports = function(grunt) {
   ]);
 
   // Default task
-  grunt.registerTask('default', 'build');
+  grunt.registerTask('default', 'serve');
 
 };
