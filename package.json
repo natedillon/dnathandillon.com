@@ -1,0 +1,17 @@
+{
+  "name": "dnathandillon.com",
+  "description": "The portfolio website of D. Nathan Dillon.",
+  "version": "0.1.0",
+  "author": "D. Nathan Dillon",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:natedillon/dnathandillon.com.git"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "time-grunt": "^1.4.0"
+  }
+}
