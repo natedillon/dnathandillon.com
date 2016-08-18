@@ -16,7 +16,9 @@ exclude: [
   'package.json',
   'README.md',
 ]
-keep_files: ['css']
+keep_files: [
+  'css',
+]
 
 # Build settings
 markdown: kramdown
