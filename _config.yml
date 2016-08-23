@@ -8,20 +8,17 @@ twitter_username: NatoriousFAT
 github_username:  natedillon
 
 # Global configuration
-exclude: [
-  '_css',
-  'Gemfile',
-  'Gruntfile.js',
-  'node_modules',
-  'package.json',
-  'README.md',
-]
-include: [
-  '_pages',
-]
-keep_files: [
-  'css',
-]
+exclude:
+  - '_css'
+  - 'Gemfile'
+  - 'Gruntfile.js'
+  - 'node_modules'
+  - 'package.json'
+  - 'README.md'
+include:
+  - '_pages'
+keep_files:
+  - 'css'
 
 # Build settings
 markdown: kramdown
