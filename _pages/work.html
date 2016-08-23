@@ -4,10 +4,8 @@ title: Work
 permalink: /work/
 ---
 
-{% assign counter = 1 %}
 {% for project in site.projects %}
-  {% if counter == 1 %}<ul>{% endif %}
+  {% if forloop.first == true %}<ul>{% endif %}
     <li><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></li>
-  {% if counter == 1 %}</ul>{% endif %}
-  {% assign counter = counter | plus: 1 %}
+  {% if forloop.last == true %}</ul>{% endif %}
 {% endfor %}
