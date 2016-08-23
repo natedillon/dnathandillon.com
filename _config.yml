@@ -25,3 +25,10 @@ markdown: kramdown
 
 # Outputting
 permalink: /:title/
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: 'post'
+      permalink: '/blog/:year/:month/:day/:title/'
