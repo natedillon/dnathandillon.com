@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article>
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+  </header>
+
+  {{ content }}
+
+  {% for img in site.static_files %}
+    {% if img.path contains 'img/projects/' | append: page.slug %}
+      <div><img src="{{ img.path }}" alt=""></div>
+    {% endif %}
+  {% endfor %}
+</article>

@@ -25,6 +25,12 @@ markdown: kramdown
 
 # Outputting
 permalink: /:title/
+
+# Where things are
+collections:
+  projects:
+    output: true
+    permalink: /work/:title/
 defaults:
   -
     scope:
@@ -32,3 +38,9 @@ defaults:
     values:
       layout: 'post'
       permalink: '/blog/:year/:month/:day/:title/'
+  -
+    scope:
+      path: '_projects'
+      type: 'projects'
+    values:
+      layout: 'project'
