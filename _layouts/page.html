@@ -4,6 +4,7 @@ layout: default
 <article>
   <header>
     <h1>{{ page.title | escape }}</h1>
+    {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
   </header>
 
   {{ content }}
