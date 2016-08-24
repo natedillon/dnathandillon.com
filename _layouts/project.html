@@ -6,20 +6,5 @@ layout: default
     <h1>{{ page.title | escape }}</h1>
   </header>
 
-  {% if page.tags %}
-    <h2 class="hidden">Tags</h2>
-    <ul>
-      {% for tag in page.tags %}
-        <li>{{ tag }}</li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-
   {{ content }}
-
-  {% for img in site.static_files %}
-    {% if img.path contains 'img/projects/' | append: page.slug %}
-      <div><img src="{{ img.path }}" alt=""></div>
-    {% endif %}
-  {% endfor %}
 </article>
