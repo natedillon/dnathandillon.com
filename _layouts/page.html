@@ -3,8 +3,14 @@ layout: default
 ---
 <article>
   <header>
-    <h1>{{ page.title | escape }}</h1>
-    {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+    {% if page.title_alternate %}
+      <h1>{{ page.title_alternate | escape }}</h1>
+    {% else %}
+      <h1>{{ page.title | escape }}</h1>
+    {% endif %}
+    {% if page.subtitle %}
+      <p>{{ page.subtitle }}</p>
+    {% endif %}
   </header>
 
   {{ content }}

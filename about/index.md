@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Hello
+title: About
+title_alternate: Hello
 subtitle: You can call me Nate
 ---
 
