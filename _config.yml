@@ -16,7 +16,6 @@ exclude:
   - 'package.json'
   - 'README.md'
 include:
-  - '_pages'
 keep_files:
   - 'css'
 
