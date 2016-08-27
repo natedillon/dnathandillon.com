@@ -1,18 +1,41 @@
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  {% include head.html %}
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  </head>
 
   <body>
-    <div class="container">
-      {% include header.html %}
+    <header role="banner" class="container header">
+      <h1 class="header__logo"><a href="{{ site.baseurl }}/">{{ site.title | escape }}</a></h1>
 
-      <main aria-label="Content">
-        <div class="wrapper">
-          {{ content }}
-        </div>
-      </main>
+      <nav role="navigation" class="header__nav">
+        <ul class="header__nav-list">
+          {% for item in site.pages %}
+            {% if item.title %}
+              <li class="header__nav-list-item{% if page.url == item.url %} active{% endif %}">
+                <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+    </header><!-- .container .header -->
 
-      {% include footer.html %}
-    </div><!-- .container -->
+    <main class="container main" aria-label="Content">
+      {{ content }}
+    </main><!-- .container .main -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__copyright">Copyright &copy; 1980-{{ 'now' | date: "%Y" }} D. Nathan Dillon</p>
+      </div><!-- .container -->
+    </footer><!-- .footer -->
   </body>
 </html>

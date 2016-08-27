@@ -2,9 +2,51 @@
 layout: default
 ---
 <article>
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-  </header>
+  <header class="page-header">
+    <h1 class="page-header__title">
+      {% if page.title_alternate %}
+        {{ page.title_alternate | escape }}
+      {% else %}
+        {{ page.title | escape }}
+      {% endif %}
+    </h1>
+    {% if page.subtitle %}
+      <p class="page-header__subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </header><!-- .page-header -->
 
-  {{ content }}
+  <div class="row">
+    <div class="col-sm-4">
+      {{ content }}
+
+      {% if page.responsibilities %}
+        <h2>Responsibilities</h2>
+        <ul>
+          {% for item in page.responsibilities %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if page.technology %}
+        <h2>Technology</h2>
+        <ul>
+          {% for item in page.technology %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div><!-- .col-* -->
+
+    <div class="col-sm-8">
+      {% capture img_path %}img/projects/{{ page.slug }}/image.{% endcapture %}
+      {% for img in site.static_files %}
+        {% if img.path contains img_path %}
+          <div class="project-image">
+            <img src="{{ img.path }}" alt="{{ page.title | escape }}">
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div><!-- .col-* -->
+  </div><!-- .row -->
 </article>
