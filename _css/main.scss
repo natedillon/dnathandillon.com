@@ -24,11 +24,11 @@
 // Core CSS
 @import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding';
 @import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type';
-@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/code';
+//@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/code';
 @import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid';
-@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tables';
-@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/forms';
-@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons';
+//@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tables';
+//@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/forms';
+//@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons';
 
 // Components
 //@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/component-animations';
@@ -75,7 +75,7 @@
 // -------------------------
 
 // Core CSS
-//@import 'scaffolding';
-//@import 'forms';
+@import 'scaffolding';
 
+// Main theme file
 @import 'theme';
