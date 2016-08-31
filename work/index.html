@@ -7,13 +7,18 @@ title: Work
   {% if forloop.first == true %}<ul class="row project-list">{% endif %}
     <li class="col-sm-4 project-list__item">
       <a href="{{ project.url | prepend: site.baseurl }}">
-        {% capture img_path %}img/projects/{{ project.slug }}/thumb.{% endcapture %}
+        {% assign thumb_src = '' %}
+        {% capture project_thumb %}img/projects/{{ project.slug }}/thumb.{% endcapture %}
         {% for img in site.static_files %}
-          {% if img.path contains img_path %}
-            <img src="{{ img.path }}" alt="{{ project.title | escape }}"><br>
-            {{ project.title | escape }}
+          {% if img.path contains project_thumb %}
+            {% assign thumb_src = img.path %}
           {% endif %}
         {% endfor %}
+        {% if thumb_src == '' %}
+          {% assign thumb_src = '/img/projects/thumb.png' %}
+        {% endif %}
+        <img src="{{ thumb_src }}" alt="{{ project.title | escape }}"><br>
+        {{ project.title | escape }}
       </a>
     </li><!-- .project-list__item -->
   {% if forloop.last == true %}</ul><!-- .project-list -->{% endif %}
