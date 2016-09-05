@@ -12,25 +12,29 @@
   </head>
 
   <body>
-    <header role="banner" class="container header">
-      <h1 class="header__logo"><a href="{{ site.baseurl }}/">{{ site.title | escape }}</a></h1>
+    <header role="banner" class="header">
+      <div class="container">
+        <h1 class="header__logo"><a href="{{ site.baseurl }}/">{{ site.title | escape }}</a></h1>
 
-      <nav role="navigation" class="header__nav">
-        <ul class="header__nav-list">
-          {% for item in site.pages %}
-            {% if item.title %}
-              <li class="header__nav-list-item{% if page.url == item.url %} active{% endif %}">
-                <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </nav>
-    </header><!-- .container .header -->
+        <nav role="navigation" class="header__nav">
+          <ul class="header__nav-list">
+            {% for item in site.pages %}
+              {% if item.title and item.main_menu %}
+                <li class="header__nav-list-item{% if page.url == item.url %} active{% endif %}">
+                  <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </nav>
+      </div><!-- .container -->
+    </header><!-- .header -->
 
-    <main class="container main" aria-label="Content">
-      {{ content }}
-    </main><!-- .container .main -->
+    <main class="main" aria-label="Content">
+      <div class="container">
+        {{ content }}
+      </div><!-- .container -->
+    </main><!-- .main -->
 
     <footer class="footer">
       <div class="container">
