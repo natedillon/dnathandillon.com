@@ -36,6 +36,24 @@ layout: default
           {% endfor %}
         </ul>
       {% endif %}
+
+      {% if page.links %}
+        {% assign page_links = '' %}
+        {% for item in page.links %}
+          {% if item.hidden != true %}
+            {% capture page_links %}
+              {{ page_links }}
+              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endcapture %}
+          {% endif %}
+        {% endfor %}
+        {% if page_links != '' %}
+          <h2>Links</h2>
+          <ul>
+            {{ page_links }}
+          </ul>
+        {% endif %}
+      {% endif %}
     </div><!-- .col-* -->
 
     <div class="col-sm-8">
