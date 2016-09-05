@@ -3,7 +3,7 @@ layout: page
 title: Work
 ---
 
-{% for project in site.projects %}
+{% for project in site.projects reversed %}
   {% if forloop.first == true %}<ul class="row project-list">{% endif %}
     <li class="col-sm-4 project-list__item">
       <a href="{{ project.url | prepend: site.baseurl }}">
