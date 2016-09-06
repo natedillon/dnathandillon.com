@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /about/
 title: About
 title_alternate: Hello
 subtitle: You can call me Nate
