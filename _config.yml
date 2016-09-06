@@ -1,6 +1,6 @@
 # Site settings
 title: D. Nathan Dillon
-email: nate@natedillon.com
+email: 
 description: The portfolio website of D. Nathan Dillon.
 baseurl: ''
 url: 'http://dnathandillon.com'
@@ -19,27 +19,23 @@ include:
 keep_files:
   - 'css'
 
-# Build settings
-markdown: kramdown
-
-# Outputting
-permalink: /:title/
-
-# Where things are
+# Collections
 collections:
   projects:
     output: true
     permalink: /work/:title/
+
+# Defaults
 defaults:
   -
     scope:
-      type: 'posts'
+      type: posts
     values:
-      layout: 'post'
-      permalink: '/blog/:year/:month/:day/:title/'
+      layout: post
+      permalink: /blog/:year/:month/:day/:title/
   -
     scope:
-      path: '_projects'
-      type: 'projects'
+      path: _projects
+      type: projects
     values:
-      layout: 'project'
+      layout: project
