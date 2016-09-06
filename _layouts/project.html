@@ -16,7 +16,7 @@ layout: default
   </header><!-- .page-header -->
 
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-6">
       {{ content }}
 
       {% if page.responsibilities %}
@@ -56,7 +56,7 @@ layout: default
       {% endif %}
     </div><!-- .col-* -->
 
-    <div class="col-sm-8">
+    <div class="col-sm-6">
       {% capture img_path %}img/projects/{{ page.slug }}/image.{% endcapture %}
       {% for img in site.static_files %}
         {% if img.path contains img_path %}

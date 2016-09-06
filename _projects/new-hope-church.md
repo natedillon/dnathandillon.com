@@ -18,4 +18,4 @@ technology:
   - Bootstrap
 ---
 
-<p class="lead">Website for New Hope Church in Manhattan, Kansas.</p>
+Website for New Hope Church in Manhattan, Kansas.
