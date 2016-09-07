@@ -1,19 +1,22 @@
 ---
 title: K-State Connect
+agency: Kansas State University, Office of Mediated Education
 client: Kansas State University
 links:
   - title: Website
     url: https://connect.k-state.edu
 responsibilities:
   - Front-end development
-  - Design
+  - Design of new and updated widgets
 technology:
   - Python
   - Django
-  - Sass
+  - CSS/Sass
   - Compass
+  - JavaScript/jQuery
   - Bootstrap
   - Grunt
+  - npm
   - Vagrant
 ---
 

@@ -9,12 +9,13 @@ links:
     url: https://github.com/newhopeks/newhopeks.org
 responsibilities:
   - Front-end development
-  - Design
+  - Drupal and PHP development
+  - Design modifications
 technology:
   - Drupal 7
   - PHP
-  - Less
-  - jQuery
+  - CSS/Less
+  - JavaScript/jQuery
   - Bootstrap
 ---
 
