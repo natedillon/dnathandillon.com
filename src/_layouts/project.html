@@ -20,7 +20,7 @@ layout: default
   </div>
 
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-8">
       {% capture img_path %}img/projects/{{ page.slug }}/image.{% endcapture %}
       {% for img in site.static_files %}
         {% if img.path contains img_path %}
@@ -31,7 +31,7 @@ layout: default
       {% endfor %}
     </div><!-- .col-* -->
 
-    <div class="col-sm-6">
+    <div class="col-sm-4">
       {% if page.responsibilities %}
         <dl>
           <dt>Responsibilities:</dt>
