@@ -1,9 +1,9 @@
 # Site settings
+source: src
 title: D. Nathan Dillon
-email:
 description: "The portfolio website of D. Nathan Dillon."
-baseurl: ''
 url: "http://dnathandillon.com"
+email:
 twitter_username: NatoriousFAT
 github_username:  natedillon
 
