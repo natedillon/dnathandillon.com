@@ -1,72 +1,81 @@
 ---
 layout: default
 ---
+
 <article>
-  <header class="page-header">
-    <h1 class="page-header__title">
-      {% if page.title_alternate %}
-        {{ page.title_alternate | escape }}
-      {% else %}
-        {{ page.title | escape }}
-      {% endif %}
-    </h1>
-    {% if page.subtitle %}
-      <p class="page-header__subtitle">{{ page.subtitle }}</p>
-    {% endif %}
-  </header><!-- .page-header -->
-
-  <div class="lead">
-    {{ content }}
-  </div>
-
-  <div class="row">
-    <div class="col-sm-8">
-      {% capture img_path %}img/projects/{{ page.slug }}/image.{% endcapture %}
-      {% for img in site.static_files %}
-        {% if img.path contains img_path %}
-          <div class="project-image">
-            <img src="{{ img.path }}" alt="{{ page.title | escape }}">
-          </div>
+  <header class="article-header">
+    <div class="container">
+      <h1 class="article-header__title">
+        {% if page.title_alternate %}
+          {{ page.title_alternate | escape }}
+        {% else %}
+          {{ page.title | escape }}
         {% endif %}
-      {% endfor %}
-    </div><!-- .col-* -->
-
-    <div class="col-sm-4">
-      {% if page.responsibilities %}
-        <dl>
-          <dt>Responsibilities:</dt>
-          {% for item in page.responsibilities %}
-            <dd>{{ item }}</dd>
-          {% endfor %}
-        </dl>
+      </h1>
+      {% if page.subtitle %}
+        <p class="article-header__subtitle">{{ page.subtitle }}</p>
       {% endif %}
+    </div><!-- .container -->
+  </header><!-- .article-header -->
 
-      {% if page.technology %}
-        <dl>
-          <dt>Technology:</dt>
-          {% for item in page.technology %}
-            <dd>{{ item }}</dd>
-          {% endfor %}
-        </dl>
-      {% endif %}
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="lead">
+          {{ content }}
+        </div>
 
-      {% if page.links %}
-        {% assign page_links = '' %}
-        {% for item in page.links %}
-          {% if item.hidden != true %}
-            {% capture page_links %}
-              {{ page_links }}
-              <dd><a href="{{ item.url }}">{{ item.title }}</a></dd>
-            {% endcapture %}
-          {% endif %}
-        {% endfor %}
-        {% if page_links != '' %}
-          <dl>
-            <dt>Links:</dt>
-            {{ page_links }}
-          </dl>
-        {% endif %}
-      {% endif %}
-    </div><!-- .col-* -->
-  </div><!-- .row -->
+        <div class="row">
+          <div class="col-sm-8">
+            {% capture img_path %}img/projects/{{ page.slug }}/image.{% endcapture %}
+            {% for img in site.static_files %}
+              {% if img.path contains img_path %}
+                <div class="project-image">
+                  <img src="{{ img.path }}" alt="{{ page.title | escape }}">
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div><!-- .col-* -->
+
+          <div class="col-sm-4">
+            {% if page.responsibilities %}
+              <dl>
+                <dt>Responsibilities:</dt>
+                {% for item in page.responsibilities %}
+                  <dd>{{ item }}</dd>
+                {% endfor %}
+              </dl>
+            {% endif %}
+
+            {% if page.technology %}
+              <dl>
+                <dt>Technology:</dt>
+                {% for item in page.technology %}
+                  <dd>{{ item }}</dd>
+                {% endfor %}
+              </dl>
+            {% endif %}
+
+            {% if page.links %}
+              {% assign page_links = '' %}
+              {% for item in page.links %}
+                {% if item.hidden != true %}
+                  {% capture page_links %}
+                    {{ page_links }}
+                    <dd><a href="{{ item.url }}">{{ item.title }}</a></dd>
+                  {% endcapture %}
+                {% endif %}
+              {% endfor %}
+              {% if page_links != '' %}
+                <dl>
+                  <dt>Links:</dt>
+                  {{ page_links }}
+                </dl>
+              {% endif %}
+            {% endif %}
+          </div><!-- .col-* -->
+        </div><!-- .row -->
+      </div><!-- .col-* -->
+    </div><!-- .row -->
+  </div><!-- .container -->
 </article>

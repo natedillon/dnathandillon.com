@@ -116,14 +116,22 @@
 }
 
 
-// Page header
+// Article header
 // -------------------------
 
-.page-header {
+.article-header {
+  margin-bottom: $grid-gutter-width * 2;
+  padding: ($grid-gutter-width * 4) 0;
+  background-color: $grey-lightest;
+  border-bottom: 1px solid $grey-lighter;
+  text-align: center;
 
-  .page-header__title {}
+  .article-header__title {
+    font-size: 52px;
+    line-height: normal;
+  }
 
-  .page-header__subtitle {
+  .article-header__subtitle {
     margin-top: (-$line-height-computed / 2);
     color: $gray-light;
     font-style: italic;
