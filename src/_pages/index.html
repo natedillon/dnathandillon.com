@@ -2,3 +2,52 @@
 layout: default
 permalink: /
 ---
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <section>
+        <header class="page-header">
+          <h1 class="page-header__title">Hello</h1>
+        </header>
+        <p class="lead">My name is Nate Dillon, and I am a front-end web developer living in Manhattan, Kansas.</p>
+        <p><a href="/about/" class="btn btn-default">Read more &raquo;</a></p>
+      </section>
+
+      <section>
+        <header class="page-header">
+          <h1 class="page-header__title">Featured Projects</h1>
+        </header>
+        <ul class="row project-list">
+          {% assign project_counter = 1 %}
+          {% for project in site.projects reversed %}
+            {% if project.featured %}
+              <li class="col-sm-4 project-list__item">
+                <a href="{{ project.url | prepend: site.baseurl }}">
+                  {% assign thumb_src = '' %}
+                  {% capture project_thumb %}img/projects/{{ project.slug }}/thumb.{% endcapture %}
+                  {% for img in site.static_files %}
+                    {% if img.path contains project_thumb %}
+                      {% assign thumb_src = img.path %}
+                    {% endif %}
+                  {% endfor %}
+                  {% if thumb_src == '' %}
+                    {% assign thumb_src = '/img/projects/thumb.png' %}
+                  {% endif %}
+                  <img src="{{ thumb_src }}" alt="{{ project.title | escape }}"><br>
+                  {{ project.title | escape }}
+                </a>
+              </li><!-- .project-list__item -->
+
+              {% assign project_counter = project_counter | plus: 1 %}
+              {% if project_counter > 3 %}
+                {% break %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </ul><!-- .project-list -->
+        <p><a href="/work/" class="btn btn-default">More work &raquo;</a></p>
+      </section>
+    </div><!-- .col-* -->
+  </div><!-- .row -->
+</div><!-- .container -->
