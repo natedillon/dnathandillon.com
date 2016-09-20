@@ -170,52 +170,31 @@
 }
 
 .project-info {
-  float: left;
-  width: 100%;
-  margin-top: $grid-gutter-width * 2;
-  margin-bottom: $grid-gutter-width * 2;
-  border: 1px solid $gray-lighter;
+  display: flex;
+  margin: ($grid-gutter-width * 2) 0;
+  border-top: 1px solid $gray-lighter;
+  border-bottom: 1px solid $gray-lighter;
+  border-left: 1px solid $gray-lighter;
 
   .project-info__section {
-    float: left;
-    width: 50%;
+    flex: 1;
+    padding: ($grid-gutter-width / 2);
+    border-right: 1px solid $gray-lighter;
 
     .project-info__title {
-      margin: 0;
+      margin: (-$grid-gutter-width / 2) (-$grid-gutter-width / 2) ($grid-gutter-width / 2);
       padding: ($grid-gutter-width / 2);
       background-color: $gray-lightest;
       border-bottom: 1px solid $gray-lighter;
       font-size: $font-size-base;
+      line-height: normal;
       text-transform: uppercase;
     }
 
     .project-info__list {
       margin: 0;
-      padding: ($grid-gutter-width / 2);
-      border-right: 1px solid $gray-lighter;
-      border-left: 1px solid $gray-lighter;
-      list-style-type: none;
 
       .project-info__list-item {}
-    }
-
-    &:first-child {
-
-      .project-info__list {
-        margin-left: -1px;
-        margin-right: -1px;
-      }
-    }
-
-    &:last-child {
-
-      .project-info__title {
-        border-left: 1px solid $gray-lighter;
-      }
-
-      .project-info__list {
-        margin-right: -1px;
-      }
     }
   }
 }
