@@ -64,7 +64,12 @@
 // Main content
 // -------------------------
 
-.main {
+.main {}
+
+.main-content {
+  width: auto;
+  padding-left: percentage(2 / $grid-columns);
+  padding-right: percentage(2 / $grid-columns);
 }
 
 
