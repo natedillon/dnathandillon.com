@@ -20,20 +20,20 @@ layout: default
 
   <div class="container">
     <div class="row">
-      <div class="col-sm-8 col-sm-offset-2">
-        <div class="row">
-          <div class="col-sm-8 col-sm-offset-2">
-            {% capture img_path %}img/projects/{{ page.slug }}/image.{% endcapture %}
-            {% for img in site.static_files %}
-              {% if img.path contains img_path %}
-                <div class="project-image">
-                  <img src="{{ img.path }}" alt="{{ page.title | escape }}">
-                </div>
-              {% endif %}
-            {% endfor %}
-          </div><!-- .col-* -->
-        </div><!-- .row -->
+      <div class="col-sm-10 col-sm-offset-1">
+        {% capture img_path %}img/projects/{{ page.slug }}/image.{% endcapture %}
+        {% for img in site.static_files %}
+          {% if img.path contains img_path %}
+            <div class="project-image">
+              <img src="{{ img.path }}" alt="{{ page.title | escape }}">
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div><!-- .col-* -->
+    </div><!-- .row -->
 
+    <div class="row">
+      <div class="col-xs-12 main-content">
         <div class="project-info">
           <div class="project-info__section">
             {% if page.responsibilities %}
@@ -79,7 +79,7 @@ layout: default
         <div class="lead">
           {{ content }}
         </div>
-      </div><!-- .col-* -->
+      </div><!-- .col-* .main-content -->
     </div><!-- .row -->
   </div><!-- .container -->
 </article>
