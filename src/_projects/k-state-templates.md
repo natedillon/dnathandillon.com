@@ -1,4 +1,6 @@
 ---
+featured: true
+
 title: K-State Templates
 agency: Kansas State University, Office of Mediated Education
 client: Kansas State University
