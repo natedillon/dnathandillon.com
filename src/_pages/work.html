@@ -7,8 +7,8 @@ title: Work
 ---
 
 {% for project in site.projects reversed %}
-  {% if forloop.first == true %}<ul class="row project-list">{% endif %}
-    <li class="col-sm-4 project-list__item">
+  {% if forloop.first == true %}<ul class="project-list">{% endif %}
+    <li class="project-list__item">
       <a href="{{ project.url | prepend: site.baseurl }}">
         {% assign thumb_src = '' %}
         {% capture project_thumb %}img/projects/{{ project.slug }}/thumb.{% endcapture %}
