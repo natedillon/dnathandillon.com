@@ -1,4 +1,3 @@
-dnathandillon.com
-=================
+# dnathandillon.com
 
-The portfolio website of D. Nathan Dillon.
+The portfolio website of D. Nathan (Nate) Dillon.
