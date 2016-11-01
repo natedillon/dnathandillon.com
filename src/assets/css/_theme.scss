@@ -66,11 +66,7 @@
 
 .main {}
 
-.main-content {
-  width: auto;
-  padding-left: percentage(2 / $grid-columns);
-  padding-right: percentage(2 / $grid-columns);
-}
+.main-content {}
 
 
 // Footer
@@ -218,10 +214,5 @@
   img {
     border: 1px solid $gray-lighter;
     border-radius: 50%;
-
-    @media (max-width: $screen-xs) {
-      width: 100px;
-      height: auto;
-    }
   }
 }

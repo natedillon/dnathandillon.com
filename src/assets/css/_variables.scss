@@ -28,7 +28,15 @@ $brand-warning:         #f0ad4e;
 $brand-danger:          #d9534f;
 
 
-// Iconography
+// Typography
+// -------------------------
+
+$font-size-base: 14px;
+$line-height-base: 1.428571429;
+$line-height-computed: floor(($font-size-base * $line-height-base));
+
+
+// Grid
 // -------------------------
 
 $grid-gutter-width: 20px;
