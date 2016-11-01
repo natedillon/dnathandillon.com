@@ -3,10 +3,16 @@
 // --------------------------------------------------
 
 
-// Variables
+// Variables and mixins
 // -------------------------
 
 @import 'variables';
+
+
+// Reset
+// -------------------------
+
+@import '../libs/normalize.css/css/normalize';
 
 
 // Theme
