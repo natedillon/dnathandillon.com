@@ -30,7 +30,7 @@ The portfolio website of D. Nathan (Nate) Dillon.
   <dd>The default command: runs the `grunt serve` command</dd>
 
   <dt>`grunt serve`</dt>
-  <dd>Runs `grunt sass`, `grunt postcss`, `grunt watch`, and `jekyll serve`
+  <dd>Runs `grunt sass`, `grunt postcss`, `grunt watch`, and `jekyll serve`</dd>
 
   <dt>`grunt build`</dt>
   <dd>Runs `jekyll build`, `grunt sass`, and `grunt postcss`</dd>
