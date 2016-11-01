@@ -26,20 +26,20 @@ The portfolio website of D. Nathan (Nate) Dillon.
 ## Commands
 
 <dl>
-  <dt>`grunt`</dt>
-  <dd>The default command: runs the `grunt serve` command</dd>
-  <dt>`grunt serve`</dt>
-  <dd>Runs `grunt sass`, `grunt postcss`, `grunt watch`, and `jekyll serve`</dd>
-  <dt>`grunt build`</dt>
-  <dd>Runs `jekyll build`, `grunt sass`, and `grunt postcss`</dd>
-  <dt>`grunt sass`</dt>
+  <dt><code>grunt</code></dt>
+  <dd>The default command: runs the <code>grunt serve</code> command</dd>
+  <dt><code>grunt serve</code></dt>
+  <dd>Runs <code>grunt sass</code>, <code>grunt postcss</code>, <code>grunt watch</code>, and <code>jekyll serve</code></dd>
+  <dt><code>grunt build</code></dt>
+  <dd>Runs <code>jekyll build</code>, <code>grunt sass</code>, and <code>grunt postcss</code></dd>
+  <dt><code>grunt sass</code></dt>
   <dd>Builds the Sass files into CSS</dd>
-  <dt>`grunt postcss`</dt>
+  <dt><code>grunt postcss</code></dt>
   <dd>Runs Autoprefixer on the CSS</dd>
-  <dt>`grunt watch`</dt>
+  <dt><code>grunt watch</code></dt>
   <dd>Watches Sass files for changes</dd>
-  <dt>`jekyll build`</dt>
+  <dt><code>jekyll build</code></dt>
   <dd>Builds the Jekyll files into HTML and other static resources</dd>
-  <dt>`jekyll serve`</dt>
+  <dt><code>jekyll serve</code></dt>
   <dd>Runs the Jekyll web server</dd>
 </dl>
