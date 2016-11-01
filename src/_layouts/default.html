@@ -13,48 +13,32 @@
 
   <body>
     <header role="banner" class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h1 class="header__logo"><a href="{{ site.baseurl }}/">{{ site.title | escape }}</a></h1>
-          </div><!-- .col-* -->
+      <h1 class="header__logo"><a href="{{ site.baseurl }}/">{{ site.title | escape }}</a></h1>
 
-          <div class="col-sm-6">
-            <nav role="navigation" class="header__nav">
-              <ul class="header__nav-list">
-                {% for item in site.pages %}
-                  {% if item.title and item.main_menu %}
-                    <li class="header__nav-list-item{% if page.url == item.url %} active{% endif %}">
-                      <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
-                    </li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
-            </nav>
-          </div><!-- .col-* -->
-        </div><!-- .row -->
-      </div><!-- .container -->
+      <nav role="navigation" class="header__nav">
+        <ul class="header__nav-list">
+          {% for item in site.pages %}
+            {% if item.title and item.main_menu %}
+              <li class="header__nav-list-item{% if page.url == item.url %} active{% endif %}">
+                <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
     </header><!-- .header -->
 
-    <main class="main" role="main">
+    <main role="main" class="main">
       {{ content }}
     </main><!-- .main -->
 
     <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-md-offset-2">
-            <p class="footer__copyright">Copyright &copy; {{ 'now' | date: "%Y" }} D. Nathan Dillon</p>
-          </div><!-- .col-* -->
-          <div class="col-sm-6 col-md-4">
-            <ul class="footer__links">
-              <li class="footer__links-item"><a href="https://twitter.com/NatoriousFAT">Twitter</a></li>
-              <li class="footer__links-item"><a href="https://github.com/natedillon">GitHub</a></li>
-              <li class="footer__links-item"><a href="https://www.linkedin.com/in/natedillon">LinkedIn</a></li>
-            </ul><!-- .footer__links -->
-          </div><!-- .col-* -->
-        </div><!-- .row -->
-      </div><!-- .container -->
+      <p class="footer__copyright">Copyright &copy; {{ 'now' | date: "%Y" }} D. Nathan Dillon</p>
+      <ul class="footer__links">
+        <li class="footer__links-item"><a href="https://twitter.com/NatoriousFAT">Twitter</a></li>
+        <li class="footer__links-item"><a href="https://github.com/natedillon">GitHub</a></li>
+        <li class="footer__links-item"><a href="https://www.linkedin.com/in/natedillon">LinkedIn</a></li>
+      </ul><!-- .footer__links -->
     </footer><!-- .footer -->
   </body>
 </html>
