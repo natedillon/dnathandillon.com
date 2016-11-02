@@ -1,0 +1,16 @@
+//
+// Patterns
+// --------------------------------------------------
+
+
+.pattern-example {
+  margin-bottom: $line-height-computed;
+  padding: $grid-gutter-width;
+  border: 1px solid $grey-lighter;
+
+  > *:last-child,
+  > *:last-child > *:last-child,
+  > *:last-child > *:last-child > *:last-child {
+    margin-bottom: 0;
+  }
+}
