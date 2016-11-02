@@ -41,6 +41,30 @@ $line-height-base:        1.5; // 24px
 $line-height-computed:    2.4rem; // 2.4rem = 24px
 
 
+// Breakpoints
+// -------------------------
+
+$screen-xs: 0;
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+
+$screen-xs-max: ($screen-sm - 1);
+$screen-sm-max: ($screen-md - 1);
+$screen-md-max: ($screen-lg - 1);
+$screen-lg-max: ($screen-xl - 1);
+
+
+// Container
+// -------------------------
+
+$container-sm: 540px;
+$container-md: 720px;
+$container-lg: 960px;
+$container-xl: 1140px;
+
+
 // Grid
 // -------------------------
 
