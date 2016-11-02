@@ -8,7 +8,10 @@
 
 .header {
 
-  .header__title {}
+  .header__title {
+    font-size: $font-size-base;
+    text-transform: uppercase;
+  }
 }
 
 

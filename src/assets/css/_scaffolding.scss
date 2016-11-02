@@ -5,6 +5,7 @@
 
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 *,
@@ -14,7 +15,29 @@ html {
 }
 
 body {
+  margin: 0;
+  //padding: $grid-gutter-width; // temporary
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
 }
+
+
+// Links
+// -------------------------
+
+a {
+  color: $brand-primary;
+  text-decoration: underline;
+
+  &:hover,
+  &focus {
+  }
+}
+
+
+// Images
+// -------------------------
 
 img {
   max-width: 100%;

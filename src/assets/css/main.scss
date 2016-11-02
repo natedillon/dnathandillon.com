@@ -4,23 +4,16 @@
 
 
 // Variables and mixins
-// -------------------------
-
 @import 'variables';
-
+@import 'mixins';
 
 // Reset
-// -------------------------
-
 @import '../libs/normalize.css/css/normalize';
-
-
-// Theme
-// -------------------------
 
 // Core CSS
 @import 'scaffolding';
 @import 'type';
 
-// Main theme file
+// Theme
 @import 'theme';
+@import 'patterns';
