@@ -14,7 +14,7 @@
   <body>
     <header role="banner" class="header">
       <div class="container">
-        <h1 class="header__title"><a href="{{ site.baseurl }}/">{{ site.title | escape }}</a></h1>
+        <h1 class="header__title">{{ site.title | escape }}</h1>
       </div><!-- .container -->
     </header><!-- .header -->
 
@@ -24,13 +24,12 @@
 
     <footer class="footer">
       <div class="container">
-        <p class="footer__copyright">Copyright &copy; {{ 'now' | date: "%Y" }} D. Nathan Dillon</p>
         <ul class="footer__links">
           <li class="footer__links-item"><a href="https://twitter.com/NatoriousFAT">Twitter</a></li>
           <li class="footer__links-item"><a href="https://github.com/natedillon">GitHub</a></li>
           <li class="footer__links-item"><a href="https://www.linkedin.com/in/natedillon">LinkedIn</a></li>
-          <li class="footer__links-item"><a href="{{ site.baseurl }}/patterns">Patterns</a></li>
         </ul><!-- .footer__links -->
+        <p class="footer__copyright">Copyright &copy; {{ 'now' | date: "%Y" }} D. Nathan Dillon</p>
       </div><!-- .container -->
     </footer><!-- .footer -->
   </body>
