@@ -19,8 +19,6 @@ exclude:
   - README.md
 include:
   - _pages
-keep_files:
-  - css
 
 # Collections
 collections:
