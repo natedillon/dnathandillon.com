@@ -1,0 +1,43 @@
+# Site settings
+source: src
+title: D. Nathan Dillon
+description: "The portfolio website of D. Nathan Dillon."
+url: "http://dnathandillon.com"
+email:
+twitter_username: NatoriousFAT
+github_username:  natedillon
+
+# Global configuration
+exclude:
+  - _css
+  - Gemfile
+  - Gruntfile.js
+  - img-src
+  - node_modules
+  - package.json
+  - README.md
+include:
+  - _pages
+keep_files:
+  - css
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /work/:title/
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: posts
+    values:
+      layout: post
+      permalink: /blog/:year/:month/:day/:title/
+  -
+    scope:
+      path: _projects
+      type: projects
+    values:
+      layout: project

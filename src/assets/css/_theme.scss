@@ -1,0 +1,262 @@
+//
+// Theme
+// --------------------------------------------------
+
+
+// Container
+// -------------------------
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px; // $gutter / 2
+  padding-right: 10px; // $gutter / 2
+
+  @media (min-width: $screen-sm) {
+    width: $container-sm;
+    max-width: 100%;
+  }
+
+  @media (min-width: $screen-md) {
+    width: $container-md;
+    max-width: 100%;
+  }
+
+  @media (min-width: $screen-lg) {
+    width: $container-lg;
+    max-width: 100%;
+  }
+
+  @media (min-width: $screen-xl) {
+    width: $container-xl;
+    max-width: 100%;
+  }
+}
+
+
+// Header
+// -------------------------
+
+.header {
+  padding-top: $grid-gutter-width;
+  padding-bottom: $grid-gutter-width;
+  background-color: white;
+  border-bottom: 1px solid $grey-lighter;
+
+  .header__title {
+    margin: 0;
+    font-size: $font-size-base;
+    text-align: center;
+    text-transform: uppercase;
+
+    @media (min-width: $screen-md) {
+      text-align: left;
+    }
+  }
+}
+
+
+// Main content
+// -------------------------
+
+.main {
+  padding-top: $grid-gutter-width;
+  padding-bottom: $grid-gutter-width;
+  background-color: white;
+}
+
+
+// Footer
+// -------------------------
+
+.footer {
+  padding-top: $grid-gutter-width;
+  padding-bottom: $grid-gutter-width;
+  //background-color: $gray-lightest;
+  border-top: 1px solid $gray-lighter;
+  color: $gray-light;
+  font-size: 1.4rem;
+  text-align: center;
+
+  @media (min-width: $screen-md) {
+    text-align: left;
+  }
+
+  .footer__links {
+    margin-bottom: 10px;
+    padding: 0;
+    list-style-type: none;
+
+    .footer__links-item {
+      display: inline-block;
+      margin-right: 10px;
+
+      &:after {
+        content: "/";
+        margin-left: 10px;
+      }
+
+      &:last-child {
+        margin-right: 0;
+
+        &:after {
+          content: "";
+          margin-left: 0;
+        }
+      }
+
+      a {
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    @media (min-width: $screen-md) {
+      float: right;
+      width: 50%;
+      text-align: right;
+    }
+  }
+
+  .footer__copyright {
+
+    @media (min-width: $screen-md) {
+      float: left;
+      width: 50%;
+    }
+  }
+}
+
+
+// Home
+// -------------------------
+
+.home {
+  text-align: center;
+
+  .home-content {
+    margin-top: 120px; margin-top: 20vh;
+    margin-bottom: 120px; margin-bottom: 20vh;
+    font-size: 1.6rem;
+
+    span {
+      display: block;
+      font-size: 2.4rem;
+      font-weight: bold;
+    }
+
+    @media (min-width: $screen-md) {
+      font-size: 2.4rem;
+
+      span {
+        font-size: 4.8rem;
+      }
+    }
+  }
+}
+
+
+// Article header
+// -------------------------
+
+.article-header {
+  margin-top: -$grid-gutter-width;
+  margin-bottom: $grid-gutter-width * 2;
+  padding: ($grid-gutter-width * 4) 0;
+  background-color: $grey-lightest;
+  border-bottom: 1px solid $grey-lighter;
+  text-align: center;
+
+  .article-header__title {
+    font-size: 52px;
+    line-height: normal;
+  }
+
+  .article-header__subtitle {
+    margin-top: (-$line-height-computed / 2);
+    color: $gray-light;
+    font-style: italic;
+  }
+}
+
+
+// Project
+// -------------------------
+
+.project-list {
+  padding-left: 0;
+  list-style-type: none;
+
+  .project-list__item {
+    margin: 0 0 $grid-gutter-width;
+
+    &:nth-child(3n+1) {
+      clear: left;
+    }
+
+    img {
+      margin-bottom: 5px;
+      border: 1px solid $gray-lighter;
+    }
+  }
+}
+
+.project-image {
+  margin: 0 0 ($grid-gutter-width * 2);
+  border: 1px solid $gray-lighter;
+  text-align: center;
+
+  max-height: 450px;
+  overflow: hidden;
+
+  img {
+  }
+}
+
+.project-info {
+  display: flex;
+  margin: 0 0 ($grid-gutter-width * 2);
+  border-top: 1px solid $gray-lighter;
+  border-bottom: 1px solid $gray-lighter;
+  border-left: 1px solid $gray-lighter;
+
+  .project-info__section {
+    flex: 1;
+    padding: ($grid-gutter-width / 2);
+    border-right: 1px solid $gray-lighter;
+
+    .project-info__title {
+      margin: (-$grid-gutter-width / 2) (-$grid-gutter-width / 2) ($grid-gutter-width / 2);
+      padding: ($grid-gutter-width / 2);
+      background-color: $gray-lightest;
+      border-bottom: 1px solid $gray-lighter;
+      font-size: $font-size-base;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+
+    .project-info__list {
+      margin: 0;
+
+      .project-info__list-item {}
+    }
+  }
+}
+
+
+// About
+// -------------------------
+
+.profile-picture {
+  float: right;
+  margin: 0 0 $grid-gutter-width $grid-gutter-width;
+
+  img {
+    border: 1px solid $gray-lighter;
+    border-radius: 50%;
+  }
+}

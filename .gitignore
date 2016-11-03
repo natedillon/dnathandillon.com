@@ -1,0 +1,12 @@
+# System files
+.DS_Store
+
+# Jekyll
+_site
+.jekyll-metadata
+
+# npm
+node_modules/
+
+# Sass
+.sass-cache
