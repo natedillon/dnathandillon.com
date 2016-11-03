@@ -2,14 +2,16 @@
 
 The portfolio website of D. Nathan (Nate) Dillon.
 
-## Requirements
+## Running Locally
+
+### Requirements
 
 - Ruby
 - [Bundler](http://bundler.io/)
 - [npm](https://www.npmjs.com/)
 - [Grunt](http://gruntjs.com/)
 
-## Instructions
+### Instructions
 
 1. Install Jekyll and other dependencies:
 
@@ -23,7 +25,7 @@ The portfolio website of D. Nathan (Nate) Dillon.
     npm install
     ```
 
-## Commands
+### Commands
 
 <dl>
   <dt><code>grunt</code></dt>
