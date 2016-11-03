@@ -16,7 +16,7 @@ module.exports = function(grunt) {
         command: 'jekyll build'
       },
       jekyllServe: {
-        command: 'jekyll serve --incremental'
+        command: 'jekyll serve --baseurl "" --incremental'
       }
     },
 
@@ -68,6 +68,7 @@ module.exports = function(grunt) {
     // Run tasks in parallel
     concurrent: {
       serve: [
+        'shell:jekyllBuild',
         'sass',
         'postcss',
         'watch',
