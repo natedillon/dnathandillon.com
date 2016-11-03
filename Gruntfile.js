@@ -13,10 +13,10 @@ module.exports = function(grunt) {
     // Shell commands for use in Grunt tasks
     shell: {
       jekyllBuild: {
-        command: 'jekyll build'
+        command: 'jekyll build --config _config.yml,_config.dev.yml'
       },
       jekyllServe: {
-        command: 'jekyll serve --baseurl "" --incremental'
+        command: 'jekyll serve --config _config.yml,_config.dev.yml'
       }
     },
 
