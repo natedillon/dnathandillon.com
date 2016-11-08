@@ -17,7 +17,7 @@ module.exports = function(grunt) {
       },
       jekyllServe: {
         command: 'jekyll serve --config _config.yml,_config.dev.yml'
-      }
+      },
     },
 
     // Sass command
@@ -27,7 +27,7 @@ module.exports = function(grunt) {
         relativeAssets: false,
         outputStyle: 'expanded',
         sassDir: 'assets/css',
-        cssDir: 'css'
+        cssDir: 'css',
       },
       build: {
         files: [{
@@ -35,9 +35,9 @@ module.exports = function(grunt) {
           cwd: 'assets/css/',
           src: ['**/*.{scss,sass}'],
           dest: 'css',
-          ext: '.css'
-        }]
-      }
+          ext: '.css',
+        }],
+      },
     },
 
     // PostCSS command
@@ -47,22 +47,32 @@ module.exports = function(grunt) {
           require('autoprefixer')({
             browsers: ['last 2 versions']
           })
-        ]
+        ],
       },
       build: {
-        src: 'css/*.css'
-      }
+        src: 'css/*.css',
+      },
     },
 
     // Watch command
     watch: {
       sass: {
-        files: ['assets/css/**/*.{scss,sass}'],
+        files: [
+          'assets/css/**/*.{scss,sass}'
+        ],
         tasks: [
           'sass',
-          'postcss'
-        ]
-      }
+          'postcss',
+        ],
+      },
+      livereload: {
+        options: {
+          livereload: true,
+        },
+        files: [
+          '_site/css/**/*.css'
+        ],
+      },
     },
 
     // Run tasks in parallel
@@ -72,22 +82,22 @@ module.exports = function(grunt) {
         'shell:jekyllServe'
       ],
       options: {
-        logConcurrentOutput: true
-      }
+        logConcurrentOutput: true,
+      },
     },
   });
 
   // Serve task
   grunt.registerTask('serve', [
     'build',
-    'concurrent:serve'
+    'concurrent:serve',
   ]);
 
   // Build task
   grunt.registerTask('build', [
     'shell:jekyllBuild',
     'sass',
-    'postcss'
+    'postcss',
   ]);
 
   // Default task
