@@ -61,8 +61,12 @@ module.exports = function(grunt) {
         tasks: [
           'sass',
           'postcss'
-        ]
-      }
+        ],
+      },
+      livereload: {
+        options: { livereload: true },
+        files: ['_site/css/**/*.css'],
+      },
     },
 
     // Run tasks in parallel
