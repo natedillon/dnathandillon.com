@@ -19,28 +19,44 @@
 .pattern-example-colors {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 (-($grid-gutter-width / 2)) 0;
+  margin: 0 (-($grid-gutter-width / 2)) $line-height-computed;
   padding-left: 0;
   list-style-type: none;
 
   .pattern-example-colors__item {
     flex-basis: percentage( 1 / 2 );
-    margin-bottom: $grid-gutter-width;
+    margin-top: $grid-gutter-width;
     padding: 0 ($grid-gutter-width / 2);
+
+    &:nth-child(-n+2) {
+      margin-top: 0;
+    }
 
     @media (min-width: $screen-sm) {
     }
 
     @media (min-width: $screen-md) {
       flex-basis: percentage( 4 / 12 );
+
+      &:nth-child(-n+3) {
+        margin-top: 0;
+      }
     }
 
     @media (min-width: $screen-lg) {
       flex-basis: percentage( 3 / 12 );
+
+      &:nth-child(-n+4) {
+        margin-top: 0;
+      }
     }
 
     @media (min-width: $screen-xl) {
       flex-basis: percentage( 2 / 12 );
+
+      &:nth-child(-n+6) {
+        margin-top: 0;
+      }
     }
   }
 
