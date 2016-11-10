@@ -52,6 +52,14 @@ h5, .h5 { font-size: (14 / 12) * 1em; }
 h6, .h6 { font-size: (12 / 12) * 1em; }
 
 
+// Page header
+// -------------------------
+
+.page-header {
+  border-bottom: 1px solid $grey-lighter;
+}
+
+
 // Lists
 // -------------------------
 
