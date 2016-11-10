@@ -317,10 +317,119 @@ code {
   margin-bottom: 2.4rem;
   padding: 20px;
   border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .pattern-example > *:last-child,
 .pattern-example > *:last-child > *:last-child,
 .pattern-example > *:last-child > *:last-child > *:last-child {
   margin-bottom: 0;
+}
+
+.pattern-example-colors {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -10px 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.pattern-example-colors .pattern-example-colors__item {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+  .pattern-example-colors .pattern-example-colors__item {
+    -ms-flex-preferred-size: 33.3333333333%;
+        flex-basis: 33.3333333333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .pattern-example-colors .pattern-example-colors__item {
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pattern-example-colors .pattern-example-colors__item {
+    -ms-flex-preferred-size: 16.6666666667%;
+        flex-basis: 16.6666666667%;
+  }
+}
+
+.pattern-example-colors .pattern-example-colors__item-wrapper {
+  min-height: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.pattern-example-colors .pattern-example-colors__item-wrapper:before {
+  content: "";
+  display: block;
+  margin: -10px -10px 10px;
+  height: 100px;
+  border-bottom: 1px solid #ddd;
+}
+
+.pattern-example-colors .pattern-example-colors__item--brand-primary .pattern-example-colors__item-wrapper:before {
+  background-color: #337ab7;
+}
+
+.pattern-example-colors .pattern-example-colors__item--brand-success .pattern-example-colors__item-wrapper:before {
+  background-color: #5cb85c;
+}
+
+.pattern-example-colors .pattern-example-colors__item--brand-info .pattern-example-colors__item-wrapper:before {
+  background-color: #5bc0de;
+}
+
+.pattern-example-colors .pattern-example-colors__item--brand-warning .pattern-example-colors__item-wrapper:before {
+  background-color: #f0ad4e;
+}
+
+.pattern-example-colors .pattern-example-colors__item--brand-danger .pattern-example-colors__item-wrapper:before {
+  background-color: #d9534f;
+}
+
+.pattern-example-colors .pattern-example-colors__item--gray-darker .pattern-example-colors__item-wrapper:before {
+  background-color: #222;
+}
+
+.pattern-example-colors .pattern-example-colors__item--gray-dark .pattern-example-colors__item-wrapper:before {
+  background-color: #333;
+}
+
+.pattern-example-colors .pattern-example-colors__item--gray .pattern-example-colors__item-wrapper:before {
+  background-color: #555;
+}
+
+.pattern-example-colors .pattern-example-colors__item--gray-light .pattern-example-colors__item-wrapper:before {
+  background-color: #777;
+}
+
+.pattern-example-colors .pattern-example-colors__item--gray-lighter .pattern-example-colors__item-wrapper:before {
+  background-color: #ddd;
+}
+
+.pattern-example-colors .pattern-example-colors__item--gray-lightest .pattern-example-colors__item-wrapper:before {
+  background-color: #f5f5f5;
+}
+
+.pattern-example-colors .pattern-example-colors__value {
+  font-weight: bold;
+}
+
+.pattern-example-colors .pattern-example-colors__variable {
+  color: #777;
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 1.2rem;
 }
