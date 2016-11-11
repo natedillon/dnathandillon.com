@@ -10,6 +10,7 @@ The portfolio website of D. Nathan (Nate) Dillon.
 - [Bundler](http://bundler.io/)
 - [npm](https://www.npmjs.com/)
 - [Grunt](http://gruntjs.com/)
+- [LiveReload browser extension](http://livereload.com/extensions/) (for optional live reloading)
 
 ### Instructions
 
