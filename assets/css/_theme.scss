@@ -65,6 +65,57 @@
   background-color: white;
 }
 
+.article-header {
+  width: 100vw;
+  margin: -($grid-gutter-width) auto ($grid-gutter-width * 2);
+  padding: ($grid-gutter-width * 4) ($grid-gutter-width / 2);
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-color: $grey-lightest;
+  border-bottom: 1px solid $grey-lighter;
+  text-align: center;
+
+  @media (min-width: $screen-sm) {
+    padding-left: calc(50vw - #{$container-sm / 2} + #{$grid-gutter-width / 2});
+    padding-right: calc(50vw - #{$container-sm / 2} + #{$grid-gutter-width / 2});
+  }
+
+  @media (min-width: $screen-md) {
+    padding-left: calc(50vw - #{$container-md / 2} + #{$grid-gutter-width / 2});
+    padding-right: calc(50vw - #{$container-md / 2} + #{$grid-gutter-width / 2});
+  }
+
+  @media (min-width: $screen-lg) {
+    padding-left: calc(50vw - #{$container-lg / 2} + #{$grid-gutter-width / 2});
+    padding-right: calc(50vw - #{$container-lg / 2} + #{$grid-gutter-width / 2});
+  }
+
+  @media (min-width: $screen-xl) {
+    padding-left: calc(50vw - #{$container-xl / 2} + #{$grid-gutter-width / 2});
+    padding-right: calc(50vw - #{$container-xl / 2} + #{$grid-gutter-width / 2});
+  }
+
+  .article-header__title {
+    margin: 0;
+    font-size: 5.2rem;
+    line-height: normal;
+  }
+
+  .article-header__subtitle {
+    margin-top: (-$line-height-computed / 2);
+    color: $gray-light;
+    font-style: italic;
+  }
+}
+
+.main-content {
+  @include make-container();
+}
+
+.article {
+  @include make-col($size-lg: 9);
+}
+
 
 // Footer
 // -------------------------
@@ -158,67 +209,6 @@
     }
   }
 }
-
-
-// Article
-// -------------------------
-
-.article-header {
-  width: 100vw;
-  margin: -($grid-gutter-width) auto ($grid-gutter-width * 2);
-  padding: ($grid-gutter-width * 4) ($grid-gutter-width / 2);
-  background-origin: content-box;
-  background-repeat: no-repeat;
-  background-color: $grey-lightest;
-  border-bottom: 1px solid $grey-lighter;
-  text-align: center;
-
-  @media (min-width: $screen-sm) {
-    padding-left: calc(50vw - #{$container-sm / 2} + #{$grid-gutter-width / 2});
-    padding-right: calc(50vw - #{$container-sm / 2} + #{$grid-gutter-width / 2});
-  }
-
-  @media (min-width: $screen-md) {
-    padding-left: calc(50vw - #{$container-md / 2} + #{$grid-gutter-width / 2});
-    padding-right: calc(50vw - #{$container-md / 2} + #{$grid-gutter-width / 2});
-  }
-
-  @media (min-width: $screen-lg) {
-    padding-left: calc(50vw - #{$container-lg / 2} + #{$grid-gutter-width / 2});
-    padding-right: calc(50vw - #{$container-lg / 2} + #{$grid-gutter-width / 2});
-  }
-
-  @media (min-width: $screen-xl) {
-    padding-left: calc(50vw - #{$container-xl / 2} + #{$grid-gutter-width / 2});
-    padding-right: calc(50vw - #{$container-xl / 2} + #{$grid-gutter-width / 2});
-  }
-
-  .article-header__title {
-    margin: 0;
-    font-size: 5.2rem;
-    line-height: normal;
-  }
-
-  .article-header__subtitle {
-    margin-top: (-$line-height-computed / 2);
-    color: $gray-light;
-    font-style: italic;
-  }
-}
-
-.article {
-  max-width: 100%;
-  margin: 0 auto;
-  padding-left: ($grid-gutter-width / 2);
-  padding-right: ($grid-gutter-width / 2);
-
-  @media (min-width: $screen-sm) { width: $container-sm; }
-  @media (min-width: $screen-md) { width: $container-md; }
-  @media (min-width: $screen-lg) { width: $container-lg; }
-  @media (min-width: $screen-xl) { width: $container-xl; }
-}
-
-.article-content {}
 
 
 // Project
