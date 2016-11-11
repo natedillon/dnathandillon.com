@@ -212,7 +212,6 @@ code {
   margin-left: 10px;
   margin-right: 10px;
   width: calc( 100vw * (12 / 12) - 20px);
-  overflow: hidden;
   margin: 0;
   font-size: 5.2rem;
   line-height: normal;
@@ -287,7 +286,6 @@ code {
   margin-left: 10px;
   margin-right: 10px;
   width: calc( 100vw * (12 / 12) - 20px);
-  overflow: hidden;
 }
 
 @media (min-width: 576px) {
@@ -304,13 +302,13 @@ code {
 
 @media (min-width: 992px) {
   .article {
-    width: 715px;
+    width: 633.333333333px;
   }
 }
 
 @media (min-width: 1200px) {
   .article {
-    width: 850px;
+    width: 753.333333333px;
   }
 }
 
@@ -414,7 +412,6 @@ code {
   margin-left: 10px;
   margin-right: 10px;
   width: calc( 100vw * (12 / 12) - 20px);
-  overflow: hidden;
   text-align: center;
 }
 
@@ -577,20 +574,20 @@ code {
 
 @media (min-width: 992px) {
   .pattern-example-colors .pattern-example-colors__item {
-    -ms-flex-preferred-size: 25%;
-        flex-basis: 25%;
+    -ms-flex-preferred-size: 33.3333333333%;
+        flex-basis: 33.3333333333%;
   }
-  .pattern-example-colors .pattern-example-colors__item:nth-child(-n+4) {
+  .pattern-example-colors .pattern-example-colors__item:nth-child(-n+3) {
     margin-top: 0;
   }
 }
 
 @media (min-width: 1200px) {
   .pattern-example-colors .pattern-example-colors__item {
-    -ms-flex-preferred-size: 16.6666666667%;
-        flex-basis: 16.6666666667%;
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
   }
-  .pattern-example-colors .pattern-example-colors__item:nth-child(-n+6) {
+  .pattern-example-colors .pattern-example-colors__item:nth-child(-n+4) {
     margin-top: 0;
   }
 }
