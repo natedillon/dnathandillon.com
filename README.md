@@ -10,6 +10,7 @@ The portfolio website of D. Nathan (Nate) Dillon.
 - [Bundler](http://bundler.io/)
 - [npm](https://www.npmjs.com/)
 - [Grunt](http://gruntjs.com/)
+- [LiveReload browser extension](http://livereload.com/extensions/) (for optional live reloading)
 
 ### Instructions
 
@@ -27,21 +28,34 @@ The portfolio website of D. Nathan (Nate) Dillon.
 
 ### Commands
 
-<dl>
-  <dt><code>grunt</code></dt>
-  <dd>The default command: runs the <code>grunt serve</code> command</dd>
-  <dt><code>grunt serve</code></dt>
-  <dd>Runs <code>grunt sass</code>, <code>grunt postcss</code>, <code>grunt watch</code>, and <code>jekyll serve</code></dd>
-  <dt><code>grunt build</code></dt>
-  <dd>Runs <code>jekyll build</code>, <code>grunt sass</code>, and <code>grunt postcss</code></dd>
-  <dt><code>grunt sass</code></dt>
-  <dd>Builds the Sass files into CSS</dd>
-  <dt><code>grunt postcss</code></dt>
-  <dd>Runs Autoprefixer on the CSS</dd>
-  <dt><code>grunt watch</code></dt>
-  <dd>Watches Sass files for changes</dd>
-  <dt><code>jekyll build</code></dt>
-  <dd>Builds the Jekyll files into HTML and other static resources</dd>
-  <dt><code>jekyll serve</code></dt>
-  <dd>Runs the Jekyll web server</dd>
-</dl>
+#### `grunt`
+
+The default command: runs the `grunt serve` command
+
+#### `grunt serve`
+
+Runs `grunt sass`, `grunt postcss`, `grunt watch`, and `jekyll serve`
+
+#### `grunt build`
+
+Runs `jekyll build`, `grunt sass`, and `grunt postcss`
+
+#### `grunt sass`
+
+Builds the Sass files into CSS
+
+#### `grunt postcss`
+
+Runs Autoprefixer on the CSS
+
+#### `grunt watch`
+
+Watches Sass files for changes
+
+#### `jekyll build`
+
+Builds the Jekyll files into HTML and other static resources
+
+#### `jekyll serve`
+
+Runs the Jekyll web server

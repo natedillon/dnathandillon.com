@@ -7,10 +7,95 @@
   margin-bottom: $line-height-computed;
   padding: $grid-gutter-width;
   border: 1px solid $grey-lighter;
+  border-radius: 5px;
 
   > *:last-child,
   > *:last-child > *:last-child,
   > *:last-child > *:last-child > *:last-child {
     margin-bottom: 0;
+  }
+}
+
+.pattern-example-colors {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 (-($grid-gutter-width / 2)) $line-height-computed;
+  padding-left: 0;
+  list-style-type: none;
+
+  .pattern-example-colors__item {
+    flex-basis: percentage( 1 / 2 );
+    margin-top: $grid-gutter-width;
+    padding: 0 ($grid-gutter-width / 2);
+
+    &:nth-child(-n+2) {
+      margin-top: 0;
+    }
+
+    @media (min-width: $screen-sm) {
+    }
+
+    @media (min-width: $screen-md) {
+      flex-basis: percentage( 4 / 12 );
+
+      &:nth-child(-n+3) {
+        margin-top: 0;
+      }
+    }
+
+    @media (min-width: $screen-lg) {
+      flex-basis: percentage( 4 / 12 );
+
+      &:nth-child(-n+3) {
+        margin-top: 0;
+      }
+    }
+
+    @media (min-width: $screen-xl) {
+      flex-basis: percentage( 3 / 12 );
+
+      &:nth-child(-n+4) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .pattern-example-colors__item-wrapper {
+    min-height: 100%;
+    padding: ($grid-gutter-width / 2);
+    border: 1px solid $gray-lighter;
+    border-radius: 5px;
+    overflow: hidden;
+
+    &:before {
+      content: "";
+      display: block;
+      margin: (-($grid-gutter-width / 2)) (-($grid-gutter-width / 2)) ($grid-gutter-width / 2);
+      height: 100px;
+      border-bottom: 1px solid $gray-lighter;
+    }
+  }
+
+  .pattern-example-colors__item--brand-primary  .pattern-example-colors__item-wrapper:before { background-color: $brand-primary; }
+  .pattern-example-colors__item--brand-success  .pattern-example-colors__item-wrapper:before { background-color: $brand-success; }
+  .pattern-example-colors__item--brand-info     .pattern-example-colors__item-wrapper:before { background-color: $brand-info; }
+  .pattern-example-colors__item--brand-warning  .pattern-example-colors__item-wrapper:before { background-color: $brand-warning; }
+  .pattern-example-colors__item--brand-danger   .pattern-example-colors__item-wrapper:before { background-color: $brand-danger; }
+
+  .pattern-example-colors__item--gray-darker    .pattern-example-colors__item-wrapper:before { background-color: $gray-darker; }
+  .pattern-example-colors__item--gray-dark      .pattern-example-colors__item-wrapper:before { background-color: $gray-dark; }
+  .pattern-example-colors__item--gray           .pattern-example-colors__item-wrapper:before { background-color: $gray; }
+  .pattern-example-colors__item--gray-light     .pattern-example-colors__item-wrapper:before { background-color: $gray-light; }
+  .pattern-example-colors__item--gray-lighter   .pattern-example-colors__item-wrapper:before { background-color: $gray-lighter; }
+  .pattern-example-colors__item--gray-lightest  .pattern-example-colors__item-wrapper:before { background-color: $gray-lightest; }
+
+  .pattern-example-colors__value {
+    font-weight: bold;
+  }
+
+  .pattern-example-colors__variable {
+    color: $gray-light;
+    font-family: $font-family-monospace;
+    font-size: 1.2rem;
   }
 }

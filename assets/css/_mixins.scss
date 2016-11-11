@@ -1,0 +1,85 @@
+//
+// Mixins
+// --------------------------------------------------
+
+
+// Grid
+// -------------------------
+
+@mixin make-container() {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: $screen-sm) {
+    width: $container-sm;
+  }
+
+  @media (min-width: $screen-md) {
+    width: $container-md;
+  }
+
+  @media (min-width: $screen-lg) {
+    width: $container-lg;
+  }
+
+  @media (min-width: $screen-xl) {
+    width: $container-xl;
+  }
+}
+
+@mixin make-col($size-xs: $grid-columns, $size-sm: $size-xs, $size-md: $size-sm, $size-lg: $size-md, $size-xl: $size-lg, $columns: $grid-columns) {
+  margin-left: ($grid-gutter-width / 2);
+  margin-right: ($grid-gutter-width / 2);
+  width: calc( 100vw * (#{$size-xs} / #{$grid-columns}) - #{$grid-gutter-width} );
+
+  @media (min-width: $screen-sm) {
+    width: (($size-sm / $grid-columns) * $container-sm) - $grid-gutter-width;
+  }
+
+  @media (min-width: $screen-md) {
+    width: (($size-md / $grid-columns) * $container-md) - $grid-gutter-width;
+  }
+
+  @media (min-width: $screen-lg) {
+    width: (($size-lg / $grid-columns) * $container-lg) - $grid-gutter-width;
+  }
+
+  @media (min-width: $screen-xl) {
+    width: (($size-xl / $grid-columns) * $container-xl) - $grid-gutter-width;
+  }
+}
+
+
+// Full-width background
+// -------------------------
+
+@mixin full-width-bg() {
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: ($grid-gutter-width / 2);
+  padding-right: ($grid-gutter-width / 2);
+
+  @media (min-width: $screen-sm) {
+    padding-left: calc(50vw - #{$container-sm / 2} + #{$grid-gutter-width / 2});
+    padding-right: calc(50vw - #{$container-sm / 2} + #{$grid-gutter-width / 2});
+  }
+
+  @media (min-width: $screen-md) {
+    padding-left: calc(50vw - #{$container-md / 2} + #{$grid-gutter-width / 2});
+    padding-right: calc(50vw - #{$container-md / 2} + #{$grid-gutter-width / 2});
+  }
+
+  @media (min-width: $screen-lg) {
+    padding-left: calc(50vw - #{$container-lg / 2} + #{$grid-gutter-width / 2});
+    padding-right: calc(50vw - #{$container-lg / 2} + #{$grid-gutter-width / 2});
+  }
+
+  @media (min-width: $screen-xl) {
+    padding-left: calc(50vw - #{$container-xl / 2} + #{$grid-gutter-width / 2});
+    padding-right: calc(50vw - #{$container-xl / 2} + #{$grid-gutter-width / 2});
+  }
+}
