@@ -3,41 +3,12 @@
 // --------------------------------------------------
 
 
-// Container
-// -------------------------
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px; // $gutter / 2
-  padding-right: 10px; // $gutter / 2
-
-  @media (min-width: $screen-sm) {
-    width: $container-sm;
-    max-width: 100%;
-  }
-
-  @media (min-width: $screen-md) {
-    width: $container-md;
-    max-width: 100%;
-  }
-
-  @media (min-width: $screen-lg) {
-    width: $container-lg;
-    max-width: 100%;
-  }
-
-  @media (min-width: $screen-xl) {
-    width: $container-xl;
-    max-width: 100%;
-  }
-}
-
-
 // Header
 // -------------------------
 
 .header {
+  @include full-width-bg();
+
   padding-top: $grid-gutter-width;
   padding-bottom: $grid-gutter-width;
   background-color: white;
@@ -65,14 +36,50 @@
   background-color: white;
 }
 
+.article-header {
+  @include full-width-bg();
+
+  margin-top: -($grid-gutter-width);
+  margin-bottom: ($grid-gutter-width * 2);
+  padding-top: ($grid-gutter-width * 4);
+  padding-bottom: ($grid-gutter-width * 4);
+  background-repeat: no-repeat;
+  background-color: $grey-lightest;
+  border-bottom: 1px solid $grey-lighter;
+  text-align: center;
+
+  .article-header__title {
+    @include make-col($size-xs: 12);
+
+    margin: 0;
+    font-size: 5.2rem;
+    line-height: normal;
+  }
+
+  .article-header__subtitle {
+    margin-top: (-$line-height-computed / 2);
+    color: $gray-light;
+    font-style: italic;
+  }
+}
+
+.main-content {
+  @include make-container();
+}
+
+.article {
+  @include make-col($size-lg: 9);
+}
+
 
 // Footer
 // -------------------------
 
 .footer {
+  @include full-width-bg();
+
   padding-top: $grid-gutter-width;
   padding-bottom: $grid-gutter-width;
-  //background-color: $gray-lightest;
   border-top: 1px solid $gray-lighter;
   color: $gray-light;
   font-size: 1.4rem;
@@ -136,6 +143,8 @@
 // -------------------------
 
 .home {
+  @include make-col($size-xs: 12);
+
   text-align: center;
 
   .home-content {
@@ -156,30 +165,6 @@
         font-size: 4.8rem;
       }
     }
-  }
-}
-
-
-// Article header
-// -------------------------
-
-.article-header {
-  margin-top: -$grid-gutter-width;
-  margin-bottom: $grid-gutter-width * 2;
-  padding: ($grid-gutter-width * 4) 0;
-  background-color: $grey-lightest;
-  border-bottom: 1px solid $grey-lighter;
-  text-align: center;
-
-  .article-header__title {
-    font-size: 52px;
-    line-height: normal;
-  }
-
-  .article-header__subtitle {
-    margin-top: (-$line-height-computed / 2);
-    color: $gray-light;
-    font-style: italic;
   }
 }
 
