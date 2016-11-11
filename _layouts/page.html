@@ -2,23 +2,21 @@
 layout: default
 ---
 
-<article>
+<article class="article">
   <header class="article-header">
-    <div class="container">
-      <h1 class="article-header__title">
-        {% if page.title_alternate %}
-          {{ page.title_alternate | escape }}
-        {% else %}
-          {{ page.title | escape }}
-        {% endif %}
-      </h1>
-      {% if page.subtitle %}
-        <p class="article-header__subtitle">{{ page.subtitle }}</p>
+    <h1 class="article-header__title">
+      {% if page.title_alternate %}
+        {{ page.title_alternate | escape }}
+      {% else %}
+        {{ page.title | escape }}
       {% endif %}
-    </div><!-- .container -->
+    </h1>
+    {% if page.subtitle %}
+      <p class="article-header__subtitle">{{ page.subtitle }}</p>
+    {% endif %}
   </header><!-- .article-header -->
 
-  <div class="container">
+  <div class="article-content">
     {{ content }}
-  </div><!-- .container -->
-</article>
+  </div><!-- .article-content -->
+</article><!-- .article -->
