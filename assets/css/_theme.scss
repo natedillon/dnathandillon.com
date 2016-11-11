@@ -18,6 +18,11 @@
 
   a {
     text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
   }
 
   .header__title {
