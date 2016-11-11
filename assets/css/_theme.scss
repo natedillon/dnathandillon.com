@@ -139,6 +139,39 @@
 }
 
 
+// Alignment
+// -------------------------
+
+.alignleft {
+  float: left;
+  max-width: 75%;
+  margin-right: $grid-gutter-width;
+  margin-bottom: $grid-gutter-width;
+
+  @media (min-width: $screen-xl) {
+    margin-left: -((2 / $grid-columns) * $container-xl);
+  }
+}
+
+.alignright {
+  float: right;
+  max-width: 75%;
+  margin-left: $grid-gutter-width;
+  margin-bottom: $grid-gutter-width;
+
+  @media (min-width: $screen-xl) {
+    margin-right: -((2 / $grid-columns) * $container-xl);
+  }
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: $grid-gutter-width auto;
+  text-align: center;
+}
+
+
 // Home
 // -------------------------
 

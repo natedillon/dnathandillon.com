@@ -408,6 +408,39 @@ code {
   }
 }
 
+.alignleft {
+  float: left;
+  max-width: 75%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  .alignleft {
+    margin-left: -193.333333333px;
+  }
+}
+
+.alignright {
+  float: right;
+  max-width: 75%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  .alignright {
+    margin-right: -193.333333333px;
+  }
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
 .home {
   margin-left: 10px;
   margin-right: 10px;
