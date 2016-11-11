@@ -52,3 +52,35 @@
     width: (($size-xl / $grid-columns) * $container-xl) - $grid-gutter-width;
   }
 }
+
+
+// Full-width background
+// -------------------------
+
+@mixin full-width-bg() {
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: ($grid-gutter-width / 2);
+  padding-right: ($grid-gutter-width / 2);
+
+  @media (min-width: $screen-sm) {
+    padding-left: calc(50vw - #{$container-sm / 2} + #{$grid-gutter-width / 2});
+    padding-right: calc(50vw - #{$container-sm / 2} + #{$grid-gutter-width / 2});
+  }
+
+  @media (min-width: $screen-md) {
+    padding-left: calc(50vw - #{$container-md / 2} + #{$grid-gutter-width / 2});
+    padding-right: calc(50vw - #{$container-md / 2} + #{$grid-gutter-width / 2});
+  }
+
+  @media (min-width: $screen-lg) {
+    padding-left: calc(50vw - #{$container-lg / 2} + #{$grid-gutter-width / 2});
+    padding-right: calc(50vw - #{$container-lg / 2} + #{$grid-gutter-width / 2});
+  }
+
+  @media (min-width: $screen-xl) {
+    padding-left: calc(50vw - #{$container-xl / 2} + #{$grid-gutter-width / 2});
+    padding-right: calc(50vw - #{$container-xl / 2} + #{$grid-gutter-width / 2});
+  }
+}
