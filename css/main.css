@@ -302,7 +302,8 @@ code {
 }
 
 .article-header .article-header__title {
-  font-size: 52px;
+  margin: 0;
+  font-size: 5.2rem;
   line-height: normal;
 }
 
