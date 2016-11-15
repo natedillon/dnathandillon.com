@@ -588,30 +588,45 @@ code {
 .project-image {
   margin: 0 0 40px;
   border: 1px solid #ddd;
+  border-radius: 5px;
   text-align: center;
   max-height: 450px;
   overflow: hidden;
+}
+
+@media (min-width: 992px) {
+  .project-image {
+    margin-left: -81.6666666667px;
+    margin-right: -81.6666666667px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-image {
+    margin-left: -96.6666666667px;
+    margin-right: -96.6666666667px;
+  }
 }
 
 .project-info {
   display: -ms-flexbox;
   display: flex;
   margin: 0 0 40px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  border-left: 1px solid #ddd;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .project-info .project-info__section {
   -ms-flex: 1;
       flex: 1;
-  padding: 10px;
+  padding: 20px;
   border-right: 1px solid #ddd;
 }
 
 .project-info .project-info__section .project-info__title {
-  margin: -10px -10px 10px;
-  padding: 10px;
+  margin: -20px -20px 20px;
+  padding: 10px 20px;
   background-color: #f5f5f5;
   border-bottom: 1px solid #ddd;
   font-size: 1.6rem;
@@ -621,6 +636,12 @@ code {
 
 .project-info .project-info__section .project-info__list {
   margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.project-info .project-info__section:last-child {
+  border-right: 0;
 }
 
 .profile-picture {
