@@ -470,27 +470,39 @@ code {
 
 .alignleft {
   float: left;
-  max-width: 75%;
+  max-width: 50%;
   margin-right: 20px;
   margin-bottom: 20px;
 }
 
+@media (min-width: 992px) {
+  .alignleft {
+    margin-left: -81.6666666667px;
+  }
+}
+
 @media (min-width: 1200px) {
   .alignleft {
-    margin-left: -193.333333333px;
+    margin-left: -96.6666666667px;
   }
 }
 
 .alignright {
   float: right;
-  max-width: 75%;
+  max-width: 50%;
   margin-left: 20px;
   margin-bottom: 20px;
 }
 
+@media (min-width: 992px) {
+  .alignright {
+    margin-right: -81.6666666667px;
+  }
+}
+
 @media (min-width: 1200px) {
   .alignright {
-    margin-right: -193.333333333px;
+    margin-right: -96.6666666667px;
   }
 }
 

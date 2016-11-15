@@ -207,23 +207,31 @@
 
 .alignleft {
   float: left;
-  max-width: 75%;
+  max-width: 50%;
   margin-right: $grid-gutter-width;
   margin-bottom: $grid-gutter-width;
 
+  @media (min-width: $screen-lg) {
+    margin-left: -((1 / $grid-columns) * $container-lg);
+  }
+
   @media (min-width: $screen-xl) {
-    margin-left: -((2 / $grid-columns) * $container-xl);
+    margin-left: -((1 / $grid-columns) * $container-xl);
   }
 }
 
 .alignright {
   float: right;
-  max-width: 75%;
+  max-width: 50%;
   margin-left: $grid-gutter-width;
   margin-bottom: $grid-gutter-width;
 
+  @media (min-width: $screen-lg) {
+    margin-right: -((1 / $grid-columns) * $container-lg);
+  }
+
   @media (min-width: $screen-xl) {
-    margin-right: -((2 / $grid-columns) * $container-xl);
+    margin-right: -((1 / $grid-columns) * $container-xl);
   }
 }
 
