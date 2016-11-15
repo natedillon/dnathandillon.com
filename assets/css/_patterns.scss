@@ -84,18 +84,25 @@
     }
   }
 
-  .pattern-example-colors__item--brand-primary  .pattern-example-colors__item-wrapper:before { background-color: $brand-primary; }
-  .pattern-example-colors__item--brand-success  .pattern-example-colors__item-wrapper:before { background-color: $brand-success; }
-  .pattern-example-colors__item--brand-info     .pattern-example-colors__item-wrapper:before { background-color: $brand-info; }
-  .pattern-example-colors__item--brand-warning  .pattern-example-colors__item-wrapper:before { background-color: $brand-warning; }
-  .pattern-example-colors__item--brand-danger   .pattern-example-colors__item-wrapper:before { background-color: $brand-danger; }
+  .pattern-example-colors__item--brand-primary        .pattern-example-colors__item-wrapper:before { background-color: $brand-primary; }
+  .pattern-example-colors__item--brand-success        .pattern-example-colors__item-wrapper:before { background-color: $brand-success; }
+  .pattern-example-colors__item--brand-info           .pattern-example-colors__item-wrapper:before { background-color: $brand-info; }
+  .pattern-example-colors__item--brand-warning        .pattern-example-colors__item-wrapper:before { background-color: $brand-warning; }
+  .pattern-example-colors__item--brand-danger         .pattern-example-colors__item-wrapper:before { background-color: $brand-danger; }
 
-  .pattern-example-colors__item--gray-darker    .pattern-example-colors__item-wrapper:before { background-color: $gray-darker; }
-  .pattern-example-colors__item--gray-dark      .pattern-example-colors__item-wrapper:before { background-color: $gray-dark; }
-  .pattern-example-colors__item--gray           .pattern-example-colors__item-wrapper:before { background-color: $gray; }
-  .pattern-example-colors__item--gray-light     .pattern-example-colors__item-wrapper:before { background-color: $gray-light; }
-  .pattern-example-colors__item--gray-lighter   .pattern-example-colors__item-wrapper:before { background-color: $gray-lighter; }
-  .pattern-example-colors__item--gray-lightest  .pattern-example-colors__item-wrapper:before { background-color: $gray-lightest; }
+  .pattern-example-colors__item--gray-darker          .pattern-example-colors__item-wrapper:before { background-color: $gray-darker; }
+  .pattern-example-colors__item--gray-dark            .pattern-example-colors__item-wrapper:before { background-color: $gray-dark; }
+  .pattern-example-colors__item--gray                 .pattern-example-colors__item-wrapper:before { background-color: $gray; }
+  .pattern-example-colors__item--gray-light           .pattern-example-colors__item-wrapper:before { background-color: $gray-light; }
+  .pattern-example-colors__item--gray-lighter         .pattern-example-colors__item-wrapper:before { background-color: $gray-lighter; }
+  .pattern-example-colors__item--gray-lightest        .pattern-example-colors__item-wrapper:before { background-color: $gray-lightest; }
+
+  .pattern-example-colors__item--gray-darker-alpha    .pattern-example-colors__item-wrapper:before { background-color: $gray-darker-alpha; }
+  .pattern-example-colors__item--gray-dark-alpha      .pattern-example-colors__item-wrapper:before { background-color: $gray-dark-alpha; }
+  .pattern-example-colors__item--gray-alpha           .pattern-example-colors__item-wrapper:before { background-color: $gray-alpha; }
+  .pattern-example-colors__item--gray-light-alpha     .pattern-example-colors__item-wrapper:before { background-color: $gray-light-alpha; }
+  .pattern-example-colors__item--gray-lighter-alpha   .pattern-example-colors__item-wrapper:before { background-color: $gray-lighter-alpha; }
+  .pattern-example-colors__item--gray-lightest-alpha  .pattern-example-colors__item-wrapper:before { background-color: $gray-lightest-alpha; }
 
   .pattern-example-colors__value {
     font-weight: bold;

@@ -787,6 +787,30 @@ code {
   background-color: #f5f5f5;
 }
 
+.pattern-example-colors .pattern-example-colors__item--gray-darker-alpha .pattern-example-colors__item-wrapper:before {
+  background-color: rgba(0, 0, 0, 0.865);
+}
+
+.pattern-example-colors .pattern-example-colors__item--gray-dark-alpha .pattern-example-colors__item-wrapper:before {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pattern-example-colors .pattern-example-colors__item--gray-alpha .pattern-example-colors__item-wrapper:before {
+  background-color: rgba(0, 0, 0, 0.665);
+}
+
+.pattern-example-colors .pattern-example-colors__item--gray-light-alpha .pattern-example-colors__item-wrapper:before {
+  background-color: rgba(0, 0, 0, 0.535);
+}
+
+.pattern-example-colors .pattern-example-colors__item--gray-lighter-alpha .pattern-example-colors__item-wrapper:before {
+  background-color: rgba(0, 0, 0, 0.135);
+}
+
+.pattern-example-colors .pattern-example-colors__item--gray-lightest-alpha .pattern-example-colors__item-wrapper:before {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
 .pattern-example-colors .pattern-example-colors__value {
   font-weight: bold;
 }
