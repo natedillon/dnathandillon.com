@@ -647,6 +647,14 @@ code {
   margin-bottom: 0;
 }
 
+.pattern-example .alignleft {
+  margin-left: 0;
+}
+
+.pattern-example .alignright {
+  margin-right: 0;
+}
+
 .pattern-example-colors {
   display: -ms-flexbox;
   display: flex;
