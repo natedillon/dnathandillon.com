@@ -2,20 +2,7 @@
 layout: default
 ---
 
-<article>
-  <header class="article-header">
-    <h1 class="article-header__title">
-      {% if page.title_alternate %}
-        {{ page.title_alternate | escape }}
-      {% else %}
-        {{ page.title | escape }}
-      {% endif %}
-    </h1>
-    {% if page.subtitle %}
-      <p class="article-header__subtitle">{{ page.subtitle }}</p>
-    {% endif %}
-  </header><!-- .article-header -->
-
+<article class="article">
   {% capture img_path %}img/projects/{{ page.slug }}/image.{% endcapture %}
   {% for img in site.static_files %}
     {% if img.path contains img_path %}
