@@ -17,12 +17,10 @@
 
       <nav role="navigation" class="header__nav">
         <ul class="header__nav-list">
-          {% for item in site.pages %}
-            {% if item.title and item.main_menu %}
-              <li class="header__nav-list-item{% if page.url == item.url %} active{% endif %}">
-                <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
-              </li>
-            {% endif %}
+          {% for item in site.data.navigation.primary %}
+            <li class="header__nav-list-item{% if page.url == item.url %} active{% endif %}">
+              <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
+            </li>
           {% endfor %}
         </ul>
       </nav>
