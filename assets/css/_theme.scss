@@ -7,7 +7,7 @@
 // -------------------------
 
 .header {
-  @include full-width-bg();
+  @include make-container-full-width();
   display: flex;
   flex-wrap: wrap;
   padding-top: $grid-gutter-width;
@@ -26,20 +26,19 @@
   }
 
   .header__title {
-    width: 100%;
-    margin: 0;
+    @include make-col($size-xs: 12, $size-md: 6);
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: $font-size-base;
     text-align: center;
 
     @media (min-width: $screen-md) {
-      width: 50%;
-      padding-right: ($grid-gutter-width / 2);
       text-align: left;
     }
   }
 
   .header__nav {
-    width: 100%;
+    @include make-col($size-xs: 12, $size-md: 6);
     text-align: center;
 
     .header__nav-list {
@@ -55,9 +54,7 @@
     }
 
     @media (min-width: $screen-md) {
-      width: 50%;
       margin-top: 0;
-      padding-left: ($grid-gutter-width / 2);
       text-align: right;
 
       .header__nav-list {
@@ -100,7 +97,7 @@
 }
 
 .article-header {
-  @include full-width-bg();
+  @include make-container-full-width();
 
   margin-top: -($grid-gutter-width);
   margin-bottom: ($grid-gutter-width * 2);
@@ -114,7 +111,8 @@
   .article-header__title {
     @include make-col($size-xs: 12);
 
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 5.2rem;
     line-height: normal;
   }
@@ -139,8 +137,7 @@
 // -------------------------
 
 .footer {
-  @include full-width-bg();
-
+  @include make-container-full-width();
   padding-top: $grid-gutter-width;
   padding-bottom: $grid-gutter-width;
   border-top: 1px solid $gray-lighter;
@@ -153,7 +150,8 @@
   }
 
   .footer__links {
-    margin-bottom: 10px;
+    @include make-col($size-xs: 12, $size-md: 6);
+    margin-bottom: $grid-gutter-width / 2;
     padding: 0;
     list-style-type: none;
 
@@ -186,17 +184,19 @@
     }
 
     @media (min-width: $screen-md) {
-      float: right;
-      width: 50%;
+      order: 2;
+      margin-bottom: 0;
       text-align: right;
     }
   }
 
   .footer__copyright {
+    @include make-col($size-xs: 12, $size-md: 6);
+    margin-top: 0;
+    margin-bottom: 0;
 
     @media (min-width: $screen-md) {
-      float: left;
-      width: 50%;
+      order: 1;
     }
   }
 }
