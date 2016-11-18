@@ -25,9 +25,9 @@
 }
 
 .pattern-example-colors {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 (-($grid-gutter-width / 2)) $line-height-computed;
+  @include make-container--nested();
+  margin-top: 0;
+  margin-bottom: $line-height-computed;
   padding-left: 0;
   list-style-type: none;
 

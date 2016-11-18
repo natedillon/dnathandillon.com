@@ -7,7 +7,7 @@
 // -------------------------
 
 .header {
-  @include make-container-full-width();
+  @include make-container--full-width();
   display: flex;
   flex-wrap: wrap;
   padding-top: $grid-gutter-width;
@@ -97,7 +97,7 @@
 }
 
 .article-header {
-  @include make-container-full-width();
+  @include make-container--full-width();
 
   margin-top: -($grid-gutter-width);
   margin-bottom: ($grid-gutter-width * 2);
@@ -137,7 +137,7 @@
 // -------------------------
 
 .footer {
-  @include make-container-full-width();
+  @include make-container--full-width();
   padding-top: $grid-gutter-width;
   padding-bottom: $grid-gutter-width;
   border-top: 1px solid $gray-lighter;
