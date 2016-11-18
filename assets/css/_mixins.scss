@@ -6,9 +6,13 @@
 // Grid
 // -------------------------
 
-@mixin make-container() {
+@mixin container-base() {
   display: flex;
   flex-wrap: wrap;
+}
+
+@mixin make-container() {
+  @include container-base();
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -31,8 +35,7 @@
 }
 
 @mixin make-container--full-width() {
-  display: flex;
-  flex-wrap: wrap;
+  @include container-base();
   width: 100vw;
   padding-left: ($grid-gutter-width / 2);
   padding-right: ($grid-gutter-width / 2);
@@ -59,8 +62,7 @@
 }
 
 @mixin make-container--nested() {
-  display: flex;
-  flex-wrap: wrap;
+  @include container-base();
   margin-left: -($grid-gutter-width / 2);
   margin-right: -($grid-gutter-width / 2);
 }
