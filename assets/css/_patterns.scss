@@ -24,6 +24,9 @@
   }
 }
 
+.pattern-example--full {
+}
+
 .pattern-example-colors {
   @include make-container--nested();
   margin-top: 0;
@@ -109,4 +112,53 @@
     font-family: $font-family-monospace;
     font-size: 1.2rem;
   }
+}
+
+.pattern-example-grid {
+
+  .grid-container {
+    @include make-container--nested();
+    margin-bottom: $grid-gutter-width;
+    font-size: 1.2rem;
+    text-align: center;
+
+    @media (min-width: $screen-md) {
+      font-size: 1.4rem;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .grid-col-1,
+  .grid-col-2,
+  .grid-col-3,
+  .grid-col-4,
+  .grid-col-5,
+  .grid-col-6,
+  .grid-col-7,
+  .grid-col-8,
+  .grid-col-9,
+  .grid-col-10,
+  .grid-col-11,
+  .grid-col-12 {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+  }
+
+  .grid-col-1   { @include make-col($size-xs: 1); }
+  .grid-col-2   { @include make-col($size-xs: 2); }
+  .grid-col-3   { @include make-col($size-xs: 3); }
+  .grid-col-4   { @include make-col($size-xs: 4); }
+  .grid-col-5   { @include make-col($size-xs: 5); }
+  .grid-col-6   { @include make-col($size-xs: 6); }
+  .grid-col-7   { @include make-col($size-xs: 7); }
+  .grid-col-8   { @include make-col($size-xs: 8); }
+  .grid-col-9   { @include make-col($size-xs: 9); }
+  .grid-col-10  { @include make-col($size-xs: 10); }
+  .grid-col-11  { @include make-col($size-xs: 11); }
+  .grid-col-12  { @include make-col($size-xs: 12); }
 }
