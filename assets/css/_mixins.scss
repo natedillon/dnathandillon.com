@@ -61,21 +61,21 @@
 @mixin make-col($size-xs: $grid-columns, $size-sm: $size-xs, $size-md: $size-sm, $size-lg: $size-md, $size-xl: $size-lg, $columns: $grid-columns) {
   margin-left: ($grid-gutter-width / 2);
   margin-right: ($grid-gutter-width / 2);
-  width: calc( 100vw * (#{$size-xs} / #{$grid-columns}) - #{$grid-gutter-width} );
+  width: calc( #{percentage($size-xs / $grid-columns)} - #{$grid-gutter-width} );
 
   @media (min-width: $screen-sm) {
-    width: (($size-sm / $grid-columns) * $container-sm) - $grid-gutter-width;
+    width: calc( #{percentage($size-sm / $grid-columns)} - #{$grid-gutter-width} );
   }
 
   @media (min-width: $screen-md) {
-    width: (($size-md / $grid-columns) * $container-md) - $grid-gutter-width;
+    width: calc( #{percentage($size-md / $grid-columns)} - #{$grid-gutter-width} );
   }
 
   @media (min-width: $screen-lg) {
-    width: (($size-lg / $grid-columns) * $container-lg) - $grid-gutter-width;
+    width: calc( #{percentage($size-lg / $grid-columns)} - #{$grid-gutter-width} );
   }
 
   @media (min-width: $screen-xl) {
-    width: (($size-xl / $grid-columns) * $container-xl) - $grid-gutter-width;
+    width: calc( #{percentage($size-xl / $grid-columns)} - #{$grid-gutter-width} );
   }
 }
