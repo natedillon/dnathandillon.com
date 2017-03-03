@@ -66,7 +66,11 @@ h6, .h6 {
 }
 
 .page-header {
-  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+  font-size: 4.8rem;
+  line-height: normal;
+  color: #333;
+  text-align: center;
 }
 
 ul ul,
@@ -325,7 +329,7 @@ code {
   width: calc( 100% - 20px);
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 5.2rem;
+  font-size: 7.2rem;
   line-height: normal;
 }
 
@@ -688,6 +692,7 @@ code {
       flex-wrap: wrap;
   margin-left: -10px;
   margin-right: -10px;
+  margin-top: -10px;
   padding-left: 0;
   list-style-type: none;
 }

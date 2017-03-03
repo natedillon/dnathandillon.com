@@ -113,7 +113,7 @@
 
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 5.2rem;
+    font-size: 7.2rem;
     line-height: normal;
   }
 
@@ -278,6 +278,7 @@
 
 .project-list {
   @include make-container--nested-full();
+  margin-top: -($grid-gutter-width / 2);
   padding-left: 0;
   list-style-type: none;
 
