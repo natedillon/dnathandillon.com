@@ -117,10 +117,10 @@ module.exports = function(grunt) {
   // Build task
   grunt.registerTask('build', [
     'clean',
-    'shell:jekyllBuild',
     'sass',
     'postcss',
     'copy',
+    'shell:jekyllBuild',
   ]);
 
   // Default task
