@@ -67,7 +67,7 @@ module.exports = function(grunt) {
             src: [
               '**',
               '!**/css/**',
-              '!**/*.sketch',
+              '!**/*.{sketch,eps,psd,ai}',
             ],
             dest: 'dist/',
           }
