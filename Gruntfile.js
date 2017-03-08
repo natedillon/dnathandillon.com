@@ -24,17 +24,14 @@ module.exports = function(grunt) {
     sass: {
       options: {
         sourceMap: true,
-        relativeAssets: false,
         outputStyle: 'expanded',
-        sassDir: 'src/css',
-        cssDir: 'css',
       },
       build: {
         files: [{
           expand: true,
           cwd: 'src/css/',
           src: ['**/*.{scss,sass}'],
-          dest: 'css',
+          dest: 'dist/css',
           ext: '.css',
         }],
       },
@@ -50,7 +47,7 @@ module.exports = function(grunt) {
         ],
       },
       build: {
-        src: 'css/*.css',
+        src: 'dist/css/*.css',
       },
     },
 
@@ -70,7 +67,7 @@ module.exports = function(grunt) {
           livereload: true,
         },
         files: [
-          '_site/css/**/*.css'
+          '_site/dist/css/**/*.css'
         ],
       },
     },

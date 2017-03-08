@@ -8,7 +8,7 @@
     <title>{{ site.title | escape }}{% if page.title %} / {{ page.title | escape }}{% endif %}</title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/main.css">
   </head>
 
   <body>
