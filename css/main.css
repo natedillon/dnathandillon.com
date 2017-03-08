@@ -695,6 +695,9 @@ code {
   margin-top: -10px;
   padding-left: 0;
   list-style-type: none;
+  font-size: 1.4rem;
+  line-height: normal;
+  text-align: center;
 }
 
 @media (min-width: 992px) {
@@ -745,9 +748,22 @@ code {
   }
 }
 
+.project-list .project-list__item a {
+  display: block;
+  text-decoration: none;
+}
+
+.project-list .project-list__item a:hover, .project-list .project-list__item a:focus {
+  text-decoration: underline;
+}
+
 .project-list .project-list__item img {
   margin-bottom: 5px;
   border: 1px solid #ddd;
+}
+
+.project-list .project-list__item br {
+  display: none;
 }
 
 .project-image {
