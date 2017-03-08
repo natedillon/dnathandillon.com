@@ -108,12 +108,6 @@ module.exports = function(grunt) {
     },
   });
 
-  // Serve task
-  grunt.registerTask('serve', [
-    'build',
-    'concurrent:serve',
-  ]);
-
   // Build task
   grunt.registerTask('build', [
     'clean',
@@ -121,6 +115,21 @@ module.exports = function(grunt) {
     'postcss',
     'copy',
     'shell:jekyllBuild',
+  ]);
+
+  // Dist task
+  grunt.registerTask('dist', [
+    'clean',
+    'sass',
+    'postcss',
+    'copy',
+    'shell:jekyllBuild',
+  ]);
+
+  // Serve task
+  grunt.registerTask('serve', [
+    'build',
+    'concurrent:serve',
   ]);
 
   // Default task
