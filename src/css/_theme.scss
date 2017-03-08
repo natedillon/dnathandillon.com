@@ -113,8 +113,11 @@
 
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 7.2rem;
-    line-height: normal;
+
+    @media (min-width: $screen-md) {
+      font-size: 7.2rem;
+      line-height: normal;
+    }
   }
 
   .article-header__subtitle {
