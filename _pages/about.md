@@ -17,6 +17,6 @@ In my free time, I enjoy spending time with my family, watching [movies](http://
 
 ## Colophon
 
-This site was built in [Jekyll](https://jekyllrb.com/) and hosted through [GitHub Pages](https://pages.github.com/). The CSS was written in [Sass](http://sass-lang.com/) and generated using [npm](https://www.npmjs.com/) and [Grunt](http://gruntjs.com/).
+This site is built in [Jekyll](https://jekyllrb.com/) and hosted through [GitHub Pages](https://pages.github.com/). The CSS is written in [Sass](http://sass-lang.com/) and generated using [npm](https://www.npmjs.com/) and [Grunt](http://gruntjs.com/).
 
 For more information, check out the source code on [GitHub](https://github.com/natedillon/dnathandillon.com "GitHub - natedillon/dnathandillon.com").
