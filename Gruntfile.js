@@ -30,9 +30,23 @@ module.exports = function(grunt) {
     sass: {
       options: {
         sourceMap: true,
-        outputStyle: 'expanded',
       },
       build: {
+        options: {
+          outputStyle: 'expanded',
+        },
+        files: [{
+          expand: true,
+          cwd: 'src/css/',
+          src: ['**/*.{scss,sass}'],
+          dest: 'dist/css',
+          ext: '.css',
+        }],
+      },
+      dist: {
+        options: {
+          outputStyle: 'compressed',
+        },
         files: [{
           expand: true,
           cwd: 'src/css/',
@@ -52,14 +66,14 @@ module.exports = function(grunt) {
           })
         ],
       },
-      build: {
+      dist: {
         src: 'dist/css/*.css',
       },
     },
 
     // Copy command
     copy: {
-      build: {
+      dist: {
         files: [
           {
             expand: true,
@@ -96,7 +110,7 @@ module.exports = function(grunt) {
           'src/css/**/*.{scss,sass}'
         ],
         tasks: [
-          'sass',
+          'sass:build',
           'postcss',
         ],
       },
@@ -125,7 +139,7 @@ module.exports = function(grunt) {
   // Build task
   grunt.registerTask('build', [
     'clean',
-    'sass',
+    'sass:build',
     'postcss',
     'copy',
     'shell:jekyllBuild',
@@ -134,7 +148,7 @@ module.exports = function(grunt) {
   // Dist task
   grunt.registerTask('dist', [
     'clean',
-    'sass',
+    'sass:dist',
     'postcss',
     'copy',
     'imageoptim:dist',
