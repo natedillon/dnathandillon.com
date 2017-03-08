@@ -770,6 +770,7 @@ code {
 .project-list .project-list__item img {
   margin-bottom: 5px;
   border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .project-list .project-list__item br {

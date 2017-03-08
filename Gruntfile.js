@@ -82,6 +82,7 @@ module.exports = function(grunt) {
               '**',
               '!**/css/**',
               '!**/*.{sketch,eps,psd,ai}',
+              '!**/img/**/_drafts/**',
             ],
             dest: 'dist/',
           }
