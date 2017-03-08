@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="article">
-  {% capture img_path %}img/projects/{{ page.slug }}/image.{% endcapture %}
+  {% capture img_path %}dist/img/projects/{{ page.slug }}/image.{% endcapture %}
   {% for img in site.static_files %}
     {% if img.path contains img_path %}
       <div class="project-image">

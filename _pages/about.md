@@ -8,7 +8,7 @@ excerpt: My name is Nate Dillon, and I am a front-end web developer living in Ma
 ---
 
 <div class="profile-picture">
-  <img src="/src/img/profile.jpg" srcset="/src/img/profile@2x.jpg 2x" alt="Nate Dillon profile picture" width="200" height="200">
+  <img src="/dist/img/profile.jpg" srcset="/dist/img/profile@2x.jpg 2x" alt="Nate Dillon profile picture" width="200" height="200">
 </div>
 
 My name is Nate Dillon, and I am a front-end web developer living in Manhattan, Kansas. I love building responsive, progressively enhanced websites using standards compliant HTML, CSS, and JavaScript.

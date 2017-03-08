@@ -12,7 +12,7 @@ title: Work
     <li class="project-list__item">
       <a href="{{ project.url }}">
         {% assign thumb_src = '' %}
-        {% capture project_thumb %}img/projects/{{ project.slug }}/thumb.{% endcapture %}
+        {% capture project_thumb %}dist/img/projects/{{ project.slug }}/thumb.{% endcapture %}
         {% for img in site.static_files %}
           {% if img.path contains project_thumb %}
             {% assign thumb_src = img.path %}

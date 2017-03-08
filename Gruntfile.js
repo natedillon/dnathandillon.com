@@ -20,6 +20,12 @@ module.exports = function(grunt) {
       },
     },
 
+    // Clean command
+    clean: [
+      '_site/',
+      'dist/',
+    ],
+
     // Sass command
     sass: {
       options: {
@@ -48,6 +54,24 @@ module.exports = function(grunt) {
       },
       build: {
         src: 'dist/css/*.css',
+      },
+    },
+
+    // Copy command
+    copy: {
+      build: {
+        files: [
+          {
+            expand: true,
+            cwd: 'src/',
+            src: [
+              '**',
+              '!**/css/**',
+              '!**/*.sketch',
+            ],
+            dest: 'dist/',
+          }
+        ],
       },
     },
 
@@ -92,9 +116,11 @@ module.exports = function(grunt) {
 
   // Build task
   grunt.registerTask('build', [
+    'clean',
     'shell:jekyllBuild',
     'sass',
     'postcss',
+    'copy',
   ]);
 
   // Default task
