@@ -26,13 +26,13 @@ module.exports = function(grunt) {
         sourceMap: true,
         relativeAssets: false,
         outputStyle: 'expanded',
-        sassDir: 'assets/css',
+        sassDir: 'src/css',
         cssDir: 'css',
       },
       build: {
         files: [{
           expand: true,
-          cwd: 'assets/css/',
+          cwd: 'src/css/',
           src: ['**/*.{scss,sass}'],
           dest: 'css',
           ext: '.css',
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: [
-          'assets/css/**/*.{scss,sass}'
+          'src/css/**/*.{scss,sass}'
         ],
         tasks: [
           'sass',

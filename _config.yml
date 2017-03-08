@@ -9,8 +9,8 @@ github_username:  natedillon
 
 # Global configuration
 exclude:
-  - assets/css
-  - assets/img-src
+  - src/css
+  - src/img-src
   - CNAME
   - Gemfile
   - Gruntfile.js
