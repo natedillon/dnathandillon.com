@@ -313,14 +313,13 @@
 
 .project-image {
   margin: 0 0 ($grid-gutter-width * 2);
-  border: 1px solid $gray-lighter;
-  border-radius: $border-radius;
+  line-height: 1;
   text-align: center;
 
-  max-height: 450px;
-  overflow: hidden;
-
-  img {}
+  img {
+    border: 1px solid $gray-lighter;
+    border-radius: $border-radius;
+  }
 
   @media (min-width: $screen-lg) {
     margin-left: -((1 / $grid-columns) * $container-lg);

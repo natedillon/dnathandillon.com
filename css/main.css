@@ -768,11 +768,13 @@ code {
 
 .project-image {
   margin: 0 0 40px;
+  line-height: 1;
+  text-align: center;
+}
+
+.project-image img {
   border: 1px solid #ddd;
   border-radius: 5px;
-  text-align: center;
-  max-height: 450px;
-  overflow: hidden;
 }
 
 @media (min-width: 992px) {
