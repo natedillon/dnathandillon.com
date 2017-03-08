@@ -75,6 +75,20 @@ module.exports = function(grunt) {
       },
     },
 
+    // ImageOptim command
+    imageoptim: {
+      options: {
+        imageAlpha: true,
+        jpegMini: false,
+        quitAfter: true,
+      },
+      dist: {
+        src: [
+          'dist/img',
+        ],
+      },
+    },
+
     // Watch command
     watch: {
       sass: {
@@ -123,6 +137,7 @@ module.exports = function(grunt) {
     'sass',
     'postcss',
     'copy',
+    'imageoptim:dist',
     'shell:jekyllBuild',
   ]);
 

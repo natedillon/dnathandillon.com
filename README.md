@@ -40,6 +40,10 @@ Runs `grunt sass`, `grunt postcss`, `grunt watch`, and `jekyll serve`
 
 Runs `jekyll build`, `grunt sass`, and `grunt postcss`
 
+#### `grunt dist`
+
+Prepares files for distribution
+
 #### `grunt sass`
 
 Builds the Sass files into CSS
