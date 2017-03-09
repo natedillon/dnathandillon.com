@@ -1,0 +1,126 @@
+//
+// Mixins
+// --------------------------------------------------
+
+
+// Grid
+// -------------------------
+
+@mixin container-base() {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin make-container() {
+  @include container-base();
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: $screen-sm) {
+    width: $container-sm;
+  }
+
+  @media (min-width: $screen-md) {
+    width: $container-md;
+  }
+
+  @media (min-width: $screen-lg) {
+    width: $container-lg;
+  }
+
+  @media (min-width: $screen-xl) {
+    width: $container-xl;
+  }
+}
+
+@mixin make-container--full-width() {
+  @include container-base();
+  width: 100vw;
+  padding-left: ($grid-gutter-width / 2);
+  padding-right: ($grid-gutter-width / 2);
+
+  @media (min-width: $screen-sm) {
+    padding-left: calc( (100vw - #{$container-sm}) / 2 );
+    padding-right: calc( (100vw - #{$container-sm}) / 2 );
+  }
+
+  @media (min-width: $screen-md) {
+    padding-left: calc( (100vw - #{$container-md}) / 2 );
+    padding-right: calc( (100vw - #{$container-md}) / 2 );
+  }
+
+  @media (min-width: $screen-lg) {
+    padding-left: calc( (100vw - #{$container-lg}) / 2);
+    padding-right: calc( (100vw - #{$container-lg}) / 2);
+  }
+
+  @media (min-width: $screen-xl) {
+    padding-left: calc( (100vw - #{$container-xl}) / 2);
+    padding-right: calc( (100vw - #{$container-xl}) / 2);
+  }
+}
+
+@mixin make-container--nested() {
+  @include container-base();
+  margin-left: -($grid-gutter-width / 2);
+  margin-right: -($grid-gutter-width / 2);
+}
+
+@mixin make-container--nested-wide {
+  @include container-base();
+  margin-left: -($grid-gutter-width / 2);
+  margin-right: -($grid-gutter-width / 2);
+
+  @media (min-width: $screen-lg) {
+    width: (10 / 12) * $container-lg;
+    margin-left: calc( (1 / #{$grid-columns}) * -#{$container-lg} - (#{$grid-gutter-width} / 2) );
+    margin-right: calc( (1 / #{$grid-columns}) * -#{$container-lg} - (#{$grid-gutter-width} / 2) );
+  }
+
+  @media (min-width: $screen-xl) {
+    width: (10 / 12) * $container-xl;
+    margin-left: calc( (1 / #{$grid-columns}) * -#{$container-xl} - (#{$grid-gutter-width} / 2) );
+    margin-right: calc( (1 / #{$grid-columns}) * -#{$container-xl} - (#{$grid-gutter-width} / 2) );
+  }
+}
+
+@mixin make-container--nested-full {
+  @include container-base();
+  margin-left: -($grid-gutter-width / 2);
+  margin-right: -($grid-gutter-width / 2);
+
+  @media (min-width: $screen-lg) {
+    width: $container-lg;
+    margin-left: calc( (2 / #{$grid-columns}) * -#{$container-lg} - (#{$grid-gutter-width} / 2) );
+    margin-right: calc( (2 / #{$grid-columns}) * -#{$container-lg} - (#{$grid-gutter-width} / 2) );
+  }
+
+  @media (min-width: $screen-xl) {
+    width: $container-xl;
+    margin-left: calc( (2 / #{$grid-columns}) * -#{$container-xl} - (#{$grid-gutter-width} / 2) );
+    margin-right: calc( (2 / #{$grid-columns}) * -#{$container-xl} - (#{$grid-gutter-width} / 2) );
+  }
+}
+
+@mixin make-col($size-xs: $grid-columns, $size-sm: $size-xs, $size-md: $size-sm, $size-lg: $size-md, $size-xl: $size-lg, $columns: $grid-columns) {
+  margin-left: ($grid-gutter-width / 2);
+  margin-right: ($grid-gutter-width / 2);
+  width: calc( #{percentage($size-xs / $grid-columns)} - #{$grid-gutter-width} );
+
+  @media (min-width: $screen-sm) {
+    width: calc( #{percentage($size-sm / $grid-columns)} - #{$grid-gutter-width} );
+  }
+
+  @media (min-width: $screen-md) {
+    width: calc( #{percentage($size-md / $grid-columns)} - #{$grid-gutter-width} );
+  }
+
+  @media (min-width: $screen-lg) {
+    width: calc( #{percentage($size-lg / $grid-columns)} - #{$grid-gutter-width} );
+  }
+
+  @media (min-width: $screen-xl) {
+    width: calc( #{percentage($size-xl / $grid-columns)} - #{$grid-gutter-width} );
+  }
+}
