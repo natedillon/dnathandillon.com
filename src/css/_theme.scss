@@ -316,13 +316,24 @@
 }
 
 .project-image {
-  margin: 0 0 ($grid-gutter-width * 2);
+  position: relative;
+  z-index: 99;
+  margin: -($grid-gutter-width * 4) 0 ($grid-gutter-width * 2);
+  padding: 38px 0 0 0;
+  overflow: hidden;
+  background: linear-gradient(#eee 0, #ddd 35px); //#eee, #ddd
+  border: 1px solid #ccc;
+  border-radius: $border-radius;
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+  font-size: 0;
   line-height: 1;
   text-align: center;
 
+  max-height: 700px;
+
   img {
-    border: 1px solid $gray-lighter;
-    border-radius: $border-radius;
+    background-color: $grey-lightest;
+    border-top: 1px solid #ccc;
   }
 
   @media (min-width: $screen-lg) {
