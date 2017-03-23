@@ -10,6 +10,7 @@ The portfolio website of D. Nathan (Nate) Dillon.
 - [Bundler](http://bundler.io/)
 - [npm](https://www.npmjs.com/)
 - [Grunt](http://gruntjs.com/)
+- [ImageOptim](https://imageoptim.com/) + [ImageAlpha](https://pngmini.com/) for macOS (for `grunt dist` command)
 - [LiveReload browser extension](http://livereload.com/extensions/) (for optional live reloading)
 
 ### Instructions
@@ -39,6 +40,10 @@ Runs `grunt sass`, `grunt postcss`, `grunt watch`, and `jekyll serve`
 #### `grunt build`
 
 Runs `jekyll build`, `grunt sass`, and `grunt postcss`
+
+#### `grunt dist`
+
+Prepares files for distribution
 
 #### `grunt sass`
 

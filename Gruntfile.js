@@ -20,21 +20,38 @@ module.exports = function(grunt) {
       },
     },
 
+    // Clean command
+    clean: [
+      '_site/',
+      'dist/',
+    ],
+
     // Sass command
     sass: {
       options: {
         sourceMap: true,
-        relativeAssets: false,
-        outputStyle: 'expanded',
-        sassDir: 'assets/css',
-        cssDir: 'css',
       },
       build: {
+        options: {
+          outputStyle: 'expanded',
+        },
         files: [{
           expand: true,
-          cwd: 'assets/css/',
+          cwd: 'src/css/',
           src: ['**/*.{scss,sass}'],
-          dest: 'css',
+          dest: 'dist/css',
+          ext: '.css',
+        }],
+      },
+      dist: {
+        options: {
+          outputStyle: 'compressed',
+        },
+        files: [{
+          expand: true,
+          cwd: 'src/css/',
+          src: ['**/*.{scss,sass}'],
+          dest: 'dist/css',
           ext: '.css',
         }],
       },
@@ -49,8 +66,41 @@ module.exports = function(grunt) {
           })
         ],
       },
-      build: {
-        src: 'css/*.css',
+      dist: {
+        src: 'dist/css/*.css',
+      },
+    },
+
+    // Copy command
+    copy: {
+      dist: {
+        files: [
+          {
+            expand: true,
+            cwd: 'src/',
+            src: [
+              '**',
+              '!**/css/**',
+              '!**/*.{sketch,eps,psd,ai}',
+              '!**/img/**/_drafts/**',
+            ],
+            dest: 'dist/',
+          }
+        ],
+      },
+    },
+
+    // ImageOptim command
+    imageoptim: {
+      options: {
+        imageAlpha: true,
+        jpegMini: false,
+        quitAfter: true,
+      },
+      dist: {
+        src: [
+          'dist/img',
+        ],
       },
     },
 
@@ -58,10 +108,10 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: [
-          'assets/css/**/*.{scss,sass}'
+          'src/css/**/*.{scss,sass}'
         ],
         tasks: [
-          'sass',
+          'sass:build',
           'postcss',
         ],
       },
@@ -70,7 +120,7 @@ module.exports = function(grunt) {
           livereload: true,
         },
         files: [
-          '_site/css/**/*.css'
+          '_site/dist/css/**/*.css'
         ],
       },
     },
@@ -87,17 +137,29 @@ module.exports = function(grunt) {
     },
   });
 
+  // Build task
+  grunt.registerTask('build', [
+    'clean',
+    'sass:build',
+    'postcss',
+    'copy',
+    'shell:jekyllBuild',
+  ]);
+
+  // Dist task
+  grunt.registerTask('dist', [
+    'clean',
+    'sass:dist',
+    'postcss',
+    'copy',
+    'imageoptim:dist',
+    'shell:jekyllBuild',
+  ]);
+
   // Serve task
   grunt.registerTask('serve', [
     'build',
     'concurrent:serve',
-  ]);
-
-  // Build task
-  grunt.registerTask('build', [
-    'shell:jekyllBuild',
-    'sass',
-    'postcss',
   ]);
 
   // Default task
