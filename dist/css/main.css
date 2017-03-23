@@ -780,13 +780,10 @@ code {
 .project-image {
   position: relative;
   z-index: 99;
-  margin: -80px 0 40px;
-  padding: 38px 0 0 0;
+  margin: -60px 0 40px;
   overflow: hidden;
-  background: linear-gradient(#eee 0, #ddd 35px);
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.135);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   font-size: 0;
   line-height: 1;
   text-align: center;
@@ -795,7 +792,6 @@ code {
 
 .project-image img {
   background-color: #f5f5f5;
-  border-top: 1px solid #ccc;
 }
 
 @media (min-width: 992px) {
