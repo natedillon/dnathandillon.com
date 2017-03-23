@@ -3,6 +3,15 @@ layout: default
 ---
 
 <article class="article">
+  {% capture img_path %}dist/img/projects/{{ page.slug }}/image.{% endcapture %}
+  {% for img in site.static_files %}
+    {% if img.path contains img_path %}
+      <div class="project-image">
+        <img src="{{ img.path }}" alt="{{ page.title | escape }}">
+      </div>
+    {% endif %}
+  {% endfor %}
+
   <div class="project-info">
     <div class="project-info__section">
       {% if page.responsibilities %}
@@ -27,14 +36,9 @@ layout: default
     </div><!-- .project-info__section -->
   </div><!-- .project-info -->
 
-  {% capture img_path %}dist/img/projects/{{ page.slug }}/image.{% endcapture %}
-  {% for img in site.static_files %}
-    {% if img.path contains img_path %}
-      <div class="project-image">
-        <img src="{{ img.path }}" alt="{{ page.title | escape }}">
-      </div>
-    {% endif %}
-  {% endfor %}
+  <!--
+  {{ content }}
+  -->
 
   <!--
   {% if page.links %}
@@ -54,9 +58,5 @@ layout: default
       </dl>
     {% endif %}
   {% endif %}
-  -->
-
-  <!--
-  {{ content }}
   -->
 </article>
