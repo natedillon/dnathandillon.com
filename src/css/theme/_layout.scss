@@ -12,16 +12,16 @@
   flex-wrap: wrap;
   padding-top: $grid-gutter-width;
   padding-bottom: $grid-gutter-width;
-  background-color: white;
-  border-bottom: 1px solid $grey-lighter;
+  color: white;
+  background-color: $grey-dark;
   text-transform: uppercase;
 
   a {
+    color: inherit;
     text-decoration: none;
 
     &:hover,
     &:focus {
-      text-decoration: underline;
     }
   }
 
