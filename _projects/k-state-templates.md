@@ -22,4 +22,4 @@ technology:
   - Vagrant
 ---
 
-A recreation and extension of the official K-State “2011” template, built for use in the K-State Office of Mediated Education Python/Django applications. The CSS and JavaScript from this project are also used in several of the <abbr title="Office of Mediated Education">OME</abbr> Java apps.
+A recreation and extension of the official K-State “2011” template, built for use in the K-State Office of Mediated Education Python/Django applications. The HTML, CSS, and JavaScript from this project are also used in several of the <abbr title="Office of Mediated Education">OME</abbr> Java apps.
