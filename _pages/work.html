@@ -21,7 +21,7 @@ title: Work
           {% endif %}
         {% endfor %}
         {% if thumb_src == '' %}
-          {% assign thumb_src = '/img/projects/thumb.png' %}
+          {% assign thumb_src = '/dist/img/projects/thumb.png' %}
         {% endif %}
         <img src="{{ thumb_src }}" alt="{{ project.title | escape }}"><br>
         {{ project.title | escape }}
