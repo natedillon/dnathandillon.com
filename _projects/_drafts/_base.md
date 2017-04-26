@@ -2,6 +2,7 @@
 featured: false
 
 title:
+date:
 agency:
 client:
 links:
