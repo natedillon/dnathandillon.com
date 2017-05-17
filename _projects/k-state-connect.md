@@ -1,4 +1,5 @@
 ---
+published: true
 featured: true
 
 title: K-State Connect
@@ -13,15 +14,19 @@ responsibilities:
 technology:
   - Python
   - Django
-  - CSS/Sass
+  - CSS
+  - Sass
   - Compass
-  - JavaScript/jQuery
+  - JavaScript
+  - jQuery
   - Bootstrap
   - Grunt
   - npm
   - Vagrant
 technology-additional:
   - BEM
+icons:
+  - Font Awesome
 ---
 
 Connect is K-State’s interactive dashboard of commonly used Kansas State University services. The app allows users to quickly view highlighted details of the services available on a phone, tablet, or computer.

@@ -1,4 +1,5 @@
 ---
+published: true
 featured: true
 
 title: New Hope Church
@@ -16,8 +17,10 @@ responsibilities:
 technology:
   - Drupal 7
   - PHP
-  - CSS/Less
-  - JavaScript/jQuery
+  - CSS
+  - Less
+  - JavaScript
+  - jQuery
   - Bootstrap
 ---
 
