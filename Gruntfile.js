@@ -16,7 +16,7 @@ module.exports = function(grunt) {
         command: 'jekyll build --config _config.yml,_config.dev.yml'
       },
       jekyllServe: {
-        command: 'jekyll serve --config _config.yml,_config.dev.yml'
+        command: 'jekyll serve --config _config.yml,_config.dev.yml --port 8002'
       },
     },
 
