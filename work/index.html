@@ -1,0 +1,25 @@
+---
+layout: page
+main_menu: true
+
+title: Work
+---
+
+{% assign projects = site.pages | sort: 'date' %}
+<ul class="project-list">
+  {% for project in projects reversed %}
+    {% if project.url contains page.url and project.featured %}
+      <li class="project-list__item">
+        <a href="{{ project.url }}">
+          {% if project.thumb %}
+            {% capture thumb_src %}{{project.url}}{{ project.thumb }}{% endcapture %}
+          {% else %}
+            {% capture thumb_src %}{{ site.path.project_thumb_default }}{% endcapture %}
+          {% endif %}
+          <img src="{{ thumb_src }}" alt="{{ project.title | escape }}"><br>
+          {{ project.title | escape }}
+        </a>
+      </li><!-- .project-list__item -->
+    {% endif %}
+  {% endfor %}
+</ul><!-- .project-list -->

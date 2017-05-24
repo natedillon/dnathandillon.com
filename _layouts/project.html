@@ -4,13 +4,11 @@ layout: default
 
 <article class="article">
   {% capture img_path %}dist/img/projects/{{ page.slug }}/image.{% endcapture %}
-  {% for img in site.static_files %}
-    {% if img.path contains img_path %}
-      <div class="project-image">
-        <img src="{{ img.path }}" alt="{{ page.title | escape }}">
-      </div>
-    {% endif %}
-  {% endfor %}
+  {% if page.image %}
+    <div class="project-image">
+      <img src="{{ page.image }}" alt="{{ page.title | escape }}">
+    </div>
+  {% endif %}
 
   <div class="project-info">
     <div class="project-info__section">

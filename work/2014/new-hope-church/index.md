@@ -5,6 +5,8 @@ featured: true
 title: New Hope Church
 date: 2014-10-19 # v2.0.0 release date
 client: New Hope Church
+image: image.png
+thumb: thumb.png
 links:
   - title: Website
     url: http://newhopeks.org

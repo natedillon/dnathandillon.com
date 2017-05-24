@@ -1,5 +1,4 @@
 ---
-layout: page
 permalink: /about/
 main_menu: true
 
