@@ -1,5 +1,5 @@
 ---
 layout: project-index
 
-title: Work / 2017
+title: 2017
 ---
