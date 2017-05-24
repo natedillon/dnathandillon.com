@@ -1,6 +1,8 @@
 # Primary navigation
 primary:
-  - title: "Work"
+  - title: Work
     url: /work/
-  - title: "About"
+  - title: Resume
+    url: /resume/
+  - title: About
     url: /about/
