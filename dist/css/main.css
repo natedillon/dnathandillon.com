@@ -86,13 +86,21 @@ ol ol {
   margin-bottom: 0;
 }
 
+dl {
+  margin-bottom: 1.2rem;
+}
+
 dl dt {
+  margin-top: 1.2rem;
   font-weight: bold;
+}
+
+dl dt:first-child {
+  margin-top: 0;
 }
 
 dl dd {
   margin-left: 0;
-  margin-bottom: 1.2rem;
 }
 
 hr {
