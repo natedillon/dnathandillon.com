@@ -841,6 +841,67 @@ code {
   white-space: nowrap;
 }
 
+.resume-item .resume-item__title {
+  margin-bottom: 0;
+  font-size: 1.6rem;
+}
+
+.resume-item .resume-item__subtitle {
+  font-style: italic;
+}
+
+.resume-item .resume-item__list {
+  padding-left: 0;
+}
+
+@media (min-width: 768px) {
+  .resume-item .resume-item__info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .resume-item .resume-item__info .resume-item__title,
+  .resume-item .resume-item__info .resume-item__subtitle {
+    width: 75%;
+    padding-right: 10px;
+  }
+  .resume-item .resume-item__info .resume-item__title {
+    -ms-flex-order: 1;
+        order: 1;
+  }
+  .resume-item .resume-item__info .resume-item__subtitle {
+    -ms-flex-order: 3;
+        order: 3;
+  }
+  .resume-item .resume-item__info .resume-item__location,
+  .resume-item .resume-item__info .resume-item__date {
+    width: 25%;
+    padding-left: 10px;
+    color: #777;
+  }
+  .resume-item .resume-item__info .resume-item__location {
+    -ms-flex-order: 2;
+        order: 2;
+  }
+  .resume-item .resume-item__info .resume-item__date {
+    -ms-flex-order: 4;
+        order: 4;
+  }
+}
+
+@media print {
+  body.resume {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 10pt;
+  }
+  body.resume .header,
+  body.resume .article-header,
+  body.resume .footer {
+    display: none;
+  }
+}
+
 .profile-picture {
   float: right;
   max-width: 50%;
