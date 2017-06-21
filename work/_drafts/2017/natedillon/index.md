@@ -14,6 +14,8 @@ links:
     url: https://natedillon.com
   - title: GitHub
     url: https://github.com/natedillon/natedillon.com
+  - title: Blog Post
+    url: https://ntdln.com/2017/06/21/natedillon-com-v2/
 responsibilities:
   - Design
   - Development
