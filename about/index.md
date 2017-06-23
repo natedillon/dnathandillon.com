@@ -9,7 +9,7 @@ excerpt: My name is Nate Dillon, and I am a front-end web developer living in Ma
 
 My name is Nate Dillon, and I am a front-end web developer living in Manhattan, Kansas. I love building responsive, progressively enhanced websites using standards compliant HTML, CSS, and JavaScript.
 
-In my free time, I enjoy spending time with my family, watching [movies](http://letterboxd.com/natedillon/ "Nate Dillon’s Letterboxd Profile") or [hockey](http://penguins.nhl.com/ "Pittsburgh Penguins"), or planning my next Disney vacation.
+In my free time, I enjoy spending time with my family, watching [movies](https://letterboxd.com/natedillon/ "Nate Dillon’s Letterboxd Profile") or [hockey](https://www.nhl.com/penguins/ "Pittsburgh Penguins"), or planning my next [Disney](https://disneyparks.disney.go.com/ "Disney Parks") vacation.
 
 ## Colophon
 
