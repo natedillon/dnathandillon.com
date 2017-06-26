@@ -2,16 +2,16 @@
 published: false
 featured: false
 
-title: K-State Connect Courses Widget
-date: 2016-10-08 # Released in Connect v1.38.0
+title: New Boston Creative Group (2011) [newsletter]
+date:
 date_start:
 agency:
 client:
 image:
 thumb:
 links:
-  - title: Website
-    url: https://connect.k-state.edu
+  - title:
+    url:
 responsibilities:
   -
 technology:

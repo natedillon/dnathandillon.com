@@ -2,16 +2,16 @@
 published: false
 featured: false
 
-title:
-date:
+title: K-State Connect Courses Widget
+date: 2016-10-08 # Released in v1.38.0
 date_start:
 agency:
 client:
 image:
 thumb:
 links:
-  - title:
-    url:
+  - title: Website
+    url: https://connect.k-state.edu
 responsibilities:
   -
 technology:

@@ -1,6 +1,6 @@
 ---
 title: Keller Leopold Insurance
-date: 2012-04-02 # Finished work on April 2
+date: 2012-04-02 # Last commits to the repo (for v1.0.0)
 agency: New Boston Creative Group, LLC
 client: Keller Leopold Insurance
 links:

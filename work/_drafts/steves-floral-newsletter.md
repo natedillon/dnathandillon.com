@@ -2,7 +2,7 @@
 published: false
 featured: false
 
-title: Crazy House
+title: Steve’s Floral Newsletter
 date:
 date_start:
 agency:

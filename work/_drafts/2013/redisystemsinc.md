@@ -2,8 +2,8 @@
 published: false
 featured: false
 
-title: K-State Connect Notifications Page
-date: 2016-05-25 # Released in Connect v1.37.0
+title: Redi Systems
+date: 2013-04-16 # Released
 date_start:
 agency:
 client:

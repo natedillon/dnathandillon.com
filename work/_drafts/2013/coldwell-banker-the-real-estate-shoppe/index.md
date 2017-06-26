@@ -1,7 +1,7 @@
 ---
 title: Coldwell Banker, The Real Estate Shoppe
 subtitle: Garden City, Kansas
-date: 2013-02-25 # Finished work on February 25
+date: 2013-02-27 # Last commits to the repo (for v1.0.0)
 agency: New Boston Creative Group, LLC
 client: Coldwell Banker, The Real Estate Shoppe, Inc.
 links:

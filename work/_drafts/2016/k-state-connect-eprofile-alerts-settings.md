@@ -2,8 +2,8 @@
 published: false
 featured: false
 
-title:
-date:
+title: K-State Connect eProfile Alerts Settings
+date: 2016-02-29 # Released in v1.34.0
 date_start:
 agency:
 client:
@@ -13,7 +13,7 @@ links:
   - title:
     url:
 responsibilities:
-  -
+  - Design
 technology:
   -
 technology-additional:

@@ -2,8 +2,8 @@
 published: false
 featured: false
 
-title: Crazy House
-date:
+title:
+date: 2014-04-26
 date_start:
 agency:
 client:

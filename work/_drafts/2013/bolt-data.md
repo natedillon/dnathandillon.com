@@ -2,8 +2,8 @@
 published: false
 featured: false
 
-title: Crazy House
-date:
+title: Bolt Data
+date: 2013-08-23 # Last commits to the repo
 date_start:
 agency:
 client:
@@ -25,5 +25,5 @@ icons:
 team:
   -
 notes:
-  -
+  - Started development July 24, 2013
 ---

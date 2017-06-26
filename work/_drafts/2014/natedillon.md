@@ -3,7 +3,7 @@ published: false
 featured: false
 
 title: Nate Dillon
-date: 2014-11-25 # v1.0.0 release
+date: 2014-11-25 # v1.0.0 released
 date_start: 2013-02-16
 agency:
 client:

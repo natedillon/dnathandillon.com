@@ -3,8 +3,8 @@ published: false
 featured: false
 
 title: K-State Connect HRIS Widget
-date: 2016-02-25 # HRIS widget leave form released in Connect v1.33.0
-date_start: 2015-08-10 # Started design work
+date: 2016-02-25 # HRIS widget leave form released in v1.33.0
+date_start: 2015-08-10 # Design work started
 agency:
 client:
 image:

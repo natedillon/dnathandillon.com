@@ -1,6 +1,7 @@
 ---
 title: Riley County Police Department
-date: 2013-09-01 # Launched in September
+date: 2013-09-01 # Released in September
+date_start: 2013-03-13 # Development work started
 agency: New Boston Creative Group, LLC
 client: Riley County Police Department
 links:
