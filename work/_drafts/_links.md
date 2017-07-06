@@ -1,0 +1,14 @@
+http://www.he.k-state.edu/news/2011/07/20/webcam-records-construction-minute-by-minute-in-real-time/
+http://www.he.k-state.edu/news/2011/07/13/site-cleared-as-justin-addition-construction-begins/
+http://www.he.k-state.edu/news/2010/10/04/groundbreaking-set-for-friday-for-justin-hall-addition/
+http://www.he.k-state.edu/news/2010/09/29/new-website-celebrates-kansas-food-heritage/
+http://www.he.k-state.edu/news/2010/05/20/students-publish-kansas-food-journal-webzine/
+http://www.he.k-state.edu/news/2010/04/02/travel-and-dining-auction-join-the-party-bid-high-its-for-students/
+http://www.he.k-state.edu/news/2010/01/14/fshs-students-counsel-peers-at-new-powercat-center/
+http://www.he.k-state.edu/news/2009/09/10/military-families-institute-opens-oct-2/
+http://www.he.k-state.edu/news/2008/06/19/food-writing-students-debut-webzine/
+http://www.he.k-state.edu/news/2008/06/02/students-in-k-states-food-writing-course-publish-webzine/
+http://www.he.k-state.edu/news/2008/04/02/k-states-annual-travel-dining-auction-april-11-offers-night-of-food-fun/
+http://www.he.k-state.edu/news/2007/10/29/expansis-new-system-wins-third-award/
+http://www.he.k-state.edu/news/2007/04/19/welcome-to-the-deans-blog/
+http://www.he.k-state.edu/news/2007/03/29/k-state-football-tickets-golf-excursions-1500-vacation-package-to-mexico-on-the-auction-block-april-13-at-k-state-travel-and-dining-auction/

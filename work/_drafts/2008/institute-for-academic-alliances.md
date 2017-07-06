@@ -2,16 +2,6 @@
 published: false
 featured: false
 
-# Last commits to the repo
-# Last commits to the repo (for v1.0.0)
-# Design work started
-# Development work started
-# vX.0.0 released
-# Released
-# Released in vX.0.0
-# Released in Month
-# Exact release date unknown
-
 title:
 date:
 date_start:
@@ -35,5 +25,6 @@ icons:
 team:
   -
 notes:
-  -
+  - Exact release date unknown.
+  - Exact start date unknown. The project folder is labeled February 2007. The initial design was done on May 17, 2007 (this design was later scrapped).
 ---
