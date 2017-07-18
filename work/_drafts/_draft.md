@@ -22,6 +22,8 @@ thumb:
 links:
   - title:
     url:
+    type: # website, source, article
+    status:
 responsibilities:
   -
 technology:
