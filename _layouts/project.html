@@ -2,57 +2,55 @@
 layout: default
 ---
 
-<article class="article">
-  {% capture img_path %}dist/img/projects/{{ page.slug }}/image.{% endcapture %}
-  {% if page.image %}
-    <div class="project-image">
-      <img src="{{ page.image }}" alt="{{ page.title | escape }}">
-    </div>
-  {% endif %}
+{% capture img_path %}dist/img/projects/{{ page.slug }}/image.{% endcapture %}
+{% if page.image %}
+  <div class="project-image">
+    <img src="{{ page.image }}" alt="{{ page.title | escape }}">
+  </div>
+{% endif %}
 
-  <div class="project-info">
-    <div class="project-info__section">
-      {% if page.responsibilities %}
-        <h2 class="project-info__title">Responsibilities</h2>
-        <ul class="project-info__list">
-          {% for item in page.responsibilities %}
-            <li class="project-info__list-item">{{ item }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </div><!-- .project-info__section -->
-
-    <div class="project-info__section">
-      {% if page.technology %}
-        <h2 class="project-info__title">Technology</h2>
-        <ul class="project-info__list">
-          {% for item in page.technology %}
-            <li class="project-info__list-item">{{ item }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </div><!-- .project-info__section -->
-  </div><!-- .project-info -->
-
-  {{ content }}
-
-  <!--
-  {% if page.links %}
-    {% assign page_links = '' %}
-    {% for item in page.links %}
-      {% if item.hidden != true %}
-        {% capture page_links %}
-          {{ page_links }}
-          <dd><a href="{{ item.url }}">{{ item.title }}</a></dd>
-        {% endcapture %}
-      {% endif %}
-    {% endfor %}
-    {% if page_links != '' %}
-      <dl>
-        <dt>Links:</dt>
-        {{ page_links }}
-      </dl>
+<div class="project-info">
+  <div class="project-info__section">
+    {% if page.responsibilities %}
+      <h2 class="project-info__title">Responsibilities</h2>
+      <ul class="project-info__list">
+        {% for item in page.responsibilities %}
+          <li class="project-info__list-item">{{ item }}</li>
+        {% endfor %}
+      </ul>
     {% endif %}
+  </div><!-- .project-info__section -->
+
+  <div class="project-info__section">
+    {% if page.technology %}
+      <h2 class="project-info__title">Technology</h2>
+      <ul class="project-info__list">
+        {% for item in page.technology %}
+          <li class="project-info__list-item">{{ item }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div><!-- .project-info__section -->
+</div><!-- .project-info -->
+
+{{ content }}
+
+<!--
+{% if page.links %}
+  {% assign page_links = '' %}
+  {% for item in page.links %}
+    {% if item.hidden != true %}
+      {% capture page_links %}
+        {{ page_links }}
+        <dd><a href="{{ item.url }}">{{ item.title }}</a></dd>
+      {% endcapture %}
+    {% endif %}
+  {% endfor %}
+  {% if page_links != '' %}
+    <dl>
+      <dt>Links:</dt>
+      {{ page_links }}
+    </dl>
   {% endif %}
-  -->
-</article>
+{% endif %}
+-->

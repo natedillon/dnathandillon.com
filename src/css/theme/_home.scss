@@ -3,14 +3,18 @@
 // --------------------------------------------------
 
 
-.home {
-  @include make-col($size-xs: 12);
+// Home feature
+// -------------------------
 
-  text-align: center;
+.home-feature {}
 
-  .home-content {
-    margin-top: 120px; margin-top: 20vh;
-    margin-bottom: 120px; margin-bottom: 20vh;
+
+// Home Feature: Intro
+// -------------------------
+
+.home-feature--intro {
+
+  .home-feature__content {
     font-size: 1.6rem;
 
     span {

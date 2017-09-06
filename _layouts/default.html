@@ -6,24 +6,32 @@
     {% include header.html %}
 
     <main role="main" class="main">
-      {% if page.title %}
-        <header class="article-header">
-          <h1 class="article-header__title">
-            {% if page.title_alternate %}
-              {{ page.title_alternate | escape }}
-            {% else %}
-              {{ page.title | escape }}
-            {% endif %}
-          </h1>
-          {% if page.subtitle %}
-            <p class="article-header__subtitle">{{ page.subtitle }}</p>
-          {% endif %}
-        </header><!-- .article-header -->
-      {% endif %}
+      <div class="article">
+        {% if page.title %}
+          <header class="article-header">
+            <div class="container">
+              <h1 class="article-header__title">
+                {% if page.title_alternate %}
+                  {{ page.title_alternate | escape }}
+                {% else %}
+                  {{ page.title | escape }}
+                {% endif %}
+              </h1>
+              {% if page.subtitle %}
+                <p class="article-header__subtitle">{{ page.subtitle }}</p>
+              {% endif %}
+            </div><!-- .container -->
+          </header><!-- .article-header -->
+        {% endif %}
 
-      <div class="main-content">
-        {{ content }}
-      </div><!-- .main-content -->
+        <div class="article-content">
+          <div class="container">
+            <div class="article-content__main">
+              {{ content }}
+            </div><!-- .article-content__main -->
+          </div><!-- .container -->
+        </div><!-- .article-content -->
+      </div><!-- .article -->
     </main><!-- .main -->
 
     {% include footer.html %}

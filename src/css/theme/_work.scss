@@ -7,16 +7,16 @@
 // -------------------------
 
 .project-list {
-  @include make-container--nested-full();
-  margin-top: -($grid-gutter-width / 2);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: $grid-gutter-width;
+  margin-left: 0;
   padding-left: 0;
   list-style-type: none;
   font-size: 1.4rem;
   line-height: normal;
-  text-align: center;
 
   .project-list__item {
-    @include make-col($size-xs: 6, $size-md: 4);
     margin-top: ($grid-gutter-width / 2);
     margin-bottom: ($grid-gutter-width / 2);
 
@@ -46,34 +46,17 @@
 // -------------------------
 
 .project-image {
-  position: relative;
-  z-index: 99;
-  margin: -($grid-gutter-width * 3) 0 ($grid-gutter-width * 2);
-  //padding: 38px 0 0 0;
-  overflow: hidden;
-  //background: linear-gradient(#eee 0, #ddd 35px); //#eee, #ddd
+  margin-bottom: ($grid-gutter-width * 2);
   border: 1px solid $gray-lighter-alpha;
-  //border-radius: $border-radius;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   font-size: 0;
   line-height: 1;
-  text-align: center;
 
+  // TODO: Remove temporary max-height
   max-height: 700px;
+  overflow: hidden;
 
   img {
     background-color: $grey-lightest;
-    //border-top: 1px solid #ccc;
-  }
-
-  @media (min-width: $screen-lg) {
-    margin-left: -((1 / $grid-columns) * $container-lg);
-    margin-right: -((1 / $grid-columns) * $container-lg);
-  }
-
-  @media (min-width: $screen-xl) {
-    margin-left: -((1 / $grid-columns) * $container-xl);
-    margin-right: -((1 / $grid-columns) * $container-xl);
   }
 }
 
