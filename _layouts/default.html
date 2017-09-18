@@ -1,9 +1,32 @@
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  {% include head.html %}
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ site.title | escape }}{% if page.title %} / {{ page.title | escape }}{% endif %}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/main.css">
+  </head>
 
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
-    {% include header.html %}
+    <header role="banner" class="header">
+      <div class="container">
+        <h1 class="header__title"><a href="{{ site.baseurl }}/">{{ site.title | escape }}</a></h1>
+
+        <nav role="navigation" class="header__nav">
+          <ul class="header__nav-list">
+            {% for item in site.data.navigation.primary %}
+              <li class="header__nav-list-item{% if page.url == item.url %} active{% endif %}">
+                <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </div><!-- .container -->
+    </header><!-- .header -->
 
     <main role="main" class="main">
       <div class="article">
@@ -34,7 +57,16 @@
       </div><!-- .article -->
     </main><!-- .main -->
 
-    {% include footer.html %}
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__links">
+          <li class="footer__links-item"><a href="https://twitter.com/NatoriousFAT">Twitter</a></li>
+          <li class="footer__links-item"><a href="https://github.com/natedillon">GitHub</a></li>
+          <li class="footer__links-item"><a href="https://www.linkedin.com/in/natedillon">LinkedIn</a></li>
+        </ul><!-- .footer__links -->
+        <p class="footer__copyright">Copyright &copy; {{ 'now' | date: "%Y" }} D. Nathan Dillon</p>
+      </div><!-- .container -->
+    </footer><!-- .footer -->
 
     {% include analytics.html %}
   </body>
