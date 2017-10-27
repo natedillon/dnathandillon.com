@@ -1,0 +1,13 @@
+<header role="banner" class="header">
+  <h1 class="header__title"><a href="{{ site.baseurl }}/">{{ site.title | escape }}</a></h1>
+
+  <nav role="navigation" class="header__nav">
+    <ul class="header__nav-list">
+      {% for item in site.data.navigation.primary %}
+        <li class="header__nav-list-item{% if page.url == item.url %} active{% endif %}">
+          <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header><!-- .header -->

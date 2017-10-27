@@ -1,11 +1,14 @@
-# Site settings
-title: D. Nathan Dillon
-description: "The portfolio website of D. Nathan Dillon."
-url: "http://dnathandillon.com"
-baseurl: ""
-email:
+# Site information
+title:        D. Nathan Dillon
+description:  The portfolio website of D. Nathan Dillon.
+url:          http://dnathandillon.com
+
+# Social
 twitter_username: NatoriousFAT
 github_username:  natedillon
+
+# Permalinks
+permalink: pretty
 
 # Global configuration
 exclude:
@@ -16,26 +19,23 @@ exclude:
   - node_modules
   - package.json
   - README.md
-include:
-  - _pages
-
-# Collections
-collections:
-  projects:
-    output: true
-    permalink: /work/:title/
 
 # Defaults
 defaults:
   -
     scope:
-      type: posts
+      path: ""
+      type: pages
     values:
-      layout: post
-      permalink: /blog/:year/:month/:day/:title/
+      layout: page
   -
     scope:
-      path: _projects
-      type: projects
+      path: work
+      type: pages
     values:
       layout: project
+
+# File paths
+path:
+  img:                    /dist/img
+  project_thumb_default:  /dist/img/projects/thumb.png

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article class="article">
+  {{ content }}
+
+  {% assign current_path = page.url %}
+  <ul>
+    {% for p in site.pages %}
+      {% if p.url contains current_path and p.url != current_path %}
+        <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</article>
