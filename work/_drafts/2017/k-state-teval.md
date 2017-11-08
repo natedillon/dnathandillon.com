@@ -8,9 +8,9 @@ date_start: 2016-07-13
 agency: Kansas State University, Office of Mediated Education
 client: Kansas State University, Teaching and Learning Center
 links:
-  - title:
-    url:
-    type:
+  - title: New Online Teval system is here
+    url: https://www.k-state.edu/today/announcement.php?id=36968
+    type: article
     status:
 responsibilities:
   - Front-end development
