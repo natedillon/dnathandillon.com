@@ -6,7 +6,7 @@ title: K-State Connect Inbox Widget
 date: 2017-06-27 # Released in v1.44.0
 date_start: 2017-03-28 # Design work started
 agency: Kansas State University, Office of Mediated Education
-client: Kansas State University
+client: Kansas State University, Office of Mediated Education
 image:
 thumb:
 links:
