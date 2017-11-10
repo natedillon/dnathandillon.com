@@ -1,0 +1,31 @@
+---
+published: false
+featured: false
+
+title: K-State Decisions
+date:
+date_start:
+agency: Kansas State University, Office of Mediated Education
+client:
+image:
+thumb:
+links:
+  - title:
+    url:
+    type: # website, source, article
+    status:
+responsibilities:
+  -
+technology:
+  -
+technology-additional:
+  -
+fonts:
+  -
+icons:
+  -
+team:
+  -
+notes:
+  - Decisions training on October 24-26, 2017
+---
