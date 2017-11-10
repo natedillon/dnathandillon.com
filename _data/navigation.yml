@@ -2,7 +2,5 @@
 primary:
   - title: Work
     url: /work/
-  - title: Resume
-    url: /resume/
   - title: About
     url: /about/
