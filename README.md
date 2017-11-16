@@ -2,8 +2,6 @@
 
 The portfolio website of D. Nathan (Nate) Dillon.
 
-This is a test.
-
 ## Running Locally
 
 ### Requirements
