@@ -2,7 +2,7 @@
 published: false
 featured: false
 
-title: K-State Connect Decisions
+title: K-State Connect Decisions Groups
 date:
 date_start: 2017-10-23 # First meeting
 agency: Kansas State University, Office of Mediated Education
@@ -15,9 +15,13 @@ links:
     type: # website, source, article
     status:
 responsibilities:
-  -
+  - Design
+  - Front-end development
 technology:
-  -
+  - Python
+  - Django
+  - JavaScript
+  - jQuery
 technology-additional:
   -
 fonts:
@@ -25,7 +29,9 @@ fonts:
 icons:
   -
 team:
-  -
+  - Keith Bauer
+  - Amanda Tross
 notes:
-  - Adding further Decisions integration in Connect for the Division of Financial Services; client contacts were Bryan Kraus and Rob McGaughey
+  - Adding further Decisions integration in Connect for the Division of Financial Services
+  - Client contacts were Bryan Kraus and Rob McGaughey
 ---

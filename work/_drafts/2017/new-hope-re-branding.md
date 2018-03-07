@@ -30,7 +30,7 @@ fonts:
 icons:
   -
 team:
-  -
+  - Edward Tuttle
 notes:
   - Added a new logo, changed the fonts, and changed the colors.
   - Branding files were first e-mailed on July 19, 2017.

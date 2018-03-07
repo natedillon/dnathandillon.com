@@ -26,6 +26,7 @@ icons:
   -
 team:
   - Paul Abitz
+  - Keith Bauer
   - David Burke
   - Matt Fuller
   - Royce Gilbert
