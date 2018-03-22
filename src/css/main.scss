@@ -8,8 +8,7 @@
 //@import 'mixins';
 
 // Reset
-// TODO: This should be imported using npm
-@import '../libs/normalize.css/css/normalize';
+@import '../../node_modules/normalize.css/normalize';
 
 // Core CSS
 //@import 'scaffolding';
