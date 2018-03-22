@@ -4,6 +4,7 @@ featured: false
 
 title: K-State Connect Navigation
 date: 2017-03-28 # Released in Connect v1.41.0
+date_start:
 agency: Kansas State University, Office of Mediated Education
 client: Kansas State University
 image:
@@ -29,10 +30,12 @@ technology:
   - Vagrant
 technology-additional:
   - BEM
+fonts:
 icons:
   - Font Awesome
 team:
   - Jon Faustman
+notes:
 ---
 
 Serving as a dashboard of various services for Kansas State University, K-State Connect was in need of a re-designed navigation system. The K-State <abbr title="Office of Mediated Education">OME</abbr> Web Team wanted to provide better access to the “widgets” within the Connect dashboard for both large and small screens.

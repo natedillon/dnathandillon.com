@@ -3,7 +3,7 @@ published: false
 featured: false
 
 title: Nate Dillon v2
-date: 2017-06-07 # v2.0.0 release
+date: 2017-06-07 # v2.0.0 released
 date_start: 2017-04-12
 agency:
 client:
