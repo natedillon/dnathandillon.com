@@ -5,8 +5,8 @@ featured: true
 title: K-State Templates
 agency: Kansas State University, Office of Mediated Education
 client: Kansas State University
-image: image.png
-thumb: thumb.jpg
+image:
+thumb:
 links:
   - title: Website
     url: https://static.ksucloud.net/2011/docs/

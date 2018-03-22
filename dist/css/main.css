@@ -497,6 +497,7 @@ code {
 
 .project-image {
   margin-bottom: 40px;
+  background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.135);
   font-size: 0;
   line-height: 1;

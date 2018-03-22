@@ -5,8 +5,8 @@ featured: true
 title: K-State Connect
 agency: Kansas State University, Office of Mediated Education
 client: Kansas State University
-image: image.png
-thumb: thumb.png
+image:
+thumb:
 links:
   - title: Website
     url: https://connect.k-state.edu
