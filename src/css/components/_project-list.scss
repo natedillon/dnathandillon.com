@@ -1,0 +1,39 @@
+//
+// Project list
+// --------------------------------------------------
+
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: $grid-gutter-width;
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+  font-size: 1.4rem;
+  line-height: normal;
+
+  .project-list__item {
+    margin-top: ($grid-gutter-width / 2);
+    margin-bottom: ($grid-gutter-width / 2);
+
+    a {
+      display: block;
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+
+    img {
+      margin-bottom: 5px;
+      border: 1px solid $gray-lighter;
+    }
+
+    br {
+      display: none;
+    }
+  }
+}

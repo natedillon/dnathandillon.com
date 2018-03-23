@@ -5,112 +5,25 @@
 
 // Variables and mixins
 @import 'variables';
-//@import 'mixins';
+//@import 'mixins/grid';
 
 // Reset
 @import '../../node_modules/normalize.css/normalize';
 
 // Core CSS
-//@import 'scaffolding';
+@import 'scaffolding';
 //@import 'type';
 
+// Components
+//@import 'components/page-header';
+@import 'components/project-list';
+
 // Theme
-//@import 'theme';
-//@import 'patterns';
+@import 'theme/layout';
+//@import 'theme/alignment';
 
-
-// Scaffolding
-// -------------------------
-
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-body {
-  font-family: $font-family-base;
-  font-size: $font-size-base;
-  line-height: $line-height-base;
-  color: $body-color;
-}
-
-
-// Container
-// -------------------------
-
-.container {
-  padding-left: ($grid-gutter-width / 2);
-  padding-right: ($grid-gutter-width / 2);
-
-  @media (min-width: $screen-sm) {
-    width: $container-sm;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  @media (min-width: $screen-md) {
-    width: $container-md;
-  }
-
-  @media (min-width: $screen-lg) {
-    width: $container-lg;
-  }
-
-  @media (min-width: $screen-xl) {
-    width: $container-xl;
-  }
-}
-
-
-// Header
-// -------------------------
-
-.header {
-  padding: $grid-gutter-width 0;
-  font-size: inherit;
-  text-transform: uppercase;
-}
-
-.header__logo {
-  margin: 0;
-  font-size: inherit;
-}
-
-
-// Main content
-// -------------------------
-
-.main {}
-
-.main__header {
-  padding: ($grid-gutter-width * 5) 0;
-  //color: white;
-  //background: black;
-
-  h1,
-  p {
-    margin: 0;
-  }
-
-  h1 {
-    font-size: 7.2rem;
-    line-height: normal;
-  }
-
-  p {
-    font-size: 3.2rem;
-    line-height: normal;
-  }
-}
-
-
-// Footer
-// -------------------------
-
-.footer {}
+// Content
+//@import 'content/about';
+//@import 'content/home';
+//@import 'content/patterns';
+@import 'content/work';

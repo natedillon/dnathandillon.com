@@ -6,7 +6,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: $grey;
+  background-color: $html-bg;
 }
 
 *,
@@ -16,12 +16,11 @@ html {
 }
 
 body {
-  position: relative;
-  margin: 0;
   font-family: $font-family-base;
   font-size: $font-size-base;
   line-height: $line-height-base;
   color: $body-color;
+  background-color: $body-bg;
 }
 
 
