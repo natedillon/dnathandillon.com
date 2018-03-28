@@ -24,6 +24,7 @@ exclude:
 collections:
   conferences:
     output: true
+    permalink: /about/conferences/:title/
 
 # Defaults
 defaults:
@@ -44,7 +45,7 @@ defaults:
       path: ""
       type: conferences
     values:
-      layout: page
+      layout: conference
 
 # File paths
 path:
