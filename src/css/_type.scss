@@ -83,14 +83,19 @@ ul {
 }
 
 dl {
+  margin-bottom: ($line-height-computed / 2);
 
   dt {
+    margin-top: ($line-height-computed / 2);
     font-weight: bold;
+
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
   dd {
     margin-left: 0;
-    margin-bottom: ($line-height-computed / 2);
   }
 }
 

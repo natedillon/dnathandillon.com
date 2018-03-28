@@ -1,0 +1,11 @@
+---
+layout: page
+
+title: Conferences
+---
+
+<ul>
+  {% for conference in site.conferences reversed %}
+    <li><a href="{{ conference.url }}">{{ conference.title }}</a></li>
+  {% endfor %}
+</ul>

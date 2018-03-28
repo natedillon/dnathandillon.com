@@ -20,6 +20,12 @@ exclude:
   - package.json
   - README.md
 
+# Collections
+collections:
+  conferences:
+    output: true
+    permalink: /about/conferences/:title/
+
 # Defaults
 defaults:
   -
@@ -34,6 +40,12 @@ defaults:
       type: pages
     values:
       layout: project
+  -
+    scope:
+      path: ""
+      type: conferences
+    values:
+      layout: conference
 
 # File paths
 path:
