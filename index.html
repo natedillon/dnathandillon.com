@@ -19,9 +19,11 @@
         </h1>
 
         <nav class="header__nav">
-          <ul>
-            <li><a href="/work">Work</a></li>
-            <li><a href="/about">About</a></li>
+          <ul class="header__nav-list">
+            <li class="header__nav-list-item header__nav-list-item--home active"><a href="/">Home</a></li>
+            <li class="header__nav-list-item header__nav-list-item--work"><a href="/work">Work</a></li>
+            <li class="header__nav-list-item header__nav-list-item--about"><a href="/about">About</a></li>
+            <li class="header__nav-list-item header__nav-list-item--contact"><a href="/contact">Contact</a></li>
           </ul>
         </nav><!-- .header__nav -->
       </div><!-- .container -->
@@ -30,32 +32,24 @@
     <main role="main" class="main">
       <header class="main__header">
         <div class="container">
-          <h1>Hello.</h1>
-          <p>I’m Nate, a front-end web developer living in Manhattan, Kansas.</p>
+          <h1>Hello, I’m Nate.</h1>
+          <p>I’m a front-end web developer living in Manhattan, Kansas.</p>
         </div><!-- .container -->
       </header><!-- .main__header -->
 
-      <div class="container">
-        <h2>Projects</h2>
-        <ul class="project-list">
-          <li class="project-list__item">
-            <img src="https://placeimg.com/400/300/any?img=1" alt=""><br>
-            Project Title
-          </li>
-          <li class="project-list__item">
-            <img src="https://placeimg.com/400/300/any?img=2" alt=""><br>
-            Project Title
-          </li>
-          <li class="project-list__item">
-            <img src="https://placeimg.com/400/300/any?img=3" alt=""><br>
-            Project Title
-          </li>
-          <li class="project-list__item">
-            <img src="https://placeimg.com/400/300/any?img=4" alt=""><br>
-            Project Title
-          </li>
-        </ul>
-      </div><!-- .container -->
+      <section class="container">
+        <header>
+          <h2>Projects</h2>
+        </header>
+        <div class="project-list">
+          <article class="project-list__item">
+            <header>
+              <h3>Project Title</h3>
+            </header>
+            <img src="https://placeimg.com/400/300/any?img=1" alt="">
+          </article>
+        </div>
+      </section><!-- .container -->
     </main><!-- .main -->
 
     <footer class="footer">
