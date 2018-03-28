@@ -20,6 +20,11 @@ exclude:
   - package.json
   - README.md
 
+# Collections
+collections:
+  conferences:
+    output: true
+
 # Defaults
 defaults:
   -
@@ -34,6 +39,12 @@ defaults:
       type: pages
     values:
       layout: project
+  -
+    scope:
+      path: ""
+      type: conferences
+    values:
+      layout: page
 
 # File paths
 path:
