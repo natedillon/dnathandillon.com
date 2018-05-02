@@ -1,18 +1,19 @@
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% capture page_title %}{{ page.title }}{% endcapture %}
+    <title>{{ site.title | escape }}{% if page.title %} / {{ page_title | escape }}{% endif %}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/main.css">
+  </head>
 
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-
-      {% capture page_title %}{{ page.title }}{% endcapture %}
-      <title>{{ site.title | escape }}{% if page.title %} / {{ page_title | escape }}{% endif %}</title>
-      <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-
-      <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/main.css">
-    </head>
+    {% include header.html %}
 
     <main role="main" class="main">
       {% if page.title %}
