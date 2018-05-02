@@ -5,7 +5,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ site.title | escape }}{% if page.title %} / {{ page.title | escape }}{% endif %}</title>
+    {% capture page_title %}{{ page.title }}{% endcapture %}
+    <title>{{ site.title | escape }}{% if page.title %} / {{ page_title | escape }}{% endif %}</title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
     <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/main.css">
@@ -35,9 +36,10 @@
             <div class="container">
               <h1 class="article-header__title">
                 {% if page.title_alternate %}
-                  {{ page.title_alternate | escape }}
+                  {% capture page_title_alternate %}{{ page.title_alternate }}{% endcapture %}
+                  {{ page_title_alternate | escape }}
                 {% else %}
-                  {{ page.title | escape }}
+                  {{ page_title | escape }}
                 {% endif %}
               </h1>
               {% if page.subtitle %}
