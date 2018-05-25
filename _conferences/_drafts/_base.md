@@ -2,9 +2,15 @@
 published: false
 
 title:
-location:
-date_start:
+date:
 date_end:
+location:
+  name:
+  address:
+    -
+  city:
+  state:
+  zip:
 website:
 sessions:
   - title:
