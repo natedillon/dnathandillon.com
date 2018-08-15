@@ -15,11 +15,19 @@ links:
     type: # website, source, article
     status:
 responsibilities:
-  - Research
+  - Front-end development
+  - Design
 technology:
-  -
+  - Decisions
+  - Python
+  - Django
+  - CSS
+  - Sass
+  - JavaScript
 technology-additional:
-  -
+  - Grunt
+  - npm
+  - Vagrant
 fonts:
   -
 icons:
