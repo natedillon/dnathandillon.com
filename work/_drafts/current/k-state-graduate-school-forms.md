@@ -3,7 +3,7 @@ published: false
 featured: false
 
 title: K-State Graduate School Forms
-date:
+date: 2018-08-17 # Dashboard and first form released to production
 date_start: 2017-08-01 # First meeting
 agency: Kansas State University, Office of Mediated Education
 client: Kansas State University, Graduate School
