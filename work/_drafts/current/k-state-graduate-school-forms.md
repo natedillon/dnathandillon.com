@@ -33,16 +33,26 @@ fonts:
 icons:
   -
 team:
-  - Paul Abitz
-  - Keith Bauer
-  - David Burke
-  - Matt Fuller
-  - Royce Gilbert
-  - John Letourneau
-  - Chih-Ching Ma
-  - Priyatham Porika
-  - Saxon Sounakhen
-  - Ashley Wondra
+  - name: Paul Abitz
+    role:
+  - name: Keith Bauer
+    role: Back-end development
+  - name: David Burke
+    role: Wireframes and user experience research
+  - name: Matt Fuller
+    role:
+  - name: Royce Gilbert
+    role: Decisions development
+  - name: John Letourneau
+    role:
+  - name: Chih-Ching Ma
+    role:
+  - name: Priyatham Porika
+    role: Decisions development
+  - name: Saxon Sounakhen
+    role: Decisions development
+  - name: Ashley Wondra
+    role: Project management
 notes:
   -
 ---
