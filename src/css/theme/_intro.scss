@@ -1,0 +1,54 @@
+//
+// Intro
+// --------------------------------------------------
+
+
+.intro {
+  padding: ($grid-gutter-width * 5) 0;
+  color: white;
+
+  a {
+    color: inherit;
+  }
+
+  .intro-header__title,
+  .intro-body {
+    margin: 0;
+  }
+
+  .intro-header__title {
+    font-size: 7.2rem;
+    line-height: normal;
+  }
+
+  .intro-body {
+    font-size: 4.8rem;
+    line-height: normal;
+  }
+
+  .intro-links {
+    display: flex;
+    margin: ($grid-gutter-width * 2) 0 0;
+    padding: 0;
+    font-size: 2.1rem;
+    line-height: normal;
+    list-style-type: none;
+
+    .intro-links__item {
+
+      &::after {
+        content: "/";
+        margin-left: $grid-gutter-width / 2;
+        margin-right: $grid-gutter-width / 2;
+      }
+
+      &:last-child {
+
+        &::after {
+          content: "";
+          margin: 0;
+        }
+      }
+    }
+  }
+}
