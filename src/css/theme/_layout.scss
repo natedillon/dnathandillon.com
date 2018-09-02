@@ -219,7 +219,9 @@
   }
 }
 
-.content {
+.article-content {
+  padding-top: $grid-gutter-width * 4;
+  padding-bottom: $grid-gutter-width * 4;
   background-color: white;
 }
 
