@@ -33,14 +33,7 @@
 
     <main role="main" class="main">
       <article class="page">
-        {% if page.url == '/' %}
-          <header class="page-header">
-            <div class="container">
-              <h1 class="page-header__title">Hello, I’m Nate.</h1>
-              <p class="page-header__subtitle">I’m a front-end web developer working at <a href="https://k-state.edu/">Kansas State University</a>.</p>
-            </div><!-- .container -->
-          </header><!-- .intro -->
-        {% elsif page.title %}
+        {% if page.title %}
           <header class="page-header">
             <div class="container">
               <h1 class="page-header__title">{{ page_title | escape }}</h1>
