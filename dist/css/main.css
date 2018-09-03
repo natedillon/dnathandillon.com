@@ -598,7 +598,31 @@ img {
   line-height: normal;
 }
 
-.article-content {
+.page-header {
+  padding: 80px 0;
+  color: white;
+}
+
+.page-header a {
+  color: inherit;
+}
+
+.page-header .page-header__title,
+.page-header .page-header__subtitle {
+  margin: 0;
+}
+
+.page-header .page-header__title {
+  font-size: 7.2rem;
+  line-height: normal;
+}
+
+.page-header .page-header__subtitle {
+  font-size: 4.8rem;
+  line-height: normal;
+}
+
+.page-content {
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: white;
@@ -727,51 +751,6 @@ img {
   }
 }
 */
-.intro {
-  padding: 100px 0;
-  color: white;
-}
-
-.intro a {
-  color: inherit;
-}
-
-.intro .intro-header__title,
-.intro .intro-body {
-  margin: 0;
-}
-
-.intro .intro-header__title {
-  font-size: 7.2rem;
-  line-height: normal;
-}
-
-.intro .intro-body {
-  font-size: 4.8rem;
-  line-height: normal;
-}
-
-.intro .intro-links {
-  display: -ms-flexbox;
-  display: flex;
-  margin: 40px 0 0;
-  padding: 0;
-  font-size: 2.1rem;
-  line-height: normal;
-  list-style-type: none;
-}
-
-.intro .intro-links .intro-links__item::after {
-  content: "/";
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.intro .intro-links .intro-links__item:last-child::after {
-  content: "";
-  margin: 0;
-}
-
 .project-image {
   margin-bottom: 40px;
   background-color: white;

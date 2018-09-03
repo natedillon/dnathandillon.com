@@ -219,7 +219,31 @@
   }
 }
 
-.article-content {
+.page-header {
+  padding: ($grid-gutter-width * 4) 0;
+  color: white;
+
+  a {
+    color: inherit;
+  }
+
+  .page-header__title,
+  .page-header__subtitle {
+    margin: 0;
+  }
+
+  .page-header__title {
+    font-size: 7.2rem;
+    line-height: normal;
+  }
+
+  .page-header__subtitle {
+    font-size: 4.8rem;
+    line-height: normal;
+  }
+}
+
+.page-content {
   padding-top: $grid-gutter-width * 4;
   padding-bottom: $grid-gutter-width * 4;
   background-color: white;

@@ -32,28 +32,31 @@
     </header><!-- .header -->
 
     <main role="main" class="main">
-      {% if page.url != '/' %}<article class="article">{% endif %}
+      <article class="page">
         {% if page.url == '/' %}
-          {% include intro.html %}
-        {% elsif page.title %}
-          <header class="article-header">
+          <header class="page-header">
             <div class="container">
-              <h1 class="article-header__title">
-                {{ page_title | escape }}
-              </h1>
+              <h1 class="page-header__title">Hello, I’m Nate.</h1>
+              <p class="page-header__subtitle">I’m a front-end web developer working at <a href="https://k-state.edu/">Kansas State University</a>.</p>
+            </div><!-- .container -->
+          </header><!-- .intro -->
+        {% elsif page.title %}
+          <header class="page-header">
+            <div class="container">
+              <h1 class="page-header__title">{{ page_title | escape }}</h1>
               {% if page.subtitle %}
-                <p class="article-header__subtitle">{{ page.subtitle }}</p>
+                <p class="page-header__subtitle">{{ page.subtitle }}</p>
               {% endif %}
             </div><!-- .container -->
-          </header><!-- .article-header -->
+          </header><!-- .page-header -->
         {% endif %}
 
-        <div class="article-content">
+        <div class="page-content">
           <div class="container">
             {{ content }}
           </div><!-- .container -->
-        </div><!-- .article-content -->
-      {% if page.url != '/' %}</article><!-- .article -->{% endif %}
+        </div><!-- .page-content -->
+      </article><!-- .page -->
     </main><!-- .main -->
 
     <footer class="footer">
