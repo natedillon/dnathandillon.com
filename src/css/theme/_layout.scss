@@ -37,9 +37,7 @@
   padding: $grid-gutter-width 0;
   color: white;
   background-color: $gray-light-alpha;
-  font-weight: bold;
-  line-height: normal;
-  text-transform: uppercase;
+  line-height: 1;
 
   a {
     display: inline-block;
@@ -61,13 +59,12 @@
 
 .header__logo {
   margin: 0;
-  font-size: 2.1rem;
-  line-height: 1;
+  font-size: $font-size-base;
+  text-transform: uppercase;
 }
 
 .header__nav {
-  font-size: 1.6rem;
-  line-height: 1;
+  font-size: $font-size-base;
 
   .header__nav-list {
     display: flex;
@@ -78,7 +75,7 @@
     text-align: right;
 
     .header__nav-list-item {
-      margin-left: $grid-gutter-width;
+      margin-left: $grid-gutter-width * 2;
 
       a {
         padding-top: 8px;
@@ -247,6 +244,25 @@
   padding-top: $grid-gutter-width * 4;
   padding-bottom: $grid-gutter-width * 4;
   background-color: white;
+}
+
+.section-heading {
+  margin-top: 0;
+  margin-bottom: $grid-gutter-width;
+  font-size: $font-size-base;
+  line-height: normal;
+  text-transform: uppercase;
+
+  /*
+  &::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 5px;
+    margin-top: 10px;
+    background-color: $grey-lighter;
+  }
+  */
 }
 
 /*
