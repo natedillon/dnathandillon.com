@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/main.css">
   </head>
 
-  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}{% if page.colors %} style="background-color: {{ page.colors[0] }};"{% endif %}>
     <header role="banner" class="header">
       <div class="container">
         <h1 class="header__logo">

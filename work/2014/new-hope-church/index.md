@@ -24,6 +24,9 @@ technology:
   - JavaScript
   - jQuery
   - Bootstrap
+colors:
+  - '#7f8949'
+  - '#9da95c'
 ---
 
 Website for New Hope Church in Manhattan, Kansas.
