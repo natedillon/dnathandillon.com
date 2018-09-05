@@ -674,6 +674,18 @@ img {
   color: white;
 }
 
+@media (min-width: 960px) {
+  .page-header .container {
+    width: 640px;
+  }
+}
+
+@media (min-width: 1160px) {
+  .page-header .container {
+    width: 773.333333333px;
+  }
+}
+
 .page-header a {
   color: inherit;
 }
@@ -697,6 +709,18 @@ img {
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: white;
+}
+
+@media (min-width: 960px) {
+  .page-content .container {
+    width: 640px;
+  }
+}
+
+@media (min-width: 1160px) {
+  .page-content .container {
+    width: 773.333333333px;
+  }
 }
 
 .section-heading {

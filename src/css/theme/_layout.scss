@@ -220,6 +220,17 @@
   padding: ($grid-gutter-width * 4) 0;
   color: white;
 
+  .container {
+
+    @media (min-width: $container-lg) {
+      width: container-to-grid-width($container-lg, 8);
+    }
+
+    @media (min-width: $container-xl) {
+      width: container-to-grid-width($container-xl, 8);
+    }
+  }
+
   a {
     color: inherit;
   }
@@ -244,6 +255,17 @@
   padding-top: $grid-gutter-width * 4;
   padding-bottom: $grid-gutter-width * 4;
   background-color: white;
+
+  .container {
+
+    @media (min-width: $container-lg) {
+      width: container-to-grid-width($container-lg, 8);
+    }
+
+    @media (min-width: $container-xl) {
+      width: container-to-grid-width($container-xl, 8);
+    }
+  }
 }
 
 .section-heading {
