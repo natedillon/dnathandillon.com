@@ -713,13 +713,34 @@ img {
 
 @media (min-width: 960px) {
   .page-content .container {
-    width: 640px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: ([col] 1fr)[12];
+        grid-template-columns: repeat(12, [col] 1fr);
+    grid-gap: 20px;
+  }
+}
+
+@media (min-width: 960px) {
+  .page-content .wrapper {
+    -ms-grid-column: 3;
+        grid-column-start: 3;
+    -ms-grid-column-span: 8;
+        grid-column-end: span 8;
+  }
+}
+
+@media (min-width: 960px) {
+  .project-image {
+    margin-left: -80px;
+    margin-right: -80px;
   }
 }
 
 @media (min-width: 1160px) {
-  .page-content .container {
-    width: 773.333333333px;
+  .project-image {
+    margin-left: -96.6666666667px;
+    margin-right: -96.6666666667px;
   }
 }
 

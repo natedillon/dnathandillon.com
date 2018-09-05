@@ -259,12 +259,36 @@
   .container {
 
     @media (min-width: $container-lg) {
-      width: container-to-grid-width($container-lg, 8);
+      //width: container-to-grid-width($container-lg, 8);
+      display: grid;
+      grid-template-columns: repeat(12, [col] 1fr);
+      grid-gap: $grid-gutter-width;
     }
 
     @media (min-width: $container-xl) {
-      width: container-to-grid-width($container-xl, 8);
+      //width: container-to-grid-width($container-xl, 8);
     }
+  }
+
+  .wrapper {
+
+    @media (min-width: $container-lg) {
+      grid-column-start: 3;
+      grid-column-end: span 8;
+    }
+  }
+}
+
+.project-image {
+
+  @media (min-width: $container-lg) {
+    margin-left: -(grid-span-width($container-lg) + $grid-gutter-width);
+    margin-right: -(grid-span-width($container-lg) + $grid-gutter-width);
+  }
+
+  @media (min-width: $container-xl) {
+    margin-left: -(grid-span-width($container-xl) + $grid-gutter-width);
+    margin-right: -(grid-span-width($container-xl) + $grid-gutter-width);
   }
 }
 
