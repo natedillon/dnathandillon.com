@@ -5,19 +5,6 @@ title: Work
 ---
 
 {% assign projects = site.pages | where:'layout','project' | sort:'date' %}
-
 {% for project in projects reversed %}
-  {% if forloop.first %}<ul class="project-list">{% endif %}
-    <li class="project-list__item">
-      <a href="{{ project.url }}">
-        {% if project.thumb %}
-          {% capture thumb_src %}{{ project.url }}{{ project.thumb }}{% endcapture %}
-        {% else %}
-          {% capture thumb_src %}{{ site.path.project_thumb_default }}{% endcapture %}
-        {% endif %}
-        <img src="{{ thumb_src }}" alt="{{ project.title | escape }}"><br>
-        {{ project.title | escape }}
-      </a>
-    </li><!-- .project-list__item -->
-  {% if forloop.last %}</ul><!-- .project-list -->{% endif %}
+  {% include project-list.html %}
 {% endfor %}
