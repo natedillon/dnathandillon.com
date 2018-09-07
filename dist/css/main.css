@@ -447,16 +447,11 @@ code {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 40px;
+  grid-gap: 40px;
   margin-left: 0;
   padding-left: 0;
   list-style-type: none;
   line-height: normal;
-}
-
-.project-list .project-list__item {
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .project-list .project-list__item a {

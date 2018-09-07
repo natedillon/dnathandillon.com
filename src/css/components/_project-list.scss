@@ -6,15 +6,13 @@
 .project-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: $grid-gutter-width * 2;
+  grid-gap: $grid-gutter-width * 2;
   margin-left: 0;
   padding-left: 0;
   list-style-type: none;
   line-height: normal;
 
   .project-list__item {
-    margin-top: ($grid-gutter-width / 2);
-    margin-bottom: ($grid-gutter-width / 2);
 
     a {
       display: block;
