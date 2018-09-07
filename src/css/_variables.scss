@@ -55,9 +55,11 @@ $font-size-base:          1.8rem; // 16px
 $line-height-base:        1.5;    // 24px
 $line-height-computed:    2.4rem; // 24px
 
-$html-bg:     $grey;
-$body-bg:     $grey;
+$html-bg:     $brand-primary;
+$body-bg:     $brand-primary;
 $body-color:  $grey-dark;
+
+$link-color:  $brand-primary;
 
 
 // Breakpoints

@@ -28,12 +28,11 @@ body {
 // -------------------------
 
 a {
-  color: $brand-primary;
+  color: $link-color;
   text-decoration: underline;
 
   &:hover,
-  &focus {
-  }
+  &:focus {}
 }
 
 
