@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 featured: true
 
 title: K-State Templates
