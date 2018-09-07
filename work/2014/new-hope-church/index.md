@@ -25,8 +25,7 @@ technology:
   - jQuery
   - Bootstrap
 colors:
-  - '#7f8949'
-  - '#9da95c'
+  - '#78944A'
 notes:
   -
 ---

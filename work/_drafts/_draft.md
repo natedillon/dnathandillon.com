@@ -34,6 +34,8 @@ fonts:
   -
 icons:
   -
+colors:
+  -
 team:
   - name:
     role:

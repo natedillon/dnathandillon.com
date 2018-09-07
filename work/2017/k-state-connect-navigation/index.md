@@ -33,6 +33,8 @@ technology-additional:
 fonts:
 icons:
   - Font Awesome
+colors:
+  - '#512888'
 team:
   - Jon Faustman
 notes:
