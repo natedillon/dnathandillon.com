@@ -6,7 +6,6 @@ title: Work
 
 {% assign projects = site.pages | where:'layout','project' | sort:'date' %}
 {% assign featured_projects = projects | where:'featured',true %}
-{% assign projects_by_year = projects | group_by:'date' %}
 
 <!--
 <h2>Featured Projects</h2>
@@ -31,31 +30,4 @@ title: Work
   {% if forloop.last %}
     </ul><!-- .project-list -->
   {% endif %}
-{% endfor %}
-
-<h2>Projects by Year</h2>
-{% for group in projects_by_year reversed %}
-  <h3>
-    {% if group.name != '' %}
-      {{ group.name | date:'%Y' }}
-    {% else %}
-      Additional Projects
-    {% endif %}
-  </h3>
-
-  {% for item in group.items %}
-    {% if forloop.first %}
-      <ul>
-    {% endif %}
-
-    <li>
-      <a href="{{ item.url }}">
-        {{ item.title }}
-      </a>
-    </li>
-
-    {% if forloop.last %}
-      </ul>
-    {% endif %}
-  {% endfor %}
 {% endfor %}
