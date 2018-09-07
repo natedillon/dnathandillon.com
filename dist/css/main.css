@@ -563,7 +563,7 @@ code {
 }
 
 .header__nav .header__nav-list .header__nav-list-item.active a {
-  border-bottom-color: yellow;
+  border-bottom-color: #ffd776;
 }
 
 .main__header {
@@ -593,7 +593,7 @@ code {
 .article-header a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 2px solid #ffd776;
+  border-bottom: 3px solid #ffd776;
 }
 
 .article-header .article-header__title,
