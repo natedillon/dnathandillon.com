@@ -32,19 +32,19 @@
     </header><!-- .header -->
 
     <main role="main" class="main">
-      <article class="page">
+      <article class="article">
         {% if page.title %}
-          <header class="page-header">
+          <header class="article-header">
             <div class="container">
-              <h1 class="page-header__title">{{ page_title | escape }}</h1>
+              <h1 class="article-header__title">{{ page_title | escape }}</h1>
               {% if page.subtitle %}
-                <p class="page-header__subtitle">{{ page.subtitle }}</p>
+                <p class="article-header__subtitle">{{ page.subtitle }}</p>
               {% endif %}
             </div><!-- .container -->
           </header><!-- .page-header -->
         {% endif %}
 
-        <div class="page-content">
+        <div class="article-content">
           <div class="container">
             {{ content }}
           </div><!-- .container -->
