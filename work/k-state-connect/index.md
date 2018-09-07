@@ -31,6 +31,12 @@ icons:
   - Font Awesome
 colors:
   - '#512888'
+notes:
+  -
 ---
 
 Connect is K-State’s interactive dashboard of commonly used Kansas State University services. The app allows users to quickly view highlighted details of the services available on a phone, tablet, or computer.
+
+<div class="project-img">
+  <img src="image.png" alt="K-State Connect screenshot">
+</div>

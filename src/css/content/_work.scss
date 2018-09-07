@@ -6,6 +6,7 @@
 // Project image
 // -------------------------
 
+/*
 .project-image {
   margin-bottom: ($grid-gutter-width * 2);
   background-color: white;
@@ -21,6 +22,12 @@
     background-color: $grey-lightest;
   }
 }
+*/
+
+.project-img {
+  border: 1px solid $gray-lighter-alpha;
+  line-height: 0;
+}
 
 
 // Project info
@@ -28,6 +35,7 @@
 
 .project-info {
   margin-bottom: ($grid-gutter-width * 2);
+  padding-left: $grid-gutter-width;
 
   .project-info__section {
     margin-bottom: 10px;
@@ -37,6 +45,7 @@
     }
 
     .project-info__title {
+      margin-top: 0;
       margin-bottom: 5px;
       font-size: 1.4rem;
       line-height: $line-height-base;
