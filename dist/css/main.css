@@ -333,7 +333,7 @@ template {
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: #337ab7;
+  background-color: #333;
 }
 
 *,
@@ -365,13 +365,13 @@ ul,
 ol,
 dl {
   margin-top: 0;
-  margin-bottom: 2.4rem;
+  margin-bottom: 2.7rem;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-top: 0;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.35rem;
 }
 
 h1, .h1 {
@@ -406,11 +406,11 @@ ol ol {
 }
 
 dl {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.35rem;
 }
 
 dl dt {
-  margin-top: 1.2rem;
+  margin-top: 1.35rem;
   font-weight: bold;
 }
 
@@ -423,8 +423,8 @@ dl dd {
 }
 
 hr {
-  margin-top: 2.4rem;
-  margin-bottom: 2.4rem;
+  margin-top: 2.7rem;
+  margin-bottom: 2.7rem;
   border: 0;
   border-top: 1px solid #ddd;
 }
@@ -646,7 +646,7 @@ code {
 .footer {
   padding: 40px 0;
   color: rgba(255, 255, 255, 0.6);
-  background-color: #337ab7;
+  background-color: #333;
   font-size: 1.4rem;
 }
 
