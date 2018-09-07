@@ -4,9 +4,9 @@ layout: default
 title: Work
 ---
 
-{% assign projects = site.pages | where:"layout","project" | sort:"date" %}
-{% assign featured_projects = projects | where:"featured",true %}
-{% assign projects_by_year = projects | group_by:"date" %}
+{% assign projects = site.pages | where:'layout','project' | sort:'date' %}
+{% assign featured_projects = projects | where:'featured',true %}
+{% assign projects_by_year = projects | group_by:'date' %}
 
 <!--
 <h2>Featured Projects</h2>
@@ -33,12 +33,11 @@ title: Work
   {% endif %}
 {% endfor %}
 
-<!--
 <h2>Projects by Year</h2>
 {% for group in projects_by_year reversed %}
   <h3>
     {% if group.name != '' %}
-      {{ group.name | date:"%Y" }}
+      {{ group.name | date:'%Y' }}
     {% else %}
       Additional Projects
     {% endif %}
@@ -60,4 +59,3 @@ title: Work
     {% endif %}
   {% endfor %}
 {% endfor %}
--->
