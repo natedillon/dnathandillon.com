@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 featured: false
 
 title: K-State Graduate School Forms
@@ -8,7 +8,7 @@ date_start: 2017-08-01 # First meeting
 agency: Kansas State University, Office of Mediated Education
 client: Kansas State University, Graduate School
 image:
-thumb:
+thumb: thumb.png
 links:
   - title:
     url:
@@ -32,6 +32,8 @@ fonts:
   -
 icons:
   -
+colors:
+  - '#512888'
 team:
   - name: Paul Abitz
     role:
@@ -56,3 +58,7 @@ team:
 notes:
   -
 ---
+
+<div class="project-img">
+  <img src="image.png" alt="K-State Graduate School Forms screenshot">
+</div>
