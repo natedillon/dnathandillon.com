@@ -6,7 +6,7 @@ title: K-State Templates
 agency: Kansas State University, Office of Mediated Education
 client: Kansas State University
 image:
-thumb:
+thumb: thumb.jpg
 links:
   - title: Website
     url: https://static.ksucloud.net/2011/docs/
@@ -32,3 +32,7 @@ icons:
 ---
 
 A recreation and extension of the official K-State “2011” template, built for use in the K-State Office of Mediated Education Python/Django applications. The HTML, CSS, and JavaScript from this project are also used in several of the <abbr title="Office of Mediated Education">OME</abbr> Java apps.
+
+<div class="project-img">
+  <img src="image.png" alt="K-State Templates screenshot">
+</div>
