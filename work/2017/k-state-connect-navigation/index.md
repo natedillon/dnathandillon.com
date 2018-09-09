@@ -1,6 +1,6 @@
 ---
 published: true
-featured: false
+featured: true
 
 title: K-State Connect Navigation
 date: 2017-03-28 # Released in Connect v1.41.0

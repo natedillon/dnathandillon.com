@@ -1,6 +1,6 @@
 ---
 published: true
-featured: false
+featured: true
 
 title: K-State Graduate School Forms
 date: 2018-08-17 # Dashboard and first form released to production

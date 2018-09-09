@@ -6,7 +6,7 @@ subtitle: 'I’m a front-end web developer working at <a href="https://k-state.e
 ---
 
 <h2>Recent Work</h2>
-{% assign projects = site.pages | where:'layout','project' | sort:'date' | reverse %}
+{% assign projects = site.pages | where:'layout','project' | where:'featured',true | sort:'date' | reverse %}
 {% for project in projects limit:3 %}
   {% include project-list.html %}
 {% endfor %}
