@@ -643,6 +643,10 @@ code {
   color: rgba(255, 255, 255, 0.2);
 }
 
+.breadcrumbs .breadcrumbs__item:first-child, .breadcrumbs .breadcrumbs__item:last-child {
+  display: none;
+}
+
 .breadcrumbs a {
   border: none;
   color: rgba(255, 255, 255, 0.6);

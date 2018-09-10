@@ -44,20 +44,24 @@
               {% comment %}
                 https://stackoverflow.com/a/32004173/6997263
               {% endcomment %}
-              {% assign breadcrumbs = page.url | remove:'/index.html' | split: '/' %}
-              <nav class="article-header__breadcrumbs">
-                <ol class="breadcrumbs">
-                  {% for breadcrumb in breadcrumbs offset: 1 %}
-                    {% if forloop.last == false %}
-                      <li class="breadcrumbs__item">
-                        <a href="{% assign breadcrumb_limit = forloop.index | plus: 1 %}{% for breadcrumb in breadcrumbs limit: breadcrumb_limit %}{{ breadcrumb | append: '/' }}{% endfor %}">
-                          {{ breadcrumb | replace:'-',' ' | remove:'.html' | capitalize }}
-                        </a>
-                      </li>
-                    {% endif %}
-                  {% endfor %}
-                </ol><!-- .breadcrumbs -->
-              </nav><!-- .article-header__breadcrumbs -->
+              {% if page.url != '/' %}
+                {% assign breadcrumbs = page.url | remove:'/index.html' | split: '/' %}
+                <nav class="article-header__breadcrumbs">
+                  <ol class="breadcrumbs">
+                    <li class="breadcrumbs__item"><a href="/">Home</a></li>
+                    {% for breadcrumb in breadcrumbs offset: 1 %}
+                      {% if forloop.last == false %}
+                        <li class="breadcrumbs__item">
+                          <a href="{% assign breadcrumb_limit = forloop.index | plus: 1 %}{% for breadcrumb in breadcrumbs limit: breadcrumb_limit %}{{ breadcrumb | append: '/' }}{% endfor %}">
+                            {{ breadcrumb | replace:'-',' ' | remove:'.html' | capitalize }}
+                          </a>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                    <li class="breadcrumbs__item">{{ page.title }}</li>
+                  </ol><!-- .breadcrumbs -->
+                </nav><!-- .article-header__breadcrumbs -->
+              {% endif %}
             </div><!-- .container -->
           </header><!-- .article-header -->
         {% endif %}

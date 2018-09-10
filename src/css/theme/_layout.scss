@@ -179,6 +179,11 @@
       content: " /";
       color: rgba(white, .2);
     }
+
+    &:first-child,
+    &:last-child {
+      display: none;
+    }
   }
 
   a {
