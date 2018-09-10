@@ -671,21 +671,48 @@ code {
 }
 
 .project-wrapper {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: ([col] 1fr)[12];
-      grid-template-columns: repeat(12, [col] 1fr);
-  grid-gap: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
 
-.project-wrapper .project-content {
-  -ms-grid-column-span: 8;
-      grid-column-end: span 8;
+@media (min-width: 768px) {
+  .project-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: ([col] 1fr)[12];
+        grid-template-columns: repeat(12, [col] 1fr);
+    grid-gap: 20px;
+  }
 }
 
-.project-wrapper .project-info {
-  -ms-grid-column-span: 4;
-      grid-column-end: span 4;
+@media (max-width: 767px) {
+  .project-wrapper .project-content {
+    -ms-flex-order: 2;
+        order: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-wrapper .project-content {
+    -ms-grid-column-span: 8;
+        grid-column-end: span 8;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-wrapper .project-info {
+    -ms-flex-order: 1;
+        order: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-wrapper .project-info {
+    -ms-grid-column-span: 4;
+        grid-column-end: span 4;
+  }
 }
 
 .footer {
@@ -729,7 +756,12 @@ code {
 
 .project-info {
   margin-bottom: 40px;
-  padding-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .project-info {
+    padding-left: 20px;
+  }
 }
 
 .project-info .project-info__section {

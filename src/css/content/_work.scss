@@ -35,7 +35,10 @@
 
 .project-info {
   margin-bottom: ($grid-gutter-width * 2);
-  padding-left: $grid-gutter-width;
+
+  @media (min-width: $screen-md) {
+    padding-left: $grid-gutter-width;
+  }
 
   .project-info__section {
     margin-bottom: 10px;

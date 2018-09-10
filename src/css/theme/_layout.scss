@@ -210,16 +210,35 @@
 }
 
 .project-wrapper {
-  display: grid;
-  grid-template-columns: repeat(12, [col] 1fr);
-  grid-gap: $grid-gutter-width;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $screen-md) {
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-gap: $grid-gutter-width;
+  }
 
   .project-content {
-    grid-column-end: span 8;
+
+    @media (max-width: $screen-sm-max) {
+      order: 2;
+    }
+
+    @media (min-width: $screen-md) {
+      grid-column-end: span 8;
+    }
   }
 
   .project-info {
-    grid-column-end: span 4;
+
+    @media (max-width: $screen-sm-max) {
+      order: 1;
+    }
+
+    @media (min-width: $screen-md) {
+      grid-column-end: span 4;
+    }
   }
 }
 
