@@ -40,6 +40,24 @@
               {% if page.subtitle %}
                 <p class="article-header__subtitle">{{ page.subtitle }}</p>
               {% endif %}
+
+              {% comment %}
+                https://stackoverflow.com/a/32004173/6997263
+              {% endcomment %}
+              {% assign breadcrumbs = page.url | remove:'/index.html' | split: '/' %}
+              <nav class="article-header__breadcrumbs">
+                <ol class="breadcrumbs">
+                  {% for breadcrumb in breadcrumbs offset: 1 %}
+                    {% if forloop.last == false %}
+                      <li class="breadcrumbs__item">
+                        <a href="{% assign breadcrumb_limit = forloop.index | plus: 1 %}{% for breadcrumb in breadcrumbs limit: breadcrumb_limit %}{{ breadcrumb | append: '/' }}{% endfor %}">
+                          {{ breadcrumb | replace:'-',' ' | remove:'.html' | capitalize }}
+                        </a>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+                </ol><!-- .breadcrumbs -->
+              </nav><!-- .article-header__breadcrumbs -->
             </div><!-- .container -->
           </header><!-- .article-header -->
         {% endif %}
