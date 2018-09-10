@@ -22,7 +22,7 @@
         <nav role="navigation" class="header__nav">
           <ul class="header__nav-list">
             {% for item in site.data.navigation.primary %}
-              <li class="header__nav-list-item{% if page.url == item.url %} active{% endif %}">
+              <li class="header__nav-list-item{% if page.url contains item.url %} active{% endif %}">
                 <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
               </li>
             {% endfor %}
