@@ -14,9 +14,9 @@ links:
     url:
 responsibilities:
   -
-technology:
+tools:
   - Adobe Contribute
-technology-additional:
+tools-additional:
   -
 fonts:
   -

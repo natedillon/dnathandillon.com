@@ -16,9 +16,9 @@ links:
     status:
 responsibilities:
   -
-technology:
+tools:
   - Drupal 8
-technology-additional:
+tools-additional:
   -
 fonts:
   -

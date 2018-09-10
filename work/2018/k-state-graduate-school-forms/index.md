@@ -17,14 +17,14 @@ links:
 responsibilities:
   - Front-end development
   - Design
-technology:
+tools:
   - Decisions
   - Python
   - Django
   - CSS
   - Sass
   - JavaScript
-technology-additional:
+tools-additional:
   - Grunt
   - npm
   - Vagrant

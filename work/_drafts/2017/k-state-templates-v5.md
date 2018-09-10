@@ -16,7 +16,7 @@ links:
     status:
 responsibilities:
   - Front-end development
-technology:
+tools:
   - HTML
   - CSS
   - Sass
@@ -26,7 +26,7 @@ technology:
   - SVG
   - Python
   - Django
-technology-additional:
+tools-additional:
   -
 fonts:
   -

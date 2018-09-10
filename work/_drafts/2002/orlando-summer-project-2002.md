@@ -26,9 +26,9 @@ links:
     status:
 responsibilities:
   -
-technology:
+tools:
   -
-technology-additional:
+tools-additional:
   -
 fonts:
   -

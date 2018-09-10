@@ -14,7 +14,7 @@ links:
     status:
 responsibilities:
   - Front-end development
-technology:
+tools:
   - Java
   - Thymeleaf
   - CSS
@@ -25,7 +25,7 @@ technology:
   - Grunt
   - npm
   - Vagrant
-technology-additional:
+tools-additional:
   - BEM
 fonts:
 icons:

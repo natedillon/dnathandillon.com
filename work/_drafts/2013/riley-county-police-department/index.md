@@ -10,7 +10,7 @@ links:
 responsibilities:
   - Front-end development
   - Mobile website design
-technology:
+tools:
   - Drupal 7
   - PHP
   - CSS/Less

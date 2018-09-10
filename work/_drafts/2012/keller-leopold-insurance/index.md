@@ -10,7 +10,7 @@ links:
 responsibilities:
   - Front-end development
   - Design
-technology:
+tools:
   - Drupal 6
   - PHP
   - JavaScript/jQuery

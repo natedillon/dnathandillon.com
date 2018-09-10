@@ -17,11 +17,11 @@ links:
 responsibilities:
   - Design
   - Development
-technology:
+tools:
   - HTML
   - CSS
   - PHP
-technology-additional:
+tools-additional:
 fonts:
   - Source Sans Pro
 icons:

@@ -16,9 +16,9 @@ links:
     url: http://www.he.k-state.edu/news/2011/07/20/webcam-records-construction-minute-by-minute-in-real-time/
 responsibilities:
   -
-technology:
+tools:
   -
-technology-additional:
+tools-additional:
   -
 fonts:
   -

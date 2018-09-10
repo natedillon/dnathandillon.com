@@ -14,9 +14,9 @@ links:
     url:
 responsibilities:
   - Design
-technology:
+tools:
   -
-technology-additional:
+tools-additional:
   -
 fonts:
   -

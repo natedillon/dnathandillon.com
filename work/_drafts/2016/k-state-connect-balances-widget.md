@@ -15,7 +15,7 @@ links:
 responsibilities:
   - Design
   - Front-end development
-technology:
+tools:
   - Python
   - Django
   - CSS
@@ -23,7 +23,7 @@ technology:
   - JavaScript
   - jQuery
   - Bootstrap
-technology-additional:
+tools-additional:
   - Grunt
   - npm
   - Vagrant

@@ -14,9 +14,9 @@ links:
     url: https://connect.k-state.edu
 responsibilities:
   -
-technology:
+tools:
   -
-technology-additional:
+tools-additional:
   -
 fonts:
   -

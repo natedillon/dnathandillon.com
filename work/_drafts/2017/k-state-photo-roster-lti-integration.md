@@ -12,11 +12,11 @@ thumb:
 links:
 responsibilities:
   -
-technology:
+tools:
   - HTML
   - CSS
   - JavaScript
-technology-additional:
+tools-additional:
   - Java
   - React
 fonts:

@@ -19,14 +19,14 @@ links:
 responsibilities:
   - Design
   - Development
-technology:
+tools:
   - HTML
   - CSS
   - Sass
   - SVG
   - npm
   - Grunt
-technology-additional:
+tools-additional:
   - BEM
 fonts:
 icons:

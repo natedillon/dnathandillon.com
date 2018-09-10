@@ -17,14 +17,14 @@ links:
 responsibilities:
   - Design
   - Front-end development
-technology:
+tools:
   - Python
   - Django
   - CSS
   - Sass
   - JavaScript
   - jQuery
-technology-additional:
+tools-additional:
   -
 fonts:
   -

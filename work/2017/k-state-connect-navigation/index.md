@@ -17,7 +17,7 @@ links:
 responsibilities:
   - Design
   - Front-end development
-technology:
+tools:
   - Python
   - Django
   - CSS
@@ -28,7 +28,7 @@ technology:
   - Grunt
   - npm
   - Vagrant
-technology-additional:
+tools-additional:
   - BEM
 fonts:
 icons:

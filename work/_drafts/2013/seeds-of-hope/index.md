@@ -14,7 +14,7 @@ links:
 responsibilities:
   - Front-end development
   - Design
-technology:
+tools:
   - Drupal 7
   - PHP
   - CSS/Less

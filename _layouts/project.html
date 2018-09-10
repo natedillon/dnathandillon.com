@@ -29,10 +29,10 @@ layout: default
     </div><!-- .project-info__section -->
 
     <div class="project-info__section">
-      {% if page.technology %}
-        <h2 class="project-info__title">Technology</h2>
+      {% if page.tools %}
+        <h2 class="project-info__title">Tools</h2>
         <ul class="project-info__list">
-          {% for item in page.technology %}
+          {% for item in page.tools %}
             <li class="project-info__list-item">{{ item }}</li>
           {% endfor %}
         </ul>

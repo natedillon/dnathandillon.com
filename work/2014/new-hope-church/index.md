@@ -16,7 +16,7 @@ responsibilities:
   - Front-end development
   - Drupal and PHP development
   - Design modifications
-technology:
+tools:
   - Drupal 7
   - PHP
   - CSS
