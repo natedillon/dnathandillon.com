@@ -2,7 +2,7 @@
 published: false
 featured: false
 
-title:
+title: Institute for the Health and Security of Military Families
 date: 2009-12-31 # Exact release date unknown
 date_start: 2009-09-25 # Exact start date unknown
 agency:

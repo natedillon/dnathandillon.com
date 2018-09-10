@@ -2,7 +2,7 @@
 published: false
 featured: false
 
-title:
+title: Devaney’s First Birthday Invitation
 date: 2014-04-26
 date_start:
 agency:
