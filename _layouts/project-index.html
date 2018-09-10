@@ -4,9 +4,8 @@ layout: default
 
 {{ content }}
 
-{% assign current_path = page.url %}
 {% assign projects = site.pages | where:'layout','project' | sort:'date' | reverse %}
-{% assign projects_in_current_path = projects | where_exp:'project','project.url contains current_path' %}
+{% assign projects_in_current_path = projects | where_exp:'project','project.url contains page.url' %}
 {% for project in projects_in_current_path %}
   {% include project-list.html %}
 {% endfor %}
