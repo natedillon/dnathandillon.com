@@ -1,0 +1,90 @@
+//
+// Tables
+// --------------------------------------------------
+
+
+// Reset
+// -------------------------
+
+table {
+  border-collapse: collapse; // Prevent double borders
+
+  caption {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: $grey-light;
+    font-style: italic;
+    text-align: left;
+  }
+}
+
+
+// Base table styles
+// -------------------------
+
+.table {
+  width: 100%;
+
+  th,
+  td {
+    padding: 1rem;
+    vertical-align: top;
+    border-top: 1px solid $gray-lighter;
+    text-align: inherit;
+  }
+
+  thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid $gray-lighter;
+  }
+
+  tbody + tbody {
+    border-top: 2px solid $gray-lighter;
+  }
+}
+
+
+// Zebra-striping
+// -------------------------
+
+.table-striped {
+
+  tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+}
+
+
+// Hover effect
+// -------------------------
+
+.table-hover {
+
+  tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}
+
+
+// Table backgrounds
+// -------------------------
+
+.table-success {
+  background-color: transparentize($brand-success, .9);
+}
+
+.table-danger {
+  background-color: transparentize($brand-danger, .9);
+}
+
+
+// Responsive tables
+// -------------------------
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}

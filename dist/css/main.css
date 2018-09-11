@@ -472,6 +472,63 @@ code {
   display: none;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+table caption {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #777;
+  font-style: italic;
+  text-align: left;
+}
+
+.table {
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 1rem;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  text-align: inherit;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-success {
+  background-color: rgba(92, 184, 92, 0.1);
+}
+
+.table-danger {
+  background-color: rgba(217, 83, 79, 0.1);
+}
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
 .container {
   padding-left: 10px;
   padding-right: 10px;
