@@ -157,7 +157,9 @@
 
   .article-header__subtitle {
     order: 3;
+    color: transparentize(white, .2);
     font-size: 4.8rem;
+    font-style: italic;
     line-height: normal;
   }
 

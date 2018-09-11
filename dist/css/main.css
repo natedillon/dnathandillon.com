@@ -675,7 +675,9 @@ table caption {
 .article-header .article-header__subtitle {
   -ms-flex-order: 3;
       order: 3;
+  color: rgba(255, 255, 255, 0.8);
   font-size: 4.8rem;
+  font-style: italic;
   line-height: normal;
 }
 
