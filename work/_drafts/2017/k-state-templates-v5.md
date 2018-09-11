@@ -26,7 +26,7 @@ tools:
   - SVG
   - Python
   - Django
-tools-additional:
+tools_additional:
   -
 fonts:
   -

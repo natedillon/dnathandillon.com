@@ -12,6 +12,8 @@ thumb: thumb.png
 links:
   - title: Website
     url: https://connect.k-state.edu
+    type: # website, source, article
+    status:
 responsibilities:
   - Design
   - Front-end development
@@ -22,21 +24,25 @@ tools:
   - Sass
   - JavaScript
   - jQuery
-tools-additional:
+tools_additional:
   - Grunt
   - npm
   - Vagrant
   - Bootstrap
   - BEM
 fonts:
+  -
 icons:
   - Font Awesome
 colors:
   - '#512888'
 team:
-  - Keith Bauer
-  - Jon Faustman
-  - Amanda Tross
+  - name: Keith Bauer
+    role:
+  - name: Jon Faustman
+    role:
+  - name: Amanda Tross
+    role:
 notes:
   - Started design work on March 28, 2017; last design file was made April 17, 2017
   - The “K-State Email” widget was re-named to “Inbox”
@@ -44,6 +50,4 @@ notes:
   - While Bootstrap was still in use in Connect itself, it was not used for the widget code
 ---
 
-<div class="project-img">
-  <img src="image.png" alt="K-State Connect Inbox Widget screenshot">
-</div>
+![K-State Connect Inbox Widget screenshot](image.png)

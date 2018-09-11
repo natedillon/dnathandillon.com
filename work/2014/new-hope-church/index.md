@@ -4,14 +4,20 @@ featured: true
 
 title: New Hope Church
 date: 2014-10-19 # v2.0.0 release date
+date_start:
+agency:
 client: New Hope Church
 image:
 thumb: thumb.png
 links:
   - title: Website
     url: http://newhopeks.org
+    type: # website, source, article
+    status:
   - title: GitHub
     url: https://github.com/newhopeks/newhopeks.org
+    type: # website, source, article
+    status:
 responsibilities:
   - Front-end development
   - Drupal and PHP development
@@ -24,14 +30,19 @@ tools:
   - JavaScript
   - jQuery
   - Bootstrap
+tools_additional:
+  -
 colors:
   - '#78944A'
+notes:
+  -
+team:
+  - name:
+    role:
 notes:
   -
 ---
 
 Website for New Hope Church in Manhattan, Kansas.
 
-<div class="project-img">
-  <img src="image.png" alt="New Hope Church website screenshot">
-</div>
+![New Hope Church website screenshot](image.png)

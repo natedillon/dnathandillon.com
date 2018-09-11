@@ -24,7 +24,7 @@ tools:
   - CSS
   - Sass
   - JavaScript
-tools-additional:
+tools_additional:
   - Grunt
   - npm
   - Vagrant
@@ -59,6 +59,4 @@ notes:
   -
 ---
 
-<div class="project-img">
-  <img src="image.png" alt="K-State Graduate School Forms screenshot">
-</div>
+![K-State Graduate School Forms screenshot](image.png)

@@ -26,7 +26,7 @@ tools:
   - SVG
   - npm
   - Grunt
-tools-additional:
+tools_additional:
   - BEM
 fonts:
 icons:

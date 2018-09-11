@@ -18,7 +18,7 @@ responsibilities:
   -
 tools:
   -
-tools-additional:
+tools_additional:
   -
 fonts:
   -

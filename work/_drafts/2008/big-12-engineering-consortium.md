@@ -16,7 +16,7 @@ responsibilities:
   -
 tools:
   - Adobe Contribute
-tools-additional:
+tools_additional:
   -
 fonts:
   -

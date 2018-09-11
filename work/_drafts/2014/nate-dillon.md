@@ -21,7 +21,7 @@ tools:
   - HTML
   - CSS
   - PHP
-tools-additional:
+tools_additional:
 fonts:
   - Source Sans Pro
 icons:

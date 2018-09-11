@@ -18,7 +18,7 @@ responsibilities:
   -
 tools:
   - Drupal 8
-tools-additional:
+tools_additional:
   -
 fonts:
   -

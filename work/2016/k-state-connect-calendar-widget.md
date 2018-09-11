@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 featured: false
 
 title: K-State Connect Calendar Widget
@@ -12,18 +12,23 @@ thumb:
 links:
   - title: Website
     url: https://connect.k-state.edu
+    type: website
+    status:
 responsibilities:
   -
 tools:
   -
-tools-additional:
+tools_additional:
   -
 fonts:
   -
 icons:
   -
+colors:
+  - '#512888'
 team:
-  -
+  - name:
+    role:
 notes:
   -
 ---

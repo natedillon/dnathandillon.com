@@ -24,7 +24,7 @@ tools:
   - Sass
   - JavaScript
   - jQuery
-tools-additional:
+tools_additional:
   -
 fonts:
   -

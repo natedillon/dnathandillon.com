@@ -12,8 +12,12 @@ thumb: thumb.png
 links:
   - title: Website
     url: https://connect.k-state.edu
+    type: # website, source, article
+    status:
   - title: Blog Post
     url: https://ntdln.com/2017/04/14/connect-navigation/
+    type: # website, source, article
+    status:
 responsibilities:
   - Design
   - Front-end development
@@ -28,9 +32,10 @@ tools:
   - Grunt
   - npm
   - Vagrant
-tools-additional:
+tools_additional:
   - BEM
 fonts:
+  -
 icons:
   - Font Awesome
 colors:
@@ -38,6 +43,7 @@ colors:
 team:
   - Jon Faustman
 notes:
+  -
 ---
 
 Serving as a dashboard of various services for Kansas State University, K-State Connect was in need of a re-designed navigation system. The K-State <abbr title="Office of Mediated Education">OME</abbr> Web Team wanted to provide better access to the “widgets” within the Connect dashboard for both large and small screens.

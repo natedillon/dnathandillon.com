@@ -16,7 +16,7 @@ responsibilities:
   - Design
 tools:
   -
-tools-additional:
+tools_additional:
   -
 fonts:
   -

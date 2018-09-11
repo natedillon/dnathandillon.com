@@ -16,7 +16,7 @@ tools:
   - HTML
   - CSS
   - JavaScript
-tools-additional:
+tools_additional:
   - Java
   - React
 fonts:

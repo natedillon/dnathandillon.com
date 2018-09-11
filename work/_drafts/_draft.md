@@ -13,6 +13,7 @@ featured: false
 # Exact release date unknown
 
 title:
+subtitle:
 date:
 date_start:
 agency:
@@ -28,7 +29,7 @@ responsibilities:
   -
 tools:
   -
-tools-additional:
+tools_additional:
   -
 fonts:
   -

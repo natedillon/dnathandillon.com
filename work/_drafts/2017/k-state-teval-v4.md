@@ -25,7 +25,7 @@ tools:
   - Grunt
   - npm
   - Vagrant
-tools-additional:
+tools_additional:
   - BEM
 fonts:
 icons:

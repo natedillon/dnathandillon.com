@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 featured: false
 
 title: K-State Connect Balances Widget
@@ -12,6 +12,8 @@ thumb:
 links:
   - title: Website
     url: https://connect.k-state.edu
+    type: website
+    status:
 responsibilities:
   - Design
   - Front-end development
@@ -23,7 +25,7 @@ tools:
   - JavaScript
   - jQuery
   - Bootstrap
-tools-additional:
+tools_additional:
   - Grunt
   - npm
   - Vagrant
@@ -31,11 +33,17 @@ tools-additional:
 fonts:
 icons:
   - Font Awesome
+colors:
+  - '#512888'
 team:
-  - Keith Bauer
-  - Jon Faustman
-  - Derek Stegelman
-  - Amanda Tross
+  - name: Keith Bauer
+    role:
+  - name: Jon Faustman
+    role:
+  - name: Derek Stegelman
+    role:
+  - name: Amanda Tross
+    role:
 notes:
   - Started design work on March 25, 2016; last design file was made April 29, 2016
   - Minor changes were made to the widget in Connect v1.40.0 on February 22, 2017
