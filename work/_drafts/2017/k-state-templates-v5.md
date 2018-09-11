@@ -14,7 +14,7 @@ links:
     url:
     type: # website, source, article
     status:
-responsibilities:
+services:
   - Front-end development
 tools:
   - HTML

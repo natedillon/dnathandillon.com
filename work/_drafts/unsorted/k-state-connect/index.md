@@ -10,7 +10,7 @@ thumb: thumb.png
 links:
   - title: Website
     url: https://connect.k-state.edu
-responsibilities:
+services:
   - Front-end development
   - Design of new and updated widgets
 tools:

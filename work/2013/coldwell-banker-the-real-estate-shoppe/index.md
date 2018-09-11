@@ -15,7 +15,7 @@ links:
     url: http://gccoldwellbanker.com
     type: # website, source, article
     status:
-responsibilities:
+services:
   - Front-end development
   - Design
 tools:

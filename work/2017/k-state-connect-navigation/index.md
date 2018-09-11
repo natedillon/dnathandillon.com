@@ -18,7 +18,7 @@ links:
     url: https://ntdln.com/2017/04/14/connect-navigation/
     type: # website, source, article
     status:
-responsibilities:
+services:
   - Design
   - Front-end development
 tools:

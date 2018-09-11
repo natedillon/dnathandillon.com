@@ -12,7 +12,7 @@ thumb:
 links:
   - title:
     url:
-responsibilities:
+services:
   -
 tools:
   -

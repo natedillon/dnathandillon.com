@@ -10,7 +10,7 @@ client: Kansas State University
 image:
 thumb:
 links:
-responsibilities:
+services:
   -
 tools:
   - HTML

@@ -14,7 +14,7 @@ links:
     url: https://natedillon.com
   - title: GitHub
     url: https://github.com/natedillon/natedillon.com
-responsibilities:
+services:
   - Design
   - Development
 tools:

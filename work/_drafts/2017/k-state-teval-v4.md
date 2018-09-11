@@ -12,7 +12,7 @@ links:
     url: https://www.k-state.edu/today/announcement.php?id=36968
     type: article
     status:
-responsibilities:
+services:
   - Front-end development
 tools:
   - Java

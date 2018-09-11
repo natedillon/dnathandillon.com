@@ -14,7 +14,7 @@ links:
     url: https://connect.k-state.edu
     type: website
     status:
-responsibilities:
+services:
   -
 tools:
   -

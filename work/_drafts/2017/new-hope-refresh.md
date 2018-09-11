@@ -18,7 +18,7 @@ links:
     url: https://github.com/newhopeks/newhopeks.org
     type: source
     status:
-responsibilities:
+services:
   -
 tools:
   -

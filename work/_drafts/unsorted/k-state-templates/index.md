@@ -10,7 +10,7 @@ thumb: thumb.jpg
 links:
   - title: Website
     url: https://static.ksucloud.net/2011/docs/
-responsibilities:
+services:
   - Front-end development
   - Style guide development
 tools:

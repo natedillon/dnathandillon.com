@@ -13,7 +13,7 @@ links:
   - title: Website
     url: http://kellerleopold.com
     hidden: true # Website modified from original work
-responsibilities:
+services:
   - Front-end development
   - Design
 tools:

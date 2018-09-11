@@ -12,7 +12,7 @@ thumb:
 links:
   - title: Website
     url: https://connect.k-state.edu
-responsibilities:
+services:
   -
 tools:
   -

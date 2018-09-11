@@ -12,7 +12,7 @@ thumb: thumb.jpg
 links:
   - title: Website
     url: http://rileycountypolice.org
-responsibilities:
+services:
   - Front-end development
   - Mobile website design
 tools:

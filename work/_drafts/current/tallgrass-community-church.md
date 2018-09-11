@@ -14,7 +14,7 @@ links:
     url: http://tallgrass.church
     type: website
     status:
-responsibilities:
+services:
   -
 tools:
   - Drupal 8

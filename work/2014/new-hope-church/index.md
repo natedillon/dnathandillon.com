@@ -18,7 +18,7 @@ links:
     url: https://github.com/newhopeks/newhopeks.org
     type: # website, source, article
     status:
-responsibilities:
+services:
   - Front-end development
   - Drupal and PHP development
   - Design modifications
