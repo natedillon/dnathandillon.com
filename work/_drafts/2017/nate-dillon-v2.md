@@ -33,4 +33,5 @@ icons:
 team:
 notes:
   - Uses the system font stack
+  - My first Progressive Web App. Released in v2.1.0 on 2018-09-17.
 ---
