@@ -2,7 +2,7 @@
 published: false
 featured: false
 
-title: New Hope Refresh
+title: New Hope Church Refresh
 date: 2017-08-18 # Released in v2.10.0
 date_start: 2017-07-19
 agency:
