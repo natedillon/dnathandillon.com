@@ -1,8 +1,48 @@
 experience:
-  - company:
+  - company: Kansas State University
+    department: Office of Mediated Education
+    location: Manhattan, Kansas
+    title: Front-End Web Developer
+    date_start:
+    date_end:
+    notes:
+      -
+  - company: New Boston Creative Group, LLC
     department:
-    location:
-    title:
+    location: Manhattan, Kansas
+    title: Web Developer
+    date_start:
+    date_end:
+    notes:
+      -
+  - company: Kansas State University
+    department: College of Human Ecology
+    location: Manhattan, Kansas
+    title: Webmaster
+    date_start:
+    date_end:
+    notes:
+      -
+  - company: Kansas State University
+    department: Career and Employment Services
+    location: Manhattan, Kansas
+    title: Video Intern
+    date_start:
+    date_end:
+    notes:
+      -
+  - company: Kansas State University
+    department: Orion Online
+    location: Manhattan, Kansas
+    title: Web Designer
+    date_start:
+    date_end:
+    notes:
+      -
+  - company: Campus Crusade for Christ
+    department:
+    location: Orlando, Florida
+    title: Web Design Intern
     date_start:
     date_end:
     notes:
