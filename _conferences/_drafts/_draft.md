@@ -11,6 +11,7 @@ location:
   city:
   state:
   zip:
+  online: false
 website:
 sessions:
   - title:

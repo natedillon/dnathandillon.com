@@ -11,6 +11,7 @@ location:
   city: Washington
   state: DC
   zip:
+  online: false
 website: http://aneventapart.com/2010/dc/
 sessions:
   - title:

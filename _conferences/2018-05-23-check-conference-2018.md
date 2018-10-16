@@ -11,6 +11,7 @@ location:
   city: Olathe
   state: KS
   zip: 66061
+  online: false
 website: http://www.k-state.edu/check2018/
 sessions:
   - title: 'Welcome and Keynote Address'

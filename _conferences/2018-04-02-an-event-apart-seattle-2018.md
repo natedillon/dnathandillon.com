@@ -11,6 +11,7 @@ location:
   city: Seattle
   state: WA
   zip: 98101
+  online: false
 website: https://aneventapart.com/event/seattle-2018
 sessions:
   - title: 'Beyond Engagement: the Content Performance Quotient'

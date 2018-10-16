@@ -4,13 +4,14 @@ published: true
 title: Agile UX Virtual Summit 2017
 date: 2017-06-13
 date_end: 2017-06-16
-location: # Online
+location:
   name:
   address:
     -
   city:
   state:
   zip:
+  online: true
 website: https://www.uxpin.com/agile-ux-virtual-summit-2017/
 sessions:
   - title: 'Design Sprints: How to Solve Problems and Test Ideas in 5 Days'

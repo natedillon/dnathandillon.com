@@ -11,6 +11,7 @@ location:
   city: Lake Buena Vista
   state: Florida
   zip: 32830-8413
+  online: false
 website: https://aneventapart.com/event/orlando-special-edition-2016
 sessions:
   - title:

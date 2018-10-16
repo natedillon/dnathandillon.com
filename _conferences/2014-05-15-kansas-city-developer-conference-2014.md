@@ -11,6 +11,7 @@ location:
   city: Kansas City
   state: Missouri
   zip:
+  online: false
 website: http://www.kcdc.info/
 sessions:
   - title:
