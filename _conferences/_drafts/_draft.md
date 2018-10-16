@@ -19,4 +19,7 @@ sessions:
       - name:
         title:
     description:
+    links:
+      - title:
+        url:
 ---
