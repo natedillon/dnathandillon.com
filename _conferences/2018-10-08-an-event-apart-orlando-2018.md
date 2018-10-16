@@ -1,7 +1,7 @@
 ---
 published: true
 
-title: 'An Event Apart Orlando 2018 (Special Edition)'
+title: An Event Apart Orlando 2018 (Special Edition)
 date: 2018-10-08
 date_end: 2018-10-10
 location:

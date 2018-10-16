@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 
 title: CHECK Conference 2018
 date: 2018-05-23
