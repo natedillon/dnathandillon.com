@@ -13,6 +13,9 @@ location:
   zip:
   online: true
 website: https://www.uxpin.com/agile-ux-virtual-summit-2017/
+links:
+  - title: Notes
+    url: https://ntdln.com/2017/07/03/agile-ux-virtual-summit-2017/
 sessions:
   - title: 'Design Sprints: How to Solve Problems and Test Ideas in 5 Days'
     speaker:

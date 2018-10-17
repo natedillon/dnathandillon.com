@@ -44,6 +44,11 @@ sessions:
         title: Co-founder, Perch
     description: 'When CSS Grid Layout shipped into multiple browsers in the Spring of 2017 it heralded the dawn of a new way to do layout on the web. Now that the excitement of launch has passed, Rachel Andrew will take a look at what went right or wrong in these first few months, and offer help to those struggling to transition away from legacy methods. In a practical, example-packed hour, Rachel will help give you the confidence and practical skills to fully embrace Grid layout. We’ll compare common framework patterns to new Grid code, and learn how to create a workflow that is right up to date—a workflow grounded in new CSS, yet able to care for old browsers and ensure a good experience for their users.'
     links:
+      - title: Video (AEA Denver 2017)
+        url: https://www.youtube.com/watch?v=f1yM8HYv9lc
+      - title: Video (AEA Denver 2017)
+        url: https://vimeo.com/273429129
+    links:
       - title: Notes
         url: https://ntdln.com/2018/04/16/an-event-apart-graduating-to-grid/
   - title: 'Fit For Purpose: Making Sense of the New CSS'

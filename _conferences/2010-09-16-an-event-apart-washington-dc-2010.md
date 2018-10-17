@@ -29,21 +29,33 @@ sessions:
       - name: Dan Cederholm
         title: Author, Bulletproof Web Design and Handcrafted CSS
     description: 'In a fast-paced hour of design ideas and techniques, learn how advanced CSS and CSS3 can add richness to your site’s experience layer, and discover the role CSS3 can play in enhancing interactivity.'
+    links:
+      - title: Video (AEA San Diego 2010) # Unkown location, probably San Diego
+        url: https://vimeo.com/40259368
   - title: 'Mobile First!'
     speaker:
       - name: Luke Wroblewski
         title: Author, Web Form Design
     description: 'More often than not, the mobile experience for a web application or site is designed and built after the PC version is complete. Learn the three reasons web applications should be designed for mobile first instead: mobile is exploding; mobile forces you to focus; and mobile extends your capabilities.'
+    links:
+      - title: Video # AEA, unknown location
+        url: https://vimeo.com/38187066
   - title: 'Message and Medium: Better Content by Design'
     speaker:
       - name: Kristina Halvorson
         title: Author, Content Strategy for the Web
     description: 'Designing for multichannel content delivery (mobile, anyone?) means an entirely new set of considerations and challenges for web professionals everywhere. Unfortunately for content creators, it’s nearly impossible to predict whether their writing will maintain impact and readability across each and every platform. But forget about the medium for a minute; it’s the message that matters most. We’ll learn how to identify your key business messages, how they inform your content strategy, and how they impact multi-channel content development and design.'
+    links:
+      - title: Video (AEA San Diego 2010)
+        url: https://vimeo.com/36673761
   - title: 'Anatomy of a Design Decision'
     speaker:
       - name: Jared Spool
         title: Founder, User Interface Engineering
     description: 'What separates a good design from a bad design are the decisions that the designer made. Jared will explore the five styles of design decisions, showing you when gut instinct produces the right results and when designers need to look to more user-focused research.'
+    links:
+      - title: Video (AEA San Diego 2010)
+        url: https://vimeo.com/41509755
   - title: 'Everything Old Is New Again'
     speaker:
       - name: Eric Meyer
@@ -54,6 +66,9 @@ sessions:
       - name: Jeremy Keith
         title: Author, DOM Scripting
     description: 'Interaction is the secret sauce of the web. Understanding interaction is key to understanding the web as its own medium—it’s not print, it’s not television, and it’s certainly not the desktop. Find out how to wield HTML, CSS, and JavaScript to craft experiences that are native to the web.'
+    links:
+      - title: Video (AEA San Diego 2010)
+        url: https://vimeo.com/34978760
   - title: 'Learning To Love Humans—Emotional Interface Design'
     speaker:
       - name: Aarron Walter
@@ -69,9 +84,15 @@ sessions:
       - name: Ethan Marcotte
         title: Co-author, Handcrafted CSS and Designing With Web Standards, 3rd Edition
     description: '“The Way is shaped by use, but then the shape is lost.” Our sites are accessed by an increasing array of devices and browsers, and our users deserve a quality experience no matter how large (or small) their display. Are our designs ready? Explore sites that think beyond the desktop and have successfully adapted to their users’ habits. Ethan will also discuss how bring an extra level of craftsmanship to our page layouts, and revisit popular CSS techniques in this ever-changing environment.'
+    links:
+      - title: Video (AEA San Diego 2010)
+        url: https://vimeo.com/34662135
   - title: 'How the Web Works'
     speaker:
       - name: Jeff Veen
         title: Author, Art & Science of Web Design
     description: 'Turns out that the fundamental principles that led to the success of the web will lead you there, too. Drawing on 15 years of web design and development experience, Jeff will take you on a guided tour of what makes things work on this amazing platform we’re all building together. You’ll learn how to stop selling ice, why web browsers work the way they do, and where Rupert Murdoch can put his business model.'
+    links:
+      - title: Video (AEA San Diego 2010)
+        url: https://vimeo.com/43461220
 ---

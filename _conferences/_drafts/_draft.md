@@ -13,6 +13,9 @@ location:
   zip:
   online: false
 website:
+links:
+  - title:
+    url:
 sessions:
   - title:
     speaker:
