@@ -11,7 +11,7 @@ location:
   state: Missouri
   zip: 64105
   online: false
-website: http://www.kcdc.info/
+website: http://2014.kcdc.info/
 sessions:
   - title:
     speaker:
