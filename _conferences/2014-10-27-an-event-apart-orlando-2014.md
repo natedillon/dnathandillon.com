@@ -15,6 +15,7 @@ website: https://aneventapart.com/event/orlando-2014
 links:
   - title: Notes
     url: https://ntdln.com/2014/11/07/an-event-apart-orlando-special-edition-2014/
+
 sessions:
   - title: 'Understanding Web Design'
     speaker:
@@ -24,6 +25,7 @@ sessions:
     links:
       - title: Video
         url: https://vimeo.com/128619771
+
   - title: 'Designing Engagement'
     speaker:
       - name: Jaimee Newberry
@@ -32,6 +34,7 @@ sessions:
     links:
       - title: Video
         url: https://vimeo.com/122271349
+
   - title: 'Designing Using Data'
     speaker:
       - name: Sarah Parmenter
@@ -40,6 +43,7 @@ sessions:
     links:
       - title: Video
         url: https://vimeo.com/120804557
+
   - title: 'Mobile First Responsive Web Design'
     speaker:
       - name: Jason Grigsby
@@ -48,6 +52,7 @@ sessions:
     links:
       - title: Video
         url: https://vimeo.com/122844608
+
   - title: 'Putting Your UI in Motion With CSS'
     speaker:
       - name: Val Head
@@ -56,6 +61,7 @@ sessions:
     links:
       - title: Video
         url: https://vimeo.com/125335964
+
   - title: 'The Map & The Territory'
     speaker:
       - name: Ethan Marcotte
@@ -64,6 +70,7 @@ sessions:
     links:
       - title: Video
         url: https://vimeo.com/120164988
+
   - title: 'Enhance!'
     speaker:
       - name: Jeremy Keith
@@ -72,11 +79,13 @@ sessions:
     links:
       - title: Video
         url: https://vimeo.com/134260131
+
   - title: 'The Developer’s Ampersandwich'
     speaker:
       - name: Jenn Lukas
         title: 'Freelance Developer'
     description: 'Ever spent countless hours crafting a totally awesome type system for your beautiful design, only to have it lost in translation when it goes to development? Examine type and icon fonts through a developer lens, and learn how designers and front-end developers can work together to get everyone on the same (elegantly designed) page!'
+
   - title: 'Content in Context Is King'
     speaker:
       - name: Derek Featherstone
@@ -85,6 +94,7 @@ sessions:
     links:
       - title: Video
         url: https://vimeo.com/125111772
+
   - title: 'Co-Design, Not Redesign'
     speaker:
       - name: Kevin M. Hoffman
@@ -93,11 +103,13 @@ sessions:
     links:
       - title: Video
         url: https://vimeo.com/131476603
+
   - title: 'Touchy Subjects: Creating Content for Sensitive Situations'
     speaker:
       - name: Kate Kiefer Lee
         title: 'Writer & Editor, MailChimp'
     description: 'Our readers and users are human. They have their own preferences, experiences, senses of humor, and perspectives—and they bring all of that to the table when they interact with our content. We can’t see our users, and we don’t know what’s going on in their lives, so we don’t always create experiences with their feelings in mind. Certain topics are likely to make them feel uncomfortable or frustrated. Sensitive content types many of us work on every day include error messages, alerts, legal content, financial information, and warnings. Learn how to address touchy subjects, anticipate the reader’s emotional state, and write from a place of empathy.'
+
   - title: 'Content in a Zombie Apocalypse'
     speaker:
       - name: Karen McGrane
@@ -106,6 +118,7 @@ sessions:
     links:
       - title: Video (AEA Austin 2015)
         url: https://vimeo.com/167935340
+
   - title: 'Screen Time'
     speaker:
       - name: Luke Wroblewski
@@ -114,6 +127,7 @@ sessions:
     links:
       - title: Video
         url: https://vimeo.com/126528935
+
   - title: 'Designing for Crisis'
     speaker:
       - name: Eric Meyer
@@ -124,11 +138,13 @@ sessions:
         url: https://www.youtube.com/watch?v=qyZq6v3vZqo
       - title: Video (AEA Austin 2015)
         url: https://vimeo.com/148927676
+
   - title: 'The Elusive, Inclusive Web App'
     speaker:
       - name: Scott Jehl
         title: 'Author, Responsible Responsive Design'
     description: 'You’re excited about the ubiquity of the web. You want to build broadly accessible web experiences. But you don’t want to compromise on delivering compelling, immersive experiences that feel at home in today’s devices, even alongside native apps. Guess what: you don’t need to compromise. Scott will discuss goals, patterns, and techniques for building client-side web applications today, and show you how “universal access,” “responsive design,” and “web app” can work together beautifully.'
+
   - title: 'How Designers Destroyed the World '
     speaker:
       - name: Mike Monteiro
@@ -137,6 +153,7 @@ sessions:
     links:
       - title: Video
         url: https://vimeo.com/122022963
+
   - title: 'Just Enough Research'
     speaker:
       - name: Erika Hall
@@ -145,6 +162,7 @@ sessions:
     links:
       - title: Video
         url: https://vimeo.com/129039134
+
   - title: 'How To Champion Ideas Back At Work'
     speaker:
       - name: Scott Berkun

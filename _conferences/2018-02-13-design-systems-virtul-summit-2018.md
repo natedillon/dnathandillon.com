@@ -12,6 +12,7 @@ location:
   zip:
   online: true
 website: https://www.uxpin.com/design-systems-virtual-summit-2018
+
 sessions:
   - title: 'Consistency vs. Flexibility in Design Systems: A GE Case Study'
     speaker:
@@ -24,6 +25,7 @@ sessions:
     links:
       - title:
         url:
+
   - title: 'Should Designers?'
     speaker:
       - name: Dan Mall
@@ -35,6 +37,7 @@ sessions:
     links:
       - title:
         url:
+
   - title: 'The Organizational Impact of Design Systems'
     speaker:
       - name: Shahrzad Samadzadeh
@@ -46,6 +49,7 @@ sessions:
     links:
       - title:
         url:
+
   - title: 'Initiating and Sustaining Design Systems for the Enterprise'
     speaker:
       - name: Carl Tsui
@@ -59,6 +63,7 @@ sessions:
     links:
       - title:
         url:
+
   - title: 'Evolving your Design System: People, Product, and Process'
     speaker:
       - name: Jessica Clark
@@ -70,6 +75,7 @@ sessions:
     links:
       - title:
         url:
+
   - title: 'Accessibility in Design Systems'
     speaker:
       - name: Allison Shaw

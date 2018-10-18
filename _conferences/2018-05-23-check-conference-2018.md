@@ -12,6 +12,7 @@ location:
   zip: 66061
   online: false
 website: http://www.k-state.edu/check2018/
+
 sessions:
   - title: 'Welcome and Keynote Address'
     speaker:
@@ -21,6 +22,7 @@ sessions:
     links:
       - title: Video
         url: https://www.youtube.com/watch?v=3miJT2rKnj0
+
   - title: 'Standardize De-Centralized Project Management'
     speaker:
       - name: Rebecca Grube
@@ -29,6 +31,7 @@ sessions:
     links:
       - title: Video
         url: https://www.youtube.com/watch?v=6cHfSb8z2oM
+
   - title: 'Reducing Cybersecurity Risk with Multi-factor Authentication (MFA): Pilot Testing Duo at K-State'
     speaker:
       - name: Rob Caffey
@@ -39,16 +42,19 @@ sessions:
     links:
       - title: Video
         url: https://www.youtube.com/watch?v=1ZYedT_gfSw
+
   - title: 'Managing Projects - Working with the Team to have a Successful Project'
     speaker:
       - name: Joyce Scheck
         title: Washburn University
     description: 'It’s difficult to define and structure a project. Have you been asked to manage a project and wonder how to get a team to function/work together to accomplish the end result? Come learn tips and tricks to manage projects. It’s not all about you and your process as a Project Manager. It is all about you working with the team to devise a structure that works for your team.  We will walk through a technical project like a Red hat 7 operating system upgrade and what was involved to define project scope, task assignments, when to pull in subject-matter experts, deadlines, resources, testing and plan for the production hardware cut-over.'
+
   - title: 'Cheap, Fast, and Good - Pick All Three for In-House Video Content'
     speaker:
       - name: Andrew Tash
         title: Hutchinson Community College
     description: 'In 2017, HutchCC Department 5 - Emergency Medical Services instructor Jon Friesen created and implemented Light Board technology for his Canvas courses. Springboarding from this initiative, ITS and Online Education started exploring Light Board creation for use with other departments. The Digital Media Team has worked on building a Light Board from scratch documenting concerns for budget limitations, appropriate building materials, production (pre-production-post), and developing workflow for turn-key use and distributing recorded lectures for online or hybrid delivery. Learn how the lessons Hutchinson Community College uncovered can assist you in creating your own Light Board technology.'
+
   - title: 'Fostering Innovation at Every Level'
     speaker:
       - name: Jeff Burns
@@ -56,6 +62,7 @@ sessions:
       - name: Angela Neria
         title: Pittsburg State University
     description: 'IT departments in higher education are uniquely positioned to be leaders in innovation within the field of information technology. So why do so many university IT departments get stuck in the past? Learn how one university fosters an innovative culture at every level of the IT organization. Outside threats continue to impact higher education as we know it. There are daily news articles questioning the value of higher education, condemning collegial traditions, and more. Fiscal concerns at the state and federal levels have left higher education scrambling to support legacy systems as well as attract and retain experienced and motivated IT professionals. To stay relevant in the ever-changing world that we live in, higher education must innovate.  Where better for that innovation cycle to begin than in higher education IT departments? Learn how Pittsburg State University in Pittsburg, KS made a simple choice to designate time and enthusiasm to the development of innovative ideas that support and extend the University’s mission to “provide transformational experiences for its students and community”. A simplistic design of a professional development program for the IT department’s Implementation and Development Team that included buy-in at every level, soon led to an "innovation shift" for the entire department broadening to other sectors of campus! Today, the University’s IT Strategic plan consists of a goal focused on innovation. These endeavors are measurable in many ways, but in others they are not. And its those immeasurable characteristics that may be the most rewarding: motivation, cultivation of ideas, learning from failure, attitude and outlook on our future, a shift in thinking and problem solving, and much more. Join us to learn how one simple idea, lots of enthusiasm, and patient guidance from leaders (both likely and unlikely) led our IT department to a culture of innovation!'
+
   - title: 'CIO Panel'
     speaker:
       - name: Ryan Kurtenbach

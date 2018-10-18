@@ -12,6 +12,7 @@ location:
   zip: 98101
   online: false
 website: https://aneventapart.com/event/seattle-2018
+
 sessions:
   - title: 'Beyond Engagement: the Content Performance Quotient'
     speaker:
@@ -21,6 +22,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/16/an-event-apart-beyond-engagement-the-content-performance-quotient/
+
   - title: 'Digital Marketing Strategies for the Busy “Web Master”'
     speaker:
       - name: Sarah Parmenter
@@ -29,6 +31,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/16/an-event-apart-digital-marketing-strategies-for-the-busy-web-master/
+
   - title: 'Scenario-Driven Design Systems'
     speaker:
       - name: Yesenia Perez-Cruz
@@ -37,6 +40,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/16/an-event-apart-scenario-driven-design-systems/
+
   - title: 'Graduating to Grid'
     speaker:
       - name: Rachel Andrew
@@ -50,6 +54,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/16/an-event-apart-graduating-to-grid/
+
   - title: 'Fit For Purpose: Making Sense of the New CSS'
     speaker:
       - name: Eric Meyer
@@ -58,6 +63,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/16/an-event-apart-fit-for-purpose-making-sense-of-the-new-css/
+
   - title: 'Everything You Know About Web Design Just Changed'
     speaker:
       - name: Jen Simmons
@@ -66,6 +72,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/16/an-event-apart-everything-you-know-about-web-design-just-changed/
+
   - title: 'The Way Of The Web'
     speaker:
       - name: Jeremy Keith
@@ -74,6 +81,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/17/an-event-apart-the-way-of-the-web/
+
   - title: 'Performance as User Experience'
     speaker:
       - name: Aaron Gustafson
@@ -82,6 +90,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/17/an-event-apart-performance-as-user-experience/
+
   - title: 'Navigating Team Friction'
     speaker:
       - name: Lara Hogan
@@ -90,6 +99,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/17/an-event-apart-navigating-team-friction/
+
   - title: 'Mobile In the Future'
     speaker:
       - name: Luke Wroblewski
@@ -98,6 +108,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/17/an-event-apart-mobile-in-the-future/
+
   - title: 'Designing Progressive Web Apps'
     speaker:
       - name: Jason Grigsby
@@ -106,6 +117,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/17/an-event-apart-designing-progressive-web-apps/
+
   - title: 'The All-Powerful Front-End Developer'
     speaker:
       - name: Chris Coyier
@@ -114,6 +126,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/17/an-event-apart-the-all-powerful-front-end-developer/
+
   - title: 'Tech Humanism: Data, Meaning, and Human Experience'
     speaker:
       - name: Kate O’Neill
@@ -122,6 +135,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/18/an-event-apart-tech-humanism-data-meaning-and-human-experience/
+
   - title: 'Use Your Words'
     speaker:
       - name: Kristina Halvorson
@@ -130,6 +144,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/18/an-event-apart-use-your-words/
+
   - title: 'Responsive Content Models'
     speaker:
       - name: Steve Fisher
@@ -138,6 +153,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/18/an-event-apart-responsive-content-models/
+
   - title: 'Inclusive UX: Techniques for Everyone'
     speaker:
       - name: Derek Featherstone
@@ -146,6 +162,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/18/an-event-apart-inclusive-ux-techniques-for-everyone/
+
   - title: 'Variable Fonts and the Future of Typography'
     speaker:
       - name: Jason Pamental
@@ -154,6 +171,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/04/18/an-event-apart-variable-fonts-and-the-future-of-typography/
+
   - title: 'Designing an Intuitive Navigation'
     speaker:
       - name: Gerry McGovern

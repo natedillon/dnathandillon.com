@@ -12,6 +12,7 @@ location:
   zip: 64105
   online: false
 website: http://2014.kcdc.info/
+
 sessions:
   - title:
     speaker:

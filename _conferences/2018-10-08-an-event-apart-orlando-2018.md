@@ -12,12 +12,14 @@ location:
   zip: 32830-8413
   online: false
 website: https://aneventapart.com/event/orlando-2018
+
 sessions:
   - title: 'Tech Humanism: Data, Meaning, and Human Experience'
     speaker:
       - name: Kate O’Neill
         title: 'CEO, KO Insights'
     description: 'With so much emphasis in business on artificial intelligence, automation of various kinds, and digital transformation, the future of human work — and even humanity itself — can feel uncertain. And while we often talk about user experience, customer experience, patient experience, and so on, we rarely consider what a truly integrated human experience might look and feel like. But “Tech Humanist” Kate O’Neill presents the case for why the future of humanity is in creating more meaningful, dimensional, and integrated experiences, and how emerging technologies like chatbots, wearables, IoT devices, and more can be included in this kind of human-centric design. While weaving in examples from a range of industries, applications, and even pop culture, Kate offers an inspiring and useful framework for designers, strategists, or anyone creating experiences for humans.'
+
   - title: 'Why Design Systems Fail'
     speaker:
       - name: Una Kravets
@@ -26,6 +28,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/10/16/an-event-apart-why-design-systems-fail/
+
   - title: 'Maintaining Design Systems'
     speaker:
       - name: Brad Frost
@@ -34,6 +37,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/10/16/an-event-apart-maintaining-design-systems/
+
   - title: 'Building More Expressive Products'
     speaker:
       - name: Val Head
@@ -42,6 +46,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/10/16/an-event-apart-building-more-expressive-products/
+
   - title: 'Durable Design'
     speaker:
       - name: Jon Tan
@@ -50,6 +55,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/10/16/an-event-apart-durable-design/
+
   - title: '’Til Launch Do Us Part'
     speaker:
       - name: Dan Mall
@@ -58,16 +64,19 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/10/16/an-event-apart-til-launch-do-us-part/
+
   - title: 'Use Your Words'
     speaker:
       - name: Kristina Halvorson
         title: 'Author, Content Strategy for the Web'
     description: 'UI is language. Interaction is conversation. Content is the fuel that powers our designs. So what happens when the writer’s not in the room, or missing from your project team altogether? Good news: you don’t need to settle for lorem ipsum or half-baked prose. In this talk, Kristina will share language principles and content design tools anyone can put to work—yes, even the “non-writers” among us. Using examples from popular products and well-loved websites, we’ll uncover the secrets to stellar content that anyone can create, no matter your role or area of expertise.'
+
   - title: 'Variable Fonts and the Future of Typography'
     speaker:
       - name: Jason Pamental
         title: 'Author, Responsive Typography'
     description: 'For centuries, typography has shaped the way we ‘hear’ what we read. In our web work, though, we’ve have to balance our typographic desires with user experience and performance, knowing that every weight, width, or style of a typeface required a different file download. Variable fonts change that, as they include _every_ width, weight, slant, and other permutation of a typeface, all in a single file not much bigger than a regular font file. Now, beautiful web typography can be crafted to respond to screen size, language setting, even ambient light. In a detail-packed hour, Jason will show you not just how far the new capabilities can take us, but how to make use of them right away.'
+
   - title: 'Name That Script!'
     speaker:
       - name: Trent Walton
@@ -76,11 +85,13 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/10/17/an-event-apart-name-that-script/
+
   - title: 'Inclusive UX: Techniques for Everyone'
     speaker:
       - name: Derek Featherstone
         title: 'Founder, Simply Accessible'
     description: 'You and your teams are doing the things that need to be done to create inclusive designs. You’ve been using meaningful, semantic markup from the get-go. You stopped using light grey on slightly darker grey text years ago. Designing and building your apps and sites in an accessible way is just how you work now—you have to try really hard to make things that don’t work with a keyboard. So, what’s next for you? How can you make sure that you’re delivering on the promise of the web by delivering an inclusive design that can be easily used by people with disabilities? In this talk, Derek will tackle the tougher problems through design approaches and practical development techniques that you need to create accessible, modern web sites.'
+
   - title: 'Leveling Up Your Design Communication'
     speaker:
       - name: Aarron Walter
@@ -89,6 +100,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2018/10/17/an-event-apart-leveling-up-your-design-communication/
+
   - title: 'The New Design Material'
     speaker:
       - name: Josh Clark

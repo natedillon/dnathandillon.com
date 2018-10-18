@@ -12,6 +12,7 @@ location:
   zip: 64105
   online: false
 website: http://2015.kcdc.info/
+
 sessions:
   - title: 'Remotely Successful: Making it work at a distance'
     speaker:
@@ -23,6 +24,7 @@ sessions:
     links:
       - title:
         url:
+
   - title: 'A user interface is like a joke...'
     speaker:
       - name: Dustin Hudson
@@ -31,6 +33,7 @@ sessions:
     links:
       - title: Slides
         url: https://www.slideshare.net/dhudsonkc/kcdc2015-a-user-interface-is-like-a-joke
+
   - title: 'Designers? We don’t need no stinkin’ Designers! (Great UI Made Easy)'
     speaker:
       - name: Jon von Gillern
@@ -39,6 +42,7 @@ sessions:
     links:
       - title:
         url:
+
   - title: '“Post” is the New “Pre”: Using Postprocessors to Revolutionize Your Workflow'
     speaker:
       - name: Aaron Ladage
@@ -51,6 +55,7 @@ sessions:
         url: https://github.com/aladage/post-is-the-new-pre
       - title: Talk Resources
         url: http://degdigital.github.io/conference/kcdc/
+
   - title: 'Angular 2.0: What to expect'
     speaker:
       - name: Jeremy Mason
@@ -61,6 +66,7 @@ sessions:
         url: http://jeremyalan.github.io/Angular2-WhatToExpect/#/
       - title: Slides Repository
         url: https://github.com/jeremyalan/Angular2-WhatToExpect
+
   - title: 'Accessibility for the Modern Web'
     speaker:
       - name: Brian Greene
@@ -69,6 +75,7 @@ sessions:
     links:
       - title:
         url:
+
   - title: 'Getting Started with Chrome Extensions: Tips and Tricks'
     speaker:
       - name: Andrew Dunkman

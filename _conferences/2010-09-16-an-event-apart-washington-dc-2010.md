@@ -12,17 +12,20 @@ location:
   zip: 20009
   online: false
 website: http://aneventapart.com/2010/dc/
+
 sessions:
   - title: 'Web 2.1: The Medium Comes of Age'
     speaker:
       - name: Jeffrey Zeldman
         title: 'Author, Designing With Web Standards, 3rd Ed.'
     description: 'Webkit-powered smartphones like iPhone and Droid have come along at precisely the moment when HTML5, CSS3, and web fonts are ready for action; when standards-based web development is no longer relegated to the fringe; and when web designers, no longer content to merely decorate screens, are crafting provocative, multi-platform experiences powered by research, strategy, and years of social media know-how. Zeldman kicks off AEA by studying the thinking and inventions that led to the web, and showing why we stand at the dawn of a newer, more mature, more ubiquitous web, powered by standards.'
+
   - title: 'Object Oriented CSS'
     speaker:
       - name: Nicole Sullivan
         title: 'Co-author, Even Faster Websites'
     description: 'How do you scale CSS for millions of visitors or thousands of pages? What happens to the size of your CSS file as more pages and modules are added? The answer, for most sites, is that it grows out of control and becomes an unmaintainable tangle of spaghetti code. Object Oriented CSS allows you to write fast, maintainable, standards-based front-end code. It adds much needed predictability to CSS so that even beginners can create beautiful websites. OOCSS is not a framework or a tool (though in this session Nicole will demo both); it is a better, saner way to write and maintain style sheets.'
+
   - title: 'The CSS3 Experience'
     speaker:
       - name: Dan Cederholm
@@ -31,6 +34,7 @@ sessions:
     links:
       - title: Video (AEA San Diego 2010) # Unkown location, probably San Diego
         url: https://vimeo.com/40259368
+
   - title: 'Mobile First!'
     speaker:
       - name: Luke Wroblewski
@@ -39,6 +43,7 @@ sessions:
     links:
       - title: Video # AEA, unknown location
         url: https://vimeo.com/38187066
+
   - title: 'Message and Medium: Better Content by Design'
     speaker:
       - name: Kristina Halvorson
@@ -47,6 +52,7 @@ sessions:
     links:
       - title: Video (AEA San Diego 2010)
         url: https://vimeo.com/36673761
+
   - title: 'Anatomy of a Design Decision'
     speaker:
       - name: Jared Spool
@@ -55,11 +61,13 @@ sessions:
     links:
       - title: Video (AEA San Diego 2010)
         url: https://vimeo.com/41509755
+
   - title: 'Everything Old Is New Again'
     speaker:
       - name: Eric Meyer
         title: 'Author, CSS: The Definitive Guide, 3rd Ed.'
     description: 'Faux columns. Sliding doors. Image replacement. We rely on these techniques on a near-daily basis, but how will they be affected by the expanding vocabulary of CSS3? Will they be reworked, slimmed down, or abandoned altogether? An Event Apart cofounder and CSS mastermind Eric Meyer pulls some old standbys out of the toolbox and applies the capabilites of CSS3 to see how they can be made leaner, meaner, and more powerful.'
+
   - title: 'Paranormal Interactivity'
     speaker:
       - name: Jeremy Keith
@@ -68,16 +76,19 @@ sessions:
     links:
       - title: Video (AEA San Diego 2010)
         url: https://vimeo.com/34978760
+
   - title: 'Learning To Love Humans—Emotional Interface Design'
     speaker:
       - name: Aarron Walter
         title: 'Author, Building Findable Websites'
     description: 'Humans, though cute and cuddly, are not without their flaws, which makes it a challenge to design for them. By understanding how the wet, mushy processor works in these hairy little devils, you can design interfaces and web experiences that will have them hopelessly devoted to your brand.	Aarron will introduce you to the emotional usability principle—a design axiom that identifies a strong connection between human emotion and perceived usability. Through real-world examples, you’ll learn practical interface design techniques that will make your sites and applications more engaging to the humans they serve.'
+
   - title: 'Hardboiled Web Design'
     speaker:
       - name: Andy Clarke
         title: 'Author, Transcending CSS'
     description: 'Take an uncompromising look at how to make the most from modern design tools and browsers, up-to-date techniques and processes. In this practical, design-focused talk, Andy will discuss the “how” as well as the “why,” and challenge your preconceptions to help you make better work for the web. Learn the most modern, forward-moving, and sometimes experimental CSS techniques, and why a forward looking approach to CSS will pay real dividends.'
+
   - title: 'A Dao of Flexibility'
     speaker:
       - name: Ethan Marcotte
@@ -86,6 +97,7 @@ sessions:
     links:
       - title: Video (AEA San Diego 2010)
         url: https://vimeo.com/34662135
+
   - title: 'How the Web Works'
     speaker:
       - name: Jeff Veen

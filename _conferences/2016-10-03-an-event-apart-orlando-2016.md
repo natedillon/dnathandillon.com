@@ -15,6 +15,7 @@ website: https://aneventapart.com/event/orlando-special-edition-2016
 links:
   - title: Notes
     url: https://ntdln.com/2016/10/26/an-event-apart-orlando-2016/
+
 sessions:
   - title: 'Designing With Web Standards in 2016'
     speaker:
@@ -24,6 +25,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2016/10/24/an-event-apart-designing-with-web-standards-in-2016/
+
   - title: 'Practical Branding'
     speaker:
       - name: Sarah Parmenter
@@ -34,6 +36,7 @@ sessions:
         url: https://ntdln.com/2016/10/24/an-event-apart-practical-branding/
       - title: Video
         url: https://vimeo.com/250344095
+
   - title: 'Designing for Performance'
     speaker:
       - name: Lara Hogan
@@ -44,6 +47,7 @@ sessions:
         url: https://ntdln.com/2016/10/24/an-event-apart-designing-for-performance/
       - title: Video
         url: https://vimeo.com/215613213
+
   - title: 'Style Guide Best Practices'
     speaker:
       - name: Brad Frost
@@ -52,6 +56,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2016/10/24/an-event-apart-style-guide-best-practices/
+
   - title: 'Proper Etiquette for the Advancement of Design'
     speaker:
       - name: Dan Mall
@@ -62,6 +67,7 @@ sessions:
         url: https://ntdln.com/2016/10/24/an-event-apart-proper-etiquette-for-the-advancement-of-design/
       - title: Video
         url: https://vimeo.com/241985593
+
   - title: 'Revolutionize Your Page: Real Art Direction on the Web'
     speaker:
       - name: Jen Simmons
@@ -74,6 +80,7 @@ sessions:
         url: https://www.youtube.com/watch?v=aYgMExb-mlo
       - title: Video
         url: https://vimeo.com/209812549
+
   - title: 'Designing Meaningful Animation'
     speaker:
       - name: Val Head
@@ -84,6 +91,7 @@ sessions:
         url: https://ntdln.com/2016/10/25/an-event-apart-designing-meaningful-animation/
       - title: Video
         url: https://vimeo.com/250349313
+
   - title: 'CSS Grid Layout'
     speaker:
       - name: Rachel Andrew
@@ -96,6 +104,7 @@ sessions:
         url: https://www.youtube.com/watch?v=ymZH0hIk9n0
       - title: Video
         url: https://vimeo.com/212961112
+
   - title: '10 Things You Can and Should Do With SVG'
     speaker:
       - name: Chris Coyier
@@ -104,6 +113,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2016/10/25/an-event-apart-10-things-you-can-and-should-do-with-svg/
+
   - title: 'Extreme Design'
     speaker:
       - name: Derek Featherstone
@@ -116,6 +126,7 @@ sessions:
         url: https://www.youtube.com/watch?v=eEdC7VM0M1o
       - title: Video
         url: https://vimeo.com/236448060
+
   - title: 'The Art and Soul of Selling'
     speaker:
       - name: Jaimee Newberry
@@ -128,6 +139,7 @@ sessions:
         url: https://www.youtube.com/watch?v=je6SNTaZaaQ
       - title: Video
         url: https://vimeo.com/254256307
+
   - title: 'The Physical Interface'
     speaker:
       - name: Josh Clark
@@ -138,6 +150,7 @@ sessions:
         url: https://ntdln.com/2016/10/25/an-event-apart-the-physical-interface/
       - title: Video
         url: https://vimeo.com/236479523
+
   - title: 'Resilience: Building a Robust Web That Lasts'
     speaker:
       - name: Jeremy Keith
@@ -148,6 +161,7 @@ sessions:
         url: https://ntdln.com/2016/10/26/an-event-apart-resilience-building-a-robust-web-that-lasts/
       - title: Video
         url: https://vimeo.com/254115159
+
   - title: 'New Users Matter, Too! Designing Better Onboarding Experiences'
     speaker:
       - name: Krystal Higgins
@@ -158,6 +172,7 @@ sessions:
         url: https://ntdln.com/2016/10/26/an-event-apart-new-users-matter-too-designing-better-onboarding-experiences/
       - title: Video
         url: https://vimeo.com/254168074
+
   - title: 'Unified Design'
     speaker:
       - name: Cameron Moll
@@ -170,6 +185,7 @@ sessions:
         url: https://www.youtube.com/watch?v=yB8EkaZq5eM
       - title: Video (“Unified UX”, AEA Austin 2015)
         url: https://vimeo.com/193785003
+
   - title: 'Design Beyond Our Devices'
     speaker:
       - name: Ethan Marcotte
@@ -178,6 +194,7 @@ sessions:
     links:
       - title: Notes
         url: https://ntdln.com/2016/10/26/an-event-apart-design-beyond-our-devices/
+
   - title: 'Compassionate Design'
     speaker:
       - name: Eric Meyer
@@ -190,6 +207,7 @@ sessions:
         url: https://www.youtube.com/watch?v=IicOqVecUnk
       - title: Video
         url: https://vimeo.com/201986969
+
   - title: 'Top Task Management: Making it Easier to Prioritize'
     speaker:
       - name: Gerry McGovern
