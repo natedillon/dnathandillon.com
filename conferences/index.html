@@ -3,7 +3,8 @@ title: Conferences
 ---
 
 {% assign sorted_conferences = site.conferences | sort:'date' | reverse %}
-{% for conference in sorted_conferences %}
-  <h2>{{ conference.title }}</h2>
-  <p>{{ conference.date }}</p>
-{% endfor %}
+<ul>
+  {% for conference in sorted_conferences %}
+    <li><a href="{{ conference.url }}">{{ conference.title }}</a></li>
+  {% endfor %}
+</ul>
