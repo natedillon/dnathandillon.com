@@ -8,7 +8,7 @@ location:
   name: K-State Olathe
   address: 22201 W Innovation Dr
   city: Olathe
-  state: KS
+  state: Kansas
   zip: 66061
   online: false
 website: http://www.k-state.edu/check2018/

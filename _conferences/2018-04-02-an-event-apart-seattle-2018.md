@@ -1,14 +1,14 @@
 ---
 published: true
 
-title: An Event Apart Seattle 2018
+title: An Event Apart Seattle 2018 (Special Edition)
 date: 2018-04-02
 date_end: 2018-04-04
 location:
   name: The Westin Seattle Hotel
   address: 1900 5th Avenue
   city: Seattle
-  state: WA
+  state: Washington
   zip: 98101
   online: false
 website: https://aneventapart.com/event/seattle-2018
