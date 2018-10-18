@@ -24,7 +24,7 @@ exclude:
 collections:
   conferences:
     output: true
-    permalink: /about/conferences/:title/
+    permalink: /conferences/:title/
 
 # Defaults
 defaults:
