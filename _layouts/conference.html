@@ -6,9 +6,17 @@ layout: default
   <h2>Information</h2>
   <dl>
     <dt>Location:</dt>
-    <dd>{{ page.location }}</dd>
+    <dd>
+      {% if page.location.online %}
+        Online
+      {% else %}
+        {% if page.location.name %}{{ page.location.name }}<br>{% endif %}
+        {% if page.location.address %}{{ page.location.address }}<br>{% endif %}
+        {% if page.location.city %}{{ page.location.city }}, {{ page.location.state }}{% endif %}
+      {% endif %}
+    </dd>
     <dt>Start date:</dt>
-    <dd>{{ page.date_start | date: "%B %-d, %Y" }}</dd>
+    <dd>{{ page.date | date: "%B %-d, %Y" }}</dd>
     <dt>End date:</dt>
     <dd>{{ page.date_end | date: "%B %-d, %Y" }}</dd>
   </dl>
