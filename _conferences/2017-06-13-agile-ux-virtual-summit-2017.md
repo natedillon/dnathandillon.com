@@ -19,7 +19,7 @@ sessions:
   - title: 'Design Sprints: How to Solve Problems and Test Ideas in 5 Days'
     speaker:
       - name: John Zeratsky
-        title: Design Partner at Google Ventures
+        title: 'Design Partner at Google Ventures'
     description: 'You’ll learn:
       How to run a Google design sprint within your Agile team
       Core activities for each day of the design sprint
@@ -27,7 +27,7 @@ sessions:
   - title: 'Building a Design System: A Practitioner’s Case Study'
     speaker:
       - name: Marcin Treder
-        title: CEO at UXPin
+        title: 'CEO at UXPin'
     description: 'You’ll learn:
       The most pressing challenges faced by Agile product teams today.
       The emerging themes of Agile UX for 2017 and beyond.
@@ -35,7 +35,7 @@ sessions:
   - title: 'Great UX in an Agile World at Bloomberg'
     speaker:
       - name: Anthony Viviano
-        title: Interaction Designer at Bloomberg
+        title: 'Interaction Designer at Bloomberg'
     description: 'You’ll learn:
       How Bloomberg implemented Agile UX across offices
       How to execute staggered sprints with designers and developers
@@ -43,7 +43,7 @@ sessions:
   - title: 'A Guide to User Story Mapping'
     speaker:
       - name: Kelley Howell
-        title: Sr. UX Architect at Syniverse
+        title: 'Sr. UX Architect at Syniverse'
     description: 'You’ll learn:
       How to visualize user needs instead of product features
       How to make better decisions when prioritizing a UX backlog
@@ -51,7 +51,7 @@ sessions:
   - title: 'Design Sprints: A Non-Google Approach'
     speaker:
       - name: C. Todd Lombardo
-        title: Chief Design Strategist at Fresh Tilled Soil
+        title: 'Chief Design Strategist at Fresh Tilled Soil'
     description: 'You’ll learn:
       All the activities required for realistic design sprints
       How to modify your agenda and activities for different timelines
@@ -59,7 +59,7 @@ sessions:
   - title: 'Agile Prototyping Best Practices'
     speaker:
       - name: Nate Ginesi
-        title: Sr. UX Architect at LookThink
+        title: 'Sr. UX Architect at LookThink'
     description: 'You’ll learn:
       How to determine the right depth and breadth for MVP prototypes.
       How to elicit the right stakeholder and user feedback.
@@ -67,7 +67,7 @@ sessions:
   - title: 'Increasing User Empathy in Agile Teams: Q&A Session'
     speaker:
       - name: Indi Young
-        title: Co-founder of Adaptive Path
+        title: 'Co-founder of Adaptive Path'
     description: 'You’ll learn:
       How to naturally spread user empathy amongst stakeholders and developers
       Useful user research tactics for Agile timelines
@@ -75,7 +75,7 @@ sessions:
   - title: 'Design Spikes for an Agile Process'
     speaker:
       - name: Damon Dimmick
-        title: Director of Product Design and UX at Constant Contact
+        title: 'Director of Product Design and UX at Constant Contact'
     description: 'You’ll learn:
       How to fit design spikes into a Scrum framework
       How to address user stories without neglecting UX strategy
@@ -83,9 +83,9 @@ sessions:
   - title: 'Participatory Design: Bringing Users Into Your Process'
     speaker:
       - name: David Sherwin
-        title: Co-founder at Ask the Sherwins
+        title: 'Co-founder at Ask the Sherwins'
       - name: Erin Muntzert
-        title: Sr. UX Researcher at Google
+        title: 'Sr. UX Researcher at Google'
     description: 'You’ll learn:
       Participatory design tactics practiced by frog design
       Collaborative activities for finding user needs, generating, and evaluating design ideas
@@ -93,7 +93,7 @@ sessions:
   - title: 'Faster Usability Testing in an Agile World'
     speaker:
       - name: Carol Smith
-        title: Sr. Design Manager at IBM Watson
+        title: 'Sr. Design Manager at IBM Watson'
     description: 'You’ll learn:
       How the IBM Watson team runs continuous usability testing
       How to run follow a RITE testing process within an Agile team
@@ -102,7 +102,7 @@ sessions:
   - title: 'Replacing Requirements With Hypothesis'
     speaker:
       - name: Josh Seiden
-        title: Co-author of Lean UX
+        title: 'Co-author of Lean UX'
     description: 'You’ll learn:
       A framework for deconstructing and validating product hypotheses
       How to guide product strategy without overprescribing details
@@ -110,11 +110,11 @@ sessions:
   - title: 'Agile UX & Product Development: Open Q&A Session'
     speaker:
       - name: Peter Merholz
-        title: VP Design at Snagajob
+        title: 'VP Design at Snagajob'
       - name: Sunita Reddy
-        title: VP Product at UXPin
+        title: 'VP Product at UXPin'
       - name: Marcin Treder
-        title: CEO of UXPin
+        title: 'CEO of UXPin'
     description: 'You’ll learn:
       The most pressing challenges faced by Agile product teams today.
       The emerging themes of Agile UX for 2017 and beyond.
@@ -122,7 +122,7 @@ sessions:
   - title: 'Lean UX in the Enterprise: A Hubspot Case Study'
     speaker:
       - name: Austin Knight
-        title: Sr. UX Designer at Hubspot
+        title: 'Sr. UX Designer at Hubspot'
     description: 'You’ll learn:
       How to turn qualitative and quantitative data into UX insights.
       How to practice data-informed design within an Agile process.
@@ -130,7 +130,7 @@ sessions:
   - title: 'Collaborative Product Discovery and Strategy at Fjord'
     speaker:
       - name: Essi Salonen
-        title: UX Designer at Fjord
+        title: 'UX Designer at Fjord'
     description: 'You’ll learn:
       How to adapt user research and strategy methods for Agile timelines
       How to turn research insights into a cohesive product strategy
@@ -138,7 +138,7 @@ sessions:
   - title: 'Design Thinking & Agile at IBM'
     speaker:
       - name: Vera Rhoads
-        title: Sr. UX Manager at IBM
+        title: 'Sr. UX Manager at IBM'
     description: 'You’ll learn:
       How to transition through through inspiration, ideation, and implementation with a global team
       How to turn “statements of intent” into prioritized user stories.
