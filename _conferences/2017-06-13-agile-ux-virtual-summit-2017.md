@@ -7,7 +7,6 @@ date_end: 2017-06-16
 location:
   name:
   address:
-    -
   city:
   state:
   zip:

@@ -6,8 +6,7 @@ date: 2018-10-08
 date_end: 2018-10-10
 location:
   name: Disney’s Contemporary Resort
-  address:
-    - 4600 North World Drive
+  address: 4600 North World Drive
   city: Lake Buena Vista
   state: Florida
   zip: 32830-8413

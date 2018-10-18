@@ -7,7 +7,6 @@ date_end:
 location:
   name:
   address:
-    -
   city:
   state:
   zip:

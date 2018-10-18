@@ -6,8 +6,7 @@ date: 2010-09-16
 date_end: 2010-09-18
 location:
   name: Washington Hilton
-  address:
-    - 1919 Connecticut Ave NW
+  address: 1919 Connecticut Ave NW
   city: Washington
   state: DC
   zip: 20009

@@ -6,8 +6,7 @@ date: 2018-04-02
 date_end: 2018-04-04
 location:
   name: The Westin Seattle Hotel
-  address:
-    - 1900 5th Avenue
+  address: 1900 5th Avenue
   city: Seattle
   state: WA
   zip: 98101

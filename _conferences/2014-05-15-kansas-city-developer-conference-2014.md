@@ -6,8 +6,7 @@ date: 2014-05-15
 date_end: 2014-05-17
 location:
   name: Kansas City Convention Center
-  address:
-    - 301 W 13th Street
+  address: 301 W 13th Street
   city: Kansas City
   state: Missouri
   zip: 64105
