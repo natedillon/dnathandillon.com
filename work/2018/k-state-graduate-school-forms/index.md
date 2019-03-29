@@ -56,7 +56,7 @@ team:
   - name: Ashley Wondra
     role: Project management
 notes:
-  -
+  - Link made live for students on 2019.03.26 in v1.1.2
 ---
 
 ![K-State Graduate School Forms screenshot](image.png)
