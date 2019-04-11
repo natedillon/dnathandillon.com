@@ -334,6 +334,116 @@ template {
   display: none;
 }
 
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: white;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: white;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p,
+ul,
+ol,
+dl {
+  margin-top: 0;
+  margin-bottom: 2.7rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: 0;
+  margin-bottom: 1.35rem;
+}
+
+h1, .h1 {
+  font-size: 3em;
+}
+
+h2, .h2 {
+  font-size: 2em;
+}
+
+h3, .h3 {
+  font-size: 1.75em;
+}
+
+h4, .h4 {
+  font-size: 1.5em;
+}
+
+h5, .h5 {
+  font-size: 1.1666666667em;
+}
+
+h6, .h6 {
+  font-size: 1em;
+}
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin-bottom: 0;
+}
+
+dl {
+  margin-bottom: 1.35rem;
+}
+dl dt {
+  margin-top: 1.35rem;
+  font-weight: bold;
+}
+dl dt:first-child {
+  margin-top: 0;
+}
+dl dd {
+  margin-left: 0;
+}
+
+hr {
+  margin-top: 2.7rem;
+  margin-bottom: 2.7rem;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+code {
+  padding: 0.4rem 0.2rem;
+  color: #bd4147;
+  background-color: #f7f7f9;
+}
+
 .header {
   padding: 20px;
   border-bottom: 1px solid #eee;
