@@ -9,7 +9,7 @@
     <title>{{ site.title | escape }}{% if page.title %} / {{ page_title | escape }}{% endif %}</title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-    <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/dnathandillon.css">
   </head>
 
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}{% if page.colors %} style="background-color: {{ page.colors[0] }};"{% endif %}>
