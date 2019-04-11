@@ -13,23 +13,7 @@
   </head>
 
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}{% if page.colors %} style="background-color: {{ page.colors[0] }};"{% endif %}>
-    <header role="banner" class="header">
-      <div class="container">
-        <h1 class="header__logo">
-          <a href="{{ site.baseurl }}/">{{ site.title | escape }}</a>
-        </h1>
-
-        <nav role="navigation" class="header__nav">
-          <ul class="header__nav-list">
-            {% for item in site.data.navigation.primary %}
-              <li class="header__nav-list-item{% if page.url contains item.url %} active{% endif %}">
-                <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </nav>
-      </div><!-- .container -->
-    </header><!-- .header -->
+    {% include header.html %}
 
     <main role="main" class="main">
       <article class="article">
