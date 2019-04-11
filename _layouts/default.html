@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {% capture page_title %}{{ page.title }}{% endcapture %}
-    <title>{{ site.title | escape }}{% if page.title %} / {{ page_title | escape }}{% endif %}</title>
+    <title>{{ site.title | escape }}{% if page.title and page.url != '/index.html' and page.url != '/' %} / {{ page_title | escape }}{% endif %}</title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
     <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/dnathandillon.css">
