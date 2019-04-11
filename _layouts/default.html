@@ -16,10 +16,10 @@
     {% include header.html %}
 
     <main role="main" class="main">
-      <article class="article">
-        {% if page.title %}
-          <header class="article-header">
-            <div class="container">
+      <div class="container">
+        <article class="article">
+          {% if page.title %}
+            <header class="article-header">
               <h1 class="article-header__title">{{ page_title | escape }}</h1>
               {% if page.subtitle %}
                 <p class="article-header__subtitle">{{ page.subtitle }}</p>
@@ -47,16 +47,14 @@
                   </ol><!-- .breadcrumbs -->
                 </nav><!-- .article-header__breadcrumbs -->
               {% endif %}
-            </div><!-- .container -->
-          </header><!-- .article-header -->
-        {% endif %}
+            </header><!-- .article-header -->
+          {% endif %}
 
-        <div class="article-content">
-          <div class="container">
+          <div class="article-content">
             {{ content }}
-          </div><!-- .container -->
-        </div><!-- .article-content -->
-      </article><!-- .article -->
+          </div><!-- .article-content -->
+        </article><!-- .article -->
+      </div><!-- .container -->
     </main><!-- .main -->
 
     {% include footer.html %}
