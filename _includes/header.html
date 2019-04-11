@@ -1,17 +1,15 @@
 <header role="banner" class="header">
-  <div class="container">
-    <h1 class="header__logo">
-      <a href="{{ site.baseurl }}/">{{ site.title | escape }}</a>
-    </h1>
+  <h1 class="header__logo">
+    <a href="{{ site.baseurl }}/">{{ site.title | escape }}</a>
+  </h1><!-- .header__logo -->
 
-    <nav role="navigation" class="header-nav">
-      <ul class="header-nav__list">
-        {% for item in site.data.navigation.primary %}
-          <li class="header-nav__list-item{% if page.url contains item.url %} active{% endif %}">
-            <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </div><!-- .container -->
+  <nav role="navigation" class="header-nav">
+    <ul class="header-nav__list">
+      {% for item in site.data.navigation.primary %}
+        <li class="header-nav__list-item{% if page.url contains item.url %} active{% endif %}">
+          <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
+        </li>
+      {% endfor %}
+    </ul><!-- .header-nav__list -->
+  </nav><!-- .header-nav -->
 </header><!-- .header -->
