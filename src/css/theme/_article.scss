@@ -1,0 +1,24 @@
+//
+// Theme / Article
+// --------------------------------------------------
+
+
+.article {}
+
+.article-header {
+  margin-top: ($grid-gutter-width * 4);
+  margin-bottom: ($grid-gutter-width * 4);
+
+  .article-header__breadcrumbs {
+
+    .breadcrumbs {
+
+      .breadcrumbs__item {}
+    }
+  }
+}
+
+.article-content {
+  margin-top: ($grid-gutter-width * 4);
+  margin-bottom: ($grid-gutter-width * 4);
+}

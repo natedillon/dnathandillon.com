@@ -479,3 +479,12 @@ code {
     width: 1160px;
   }
 }
+
+.article-header {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.article-content {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
