@@ -481,6 +481,11 @@ code {
   display: none;
 }
 
+.section-heading {
+  font-size: inherit;
+  text-transform: uppercase;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
