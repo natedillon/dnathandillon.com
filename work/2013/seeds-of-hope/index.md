@@ -14,7 +14,7 @@ links:
   - title: Website
     url: http://seedsofhopejailministry.org
     type: # website, source, article
-    status:
+    active: true
 services:
   - Front-end development
   - Design

@@ -14,7 +14,7 @@ links:
   - title: Website
     url: http://gccoldwellbanker.com
     type: # website, source, article
-    status:
+    active: false # site has been changed
 services:
   - Front-end development
   - Design

@@ -24,7 +24,7 @@ links:
   - title:
     url:
     type: # website, source, article
-    status:
+    active: false
 services: # Design, CMS development, Front-end development
   -
 tools:

@@ -13,11 +13,11 @@ links:
   - title: Website
     url: https://connect.k-state.edu
     type: # website, source, article
-    status:
+    active: false
   - title: Blog Post
     url: https://ntdln.com/2017/04/14/connect-navigation/
     type: # website, source, article
-    status:
+    active: false
 services:
   - Design
   - Front-end development

@@ -12,12 +12,12 @@ thumb: thumb.png
 links:
   - title: Website
     url: http://newhopeks.org
-    type: # website, source, article
-    status:
+    type: website
+    active: true
   - title: GitHub
     url: https://github.com/newhopeks/newhopeks.org
-    type: # website, source, article
-    status:
+    type: source
+    active: false # no longer up to date
 services:
   - Front-end development
   - Drupal and PHP development

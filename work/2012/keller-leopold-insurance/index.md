@@ -12,7 +12,8 @@ thumb: thumb.jpg
 links:
   - title: Website
     url: http://kellerleopold.com
-    hidden: true # Website modified from original work
+    type: # website, source, article
+    active: false # Website modified from original work
 services:
   - Front-end development
   - Design

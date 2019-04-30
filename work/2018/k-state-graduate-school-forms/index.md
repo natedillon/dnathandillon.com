@@ -13,7 +13,7 @@ links:
   - title:
     url:
     type: # website, source, article
-    status:
+    active: false
 services:
   - Front-end development
   - Design
