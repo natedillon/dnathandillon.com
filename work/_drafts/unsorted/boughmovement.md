@@ -13,7 +13,7 @@ featured: false
 # Exact release date unknown
 
 title: Bough Movement
-subtitle:
+description:
 date: 2009-12-15 # Date of domain registration
 date_start: 2009-12-15 # Date of domain registration
 agency:

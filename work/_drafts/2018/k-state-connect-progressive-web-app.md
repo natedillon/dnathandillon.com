@@ -3,7 +3,7 @@ published: false
 featured: false
 
 title: K-State Connect Progressive Web App
-subtitle:
+description:
 date: 2018-11-15 # Released in v1.50.0
 date_start: 2018-09-18
 agency: Kansas State University, Office of Mediated Education

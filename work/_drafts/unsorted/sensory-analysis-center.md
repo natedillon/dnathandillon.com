@@ -13,7 +13,7 @@ featured: false
 # Exact release date unknown
 
 title: Sensory Analysis Center
-subtitle:
+description:
 date:
 date_start:
 agency:

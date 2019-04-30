@@ -3,6 +3,8 @@ published: true
 featured: true
 
 title: K-State Connect Navigation
+description: |
+  Redesigned navigation for the K-State Connect website.
 date: 2017-03-28 # Released in Connect v1.41.0
 date_start:
 agency: Kansas State University, Office of Mediated Education

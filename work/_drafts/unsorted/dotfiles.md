@@ -13,7 +13,7 @@ featured: false
 # Exact release date unknown
 
 title:
-subtitle:
+description:
 date:
 date_start:
 agency:
