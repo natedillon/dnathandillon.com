@@ -1,11 +1,12 @@
 ---
 layout: default
 
-title: 'Hello, I’m Nate.'
-subtitle: 'I’m a front-end web developer working at <a href="https://k-state.edu/">Kansas State University</a>.'
+title: Hello, my name is Nate.
+description: |
+  I’m a front-end web developer working at <a href="https://k-state.edu/">Kansas State University</a>. I love building responsive, progressively enhanced websites using standards compliant HTML, CSS, and JavaScript.
 ---
 
-<h2>Recent Work</h2>
+<h2 class="section-heading">Recent Work</h2>
 {% assign projects = site.pages | where:'layout','project' | where:'featured',true | sort:'date' | reverse %}
 {% for project in projects limit:3 %}
   {% include project-list.html %}
