@@ -3,7 +3,7 @@ published: true
 featured: false
 
 title: Coldwell Banker, The Real Estate Shoppe
-Description: |
+description: |
   Real estate website for Coldwell Banker in Garden City, Kansas.
 date: 2013-02-27 # Last commits to the repo (for v1.0.0)
 date_start:
