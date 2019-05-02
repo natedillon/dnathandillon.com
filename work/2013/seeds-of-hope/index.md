@@ -2,7 +2,7 @@
 published: true
 featured: false
 
-title: Seeds of Hope: Jail Ministry & Re-entry Services
+title: 'Seeds of Hope: Jail Ministry & Re-entry Services'
 description:
 date: 2013-01-11 # Last commits to the repo
 date_start: 2012-11-08 # Design work started
