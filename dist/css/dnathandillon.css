@@ -533,6 +533,7 @@ code {
 .footer {
   padding: 20px;
   border-top: 1px solid #eee;
+  font-size: 1.4rem;
 }
 .container {
   padding-left: 20px;
