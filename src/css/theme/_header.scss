@@ -20,7 +20,7 @@
 .header-logo {
   margin: 0;
   color: white;
-  background-color: black;
+  background-color: $body-color;
   font-size: inherit;
 
   a {
@@ -41,5 +41,9 @@
     .header-nav__list-item {
       margin-left: $grid-gutter-width;
     }
+  }
+
+  a {
+    color: inherit;
   }
 }
