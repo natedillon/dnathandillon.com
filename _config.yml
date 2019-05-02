@@ -1,16 +1,15 @@
 # Site information
 title:        D. Nathan Dillon
 description:  The portfolio website of D. Nathan Dillon.
-url:          http://dnathandillon.com
+url:          https://dnathandillon.com
 
 # Social
 twitter_username: NatoriousFAT
 github_username:  natedillon
 
-# Permalinks
-permalink: pretty
-
 # Global configuration
+permalink: pretty
+include:
 exclude:
   - src
   - CNAME
@@ -18,7 +17,9 @@ exclude:
   - Gruntfile.js
   - node_modules
   - package.json
+  - package-lock.json
   - README.md
+keep_files:
 
 # Collections
 collections:
@@ -26,11 +27,11 @@ collections:
     output: true
     permalink: /conferences/:title/
 
-# Defaults
+# Front matter defaults
 defaults:
   -
     scope:
-      path: ""
+      path: ''
       type: pages
     values:
       layout: page
@@ -42,7 +43,7 @@ defaults:
       layout: project
   -
     scope:
-      path: ""
+      path: ''
       type: conferences
     values:
       layout: conference
