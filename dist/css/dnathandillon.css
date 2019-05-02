@@ -481,7 +481,7 @@ code {
   display: none;
 }
 
-.section-heading {
+.section-heading, .project-info .project-info__title {
   font-size: inherit;
   text-transform: uppercase;
 }
@@ -506,7 +506,7 @@ code {
 .header-logo {
   margin: 0;
   color: white;
-  background-color: black;
+  background-color: #333;
   font-size: inherit;
 }
 .header-logo a {
@@ -525,6 +525,9 @@ code {
 }
 .header-nav .header-nav__list .header-nav__list-item {
   margin-left: 20px;
+}
+.header-nav a {
+  color: inherit;
 }
 
 .footer {
@@ -559,31 +562,31 @@ code {
 }
 
 .article-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 40px;
   margin-top: 80px;
   margin-bottom: 80px;
 }
 .article-header .article-header__title,
-.article-header .article-header__subtitle {
-  margin: 0;
+.article-header .article-header__description,
+.article-header .article-header__breadcrumbs {
+  grid-column-end: span 3;
 }
 .article-header .article-header__title {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
+  margin: 0;
   font-size: 7.2rem;
   line-height: 1;
 }
-.article-header .article-header__subtitle {
+.article-header .article-header__description {
   -webkit-box-ordinal-group: 4;
       -ms-flex-order: 3;
           order: 3;
+  margin-top: 20px;
+  font-size: 2.4rem;
 }
 .article-header .article-header__breadcrumbs {
   -webkit-box-ordinal-group: 2;
@@ -614,4 +617,37 @@ code {
 .article-content {
   margin-top: 80px;
   margin-bottom: 80px;
+}
+
+.article--project .article-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.project-info {
+  grid-column-start: 4;
+  font-size: 1.6rem;
+}
+.project-info .project-info__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none;
+}
+.project-info .project-info__list .project-info__list-item {
+  display: block;
+  margin: 0 5px 5px 0;
+  padding: 0 5px;
+  background-color: #eee;
+  white-space: nowrap;
+}
+
+.project-content {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: span 3;
 }
