@@ -10,6 +10,7 @@ github_username:  natedillon
 # Global configuration
 permalink: pretty
 include:
+  - _pages
 exclude:
   - src
   - CNAME
