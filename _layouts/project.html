@@ -11,52 +11,51 @@ layout: default
 {% endif %}
 -->
 
-<div class="project-wrapper">
-  <div class="project-content">
-    {{ content }}
-  </div>
-
-  <aside class="project-info">
-    <div class="project-info__section">
-      {% if page.services %}
-        <h2 class="project-info__title">Services</h2>
-        <ul class="project-info__list">
-          {% for item in page.services %}
-            <li class="project-info__list-item">{{ item }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </div><!-- .project-info__section -->
-
-    <div class="project-info__section">
-      {% if page.tools %}
-        <h2 class="project-info__title">Tools</h2>
-        <ul class="project-info__list">
-          {% for item in page.tools %}
-            <li class="project-info__list-item">{{ item }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </div><!-- .project-info__section -->
-  </aside><!-- .project-info -->
-</div>
-
-<!--
-{% if page.links %}
-  {% assign page_links = '' %}
-  {% for item in page.links %}
-    {% if item.hidden != true %}
-      {% capture page_links %}
-        {{ page_links }}
-        <dd><a href="{{ item.url }}">{{ item.title }}</a></dd>
-      {% endcapture %}
-    {% endif %}
-  {% endfor %}
-  {% if page_links != '' %}
-    <dl>
-      <dt>Links:</dt>
-      {{ page_links }}
-    </dl>
+<aside class="project-info">
+  {% if page.services %}
+    <section class="project-info__section">
+      <h2 class="project-info__title">Services</h2>
+      <ul class="project-info__list">
+        {% for item in page.services %}
+          <li class="project-info__list-item">{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </section><!-- .project-info__section -->
   {% endif %}
-{% endif %}
--->
+
+  {% if page.tools %}
+    <section class="project-info__section">
+      <h2 class="project-info__title">Tools</h2>
+      <ul class="project-info__list">
+        {% for item in page.tools %}
+          <li class="project-info__list-item">{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </section><!-- .project-info__section -->
+  {% endif %}
+
+  {% if page.links %}
+    {% assign page_links = '' %}
+    {% for item in page.links %}
+      {% if item.active %}
+        {% capture page_links %}
+          {{ page_links }}
+          <li class="project-info__list-item"><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endcapture %}
+      {% endif %}
+    {% endfor %}
+
+    {% if page_links != '' %}
+      <section class="project-info__section">
+        <h2 class="project-info__title">Links</h2>
+        <ul class="project-info__list">
+          {{ page_links }}
+        </ul>
+      </section><!-- .project-info__section -->
+    {% endif %}
+  {% endif %}
+</aside><!-- .project-info -->
+
+<div class="project-content">
+  {{ content }}
+</div><!-- .project-content -->
