@@ -26,7 +26,7 @@ keep_files:
 collections:
   conferences:
     output: true
-    permalink: /conferences/:title/
+    permalink: /:collection/:title/
 
 # Front matter defaults
 defaults:
