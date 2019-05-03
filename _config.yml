@@ -8,6 +8,7 @@ twitter_username: NatoriousFAT
 github_username:  natedillon
 
 # Global configuration
+source: src
 permalink: pretty
 include:
   - _pages

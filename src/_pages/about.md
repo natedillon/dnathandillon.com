@@ -1,6 +1,4 @@
 ---
-permalink: /about/
-
 title: About
 excerpt: My name is Nate Dillon, and I am a front-end web developer living in Manhattan, Kansas.
 ---
