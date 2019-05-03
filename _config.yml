@@ -21,7 +21,9 @@ exclude:
   - package.json
   - package-lock.json
   - README.md
+  - assets
 keep_files:
+  - assets
 
 # Collections
 collections:
