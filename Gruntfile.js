@@ -25,7 +25,7 @@ module.exports = function(grunt) {
     // Clean command
     clean: [
       '_site/',
-      'dist/',
+      '_build/',
     ],
 
     // Sass command
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'src/assets/css/',
           src: ['**/*.{scss,sass}'],
-          dest: 'dist/css',
+          dest: '_build/assets/css',
           ext: '.css',
         }],
       },
@@ -54,7 +54,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'src/assets/css/',
           src: ['**/*.{scss,sass}'],
-          dest: 'dist/css',
+          dest: '_build/assets/css',
           ext: '.css',
         }],
       },
@@ -70,7 +70,7 @@ module.exports = function(grunt) {
         ],
       },
       dist: {
-        src: 'dist/css/*.css',
+        src: '_build/assets/css/*.css',
       },
     },
 
@@ -87,7 +87,15 @@ module.exports = function(grunt) {
               '!**/*.{sketch,eps,psd,ai}',
               '!**/img/**/_drafts/**',
             ],
-            dest: 'dist/',
+            dest: '_build/',
+          },
+          {
+            expand: true,
+            cwd: '_build',
+            src: [
+              '**'
+            ],
+            dest: '_site/',
           }
         ],
       },
@@ -102,7 +110,7 @@ module.exports = function(grunt) {
       },
       dist: {
         src: [
-          'dist/img',
+          '_build/assets/img',
         ],
       },
     },
@@ -123,7 +131,7 @@ module.exports = function(grunt) {
           livereload: true,
         },
         files: [
-          '_site/dist/css/**/*.css'
+          '_site/_build/assets/css/**/*.css'
         ],
       },
     },
