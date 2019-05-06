@@ -38,8 +38,8 @@ defaults:
       layout: page
   -
     scope:
-      path: work
-      type: pages
+      path: ''
+      type: work
     values:
       layout: project
   -
