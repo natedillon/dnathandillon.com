@@ -9,7 +9,7 @@ date_start: 2012-11-08 # Design work started
 agency: New Boston Creative Group, LLC
 client: Seeds of Hope Jail Ministry & Re-Entry Services
 image:
-thumb: thumb.jpg
+thumb: /assets/img/work/2013/seeds-of-hope/thumb.jpg
 links:
   - title: Website
     url: http://seedsofhopejailministry.org
@@ -42,4 +42,4 @@ notes:
 
 Website for Seeds of Hope Jail Ministry & Re-Entry Services in Garden City, Kansas.
 
-![Seeds of Hope screenshot](image.jpg)
+![Seeds of Hope screenshot](/assets/img/work/2013/seeds-of-hope/image.jpg)

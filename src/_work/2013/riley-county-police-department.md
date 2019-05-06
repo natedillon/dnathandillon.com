@@ -8,7 +8,7 @@ date_start: 2013-03-13 # Development work started
 agency: New Boston Creative Group, LLC
 client: Riley County Police Department
 image:
-thumb: thumb.jpg
+thumb: /assets/img/work/2013/riley-county-police-department/thumb.jpg
 links:
   - title: Website
     url: http://rileycountypolice.org
@@ -42,4 +42,4 @@ notes:
 
 Website for the Riley County Police Department in Manhattan, Kansas.
 
-![Riley County Police Department screenshot](image.jpg)
+![Riley County Police Department screenshot](/assets/img/work/2013/riley-county-police-department/image.jpg)

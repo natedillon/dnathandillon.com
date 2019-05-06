@@ -2,7 +2,7 @@
   <li class="project-list__item">
     <a href="{{ project.url }}">
       {% if project.thumb %}
-        {% capture thumb_src %}{{ project.url }}{{ project.thumb }}{% endcapture %}
+        {% capture thumb_src %}{{ project.thumb }}{% endcapture %}
       {% else %}
         {% capture thumb_src %}{{ site.path.project_thumb_default }}{% endcapture %}
       {% endif %}

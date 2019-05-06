@@ -10,7 +10,7 @@ date_start:
 agency: New Boston Creative Group, LLC
 client: Coldwell Banker, The Real Estate Shoppe, Inc.
 image:
-thumb: thumb.jpg
+thumb: /assets/img/work/2013/coldwell-banker-the-real-estate-shoppe/thumb.jpg
 links:
   - title: Website
     url: http://gccoldwellbanker.com
@@ -42,4 +42,4 @@ notes:
 
 Website for Coldwell Banker, The Real Estate Shoppe in Garden City, Kansas.
 
-![Coldwell Banker, The Real Estate Shoppe screenshot](image.jpg)
+![Coldwell Banker, The Real Estate Shoppe screenshot](/assets/img/work/2013/coldwell-banker-the-real-estate-shoppe/image.jpg)

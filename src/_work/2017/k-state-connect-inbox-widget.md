@@ -9,7 +9,7 @@ date_start: 2017-03-28 # Design work started
 agency: Kansas State University, Office of Mediated Education
 client: Kansas State University, Office of Mediated Education
 image:
-thumb: thumb.png
+thumb: /assets/img/work/2017/k-state-connect-inbox-widget/thumb.png
 links:
   - title: Website
     url: https://connect.k-state.edu
@@ -51,4 +51,4 @@ notes:
   - While Bootstrap was still in use in Connect itself, it was not used for the widget code
 ---
 
-![K-State Connect Inbox Widget screenshot](image.png)
+![K-State Connect Inbox Widget screenshot](/assets/img/work/2017/k-state-connect-inbox-widget/image.png)

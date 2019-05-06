@@ -10,7 +10,7 @@ date_start:
 agency: Kansas State University, Office of Mediated Education
 client: Kansas State University
 image:
-thumb: thumb.png
+thumb: /assets/img/work/2017/k-state-connect-navigation/thumb.png
 links:
   - title: Website
     url: https://connect.k-state.edu
@@ -55,14 +55,14 @@ Serving as a dashboard of various services for Kansas State University, K-State 
 For large screens, we decided on a dropdown list of each of the activated widgets. The dropdown list appears when hovering over the “Dashboard” navigation item. This was done with pure CSS, no JavaScript required. If for some reason the sub-nav is not accessible, the menu item works just as a normal link, taking the user to the dashboard page when clicked/tapped.
 
 <figure>
-  <img src="connect-nav-large.jpg" alt="connect-nav-large">
+  <img src="/assets/img/work/2017/k-state-connect-navigation/connect-nav-large.jpg" alt="connect-nav-large">
   <figcaption>Navigation on large screens</figcaption>
 </figure>
 
 If JavaScript is available, the nav bar sticks to the top of the screen, allowing access to the menu at all times.
 
 <figure>
-  <img src="connect-nav-large-scrolled.jpg" alt="connect-nav-large-scrolled">
+  <img src="/assets/img/work/2017/k-state-connect-navigation/connect-nav-large-scrolled.jpg" alt="connect-nav-large-scrolled">
   <figcaption>Navigation bar when scrolling on large screens</figcaption>
 </figure>
 
@@ -71,20 +71,20 @@ If JavaScript is available, the nav bar sticks to the top of the screen, allowin
 On small screens, the nav bar also sticks to the top of the screen when scrolling, just as it does on large screens.
 
 <figure>
-  <img src="connect-nav-small-scrolled.jpg" alt="connect-nav-small-scrolled">
+  <img src="/assets/img/work/2017/k-state-connect-navigation/connect-nav-small-scrolled.jpg" alt="connect-nav-small-scrolled">
   <figcaption>Navigation bar when scrolling on small screens</figcaption>
 </figure>
 
 When open, the navigation expands to the full height of the screen. Clicking/tapping a menu item with sub-navigation will open the sub-nav.
 
 <figure>
-  <img src="connect-nav-small-subnav.png" alt="connect-nav-small-subnav">
+  <img src="/assets/img/work/2017/k-state-connect-navigation/connect-nav-small-subnav.png" alt="connect-nav-small-subnav">
   <figcaption>Sub-navigation on small screens</figcaption>
 </figure>
 
 When JavaScript is not available, the main menu items are displayed at the top of the page and the sub-nav is hidden, leaving only the absolutely necessary items and making the navigation as small as possible.
 
 <figure>
-  <img src="connect-nav-small-no-js.jpg" alt="connect-nav-small-no-js">
+  <img src="/assets/img/work/2017/k-state-connect-navigation/connect-nav-small-no-js.jpg" alt="connect-nav-small-no-js">
   <figcaption>Navigation on small screens without JavaScript</figcaption>
 </figure>

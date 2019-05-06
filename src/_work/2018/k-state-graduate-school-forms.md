@@ -8,7 +8,7 @@ date_start: 2017-08-01 # First meeting
 agency: Kansas State University, Office of Mediated Education
 client: Kansas State University, Graduate School
 image:
-thumb: thumb.png
+thumb: /assets/img/work/2018/k-state-graduate-school-forms/thumb.png
 links:
   - title:
     url:
@@ -59,4 +59,4 @@ notes:
   - Link made live for students on 2019.03.26 in v1.1.2
 ---
 
-![K-State Graduate School Forms screenshot](image.png)
+![K-State Graduate School Forms screenshot](/assets/img/work/2018/k-state-graduate-school-forms/image.png)

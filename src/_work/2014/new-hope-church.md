@@ -10,7 +10,7 @@ date_start:
 agency:
 client: New Hope Church
 image:
-thumb: thumb.png
+thumb: /assets/img/work/2014/new-hope-church/thumb.png
 links:
   - title: Website
     url: http://newhopeks.org
@@ -47,4 +47,4 @@ notes:
   -
 ---
 
-![New Hope Church website screenshot](image.png)
+![New Hope Church website screenshot](/assets/img/work/2014/new-hope-church/image.png)

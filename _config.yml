@@ -52,5 +52,5 @@ defaults:
 
 # File paths
 path:
-  img:                    /dist/img
-  project_thumb_default:  /dist/img/projects/thumb.png
+  img:                    /assets/img
+  project_thumb_default:  /assets/img/projects/thumb.png

@@ -8,7 +8,7 @@ date_start:
 agency: New Boston Creative Group, LLC
 client: Keller Leopold Insurance
 image:
-thumb: thumb.jpg
+thumb: /assets/img/work/2012/keller-leopold-insurance/thumb.jpg
 links:
   - title: Website
     url: http://kellerleopold.com
@@ -39,4 +39,4 @@ notes:
 
 Website for Keller Leopold Insurance in Garden City, Kansas.
 
-![Keller Leopold Insurance screenshot](image.jpg)
+![Keller Leopold Insurance screenshot](/assets/img/work/2012/keller-leopold-insurance/image.jpg)
