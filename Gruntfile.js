@@ -113,6 +113,22 @@ module.exports = function(grunt) {
       },
     },
 
+    // imagemin command
+    imagemin: {
+      dist: {
+        options: {
+          optimizationLevel: 3,
+          progressive: true
+        },
+        files: [{
+          expand: true,
+          cwd: '<%= path_build %>/assets/img',
+          src: ['**/*.{png,jpg,jpeg,gif}'],
+          dest: '<%= path_build %>/assets/img',
+        }],
+      },
+    },
+
     // Watch command
     watch: {
       sass: {
@@ -158,7 +174,7 @@ module.exports = function(grunt) {
   // Dist task
   grunt.registerTask('dist', [
     'build',
-    'imageoptim:dist',
+    'imagemin',
   ]);
 
   // Serve task

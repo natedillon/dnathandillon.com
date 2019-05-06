@@ -10,19 +10,19 @@
   "license": "UNLICENSED",
   "private": true,
   "devDependencies": {
-    "autoprefixer": "^9.1.5",
-    "grunt": "^1.0.3",
+    "autoprefixer": "^9.5.1",
+    "grunt": "^1.0.4",
     "grunt-concurrent": "^2.3.1",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^3.1.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-imageoptim": "^1.4.3",
     "grunt-postcss": "^0.9.0",
-    "grunt-sass": "^3.0.1",
+    "grunt-sass": "^3.0.2",
     "grunt-shell": "^2.1.0",
     "load-grunt-tasks": "^4.0.0",
-    "normalize.css": "^8.0.0",
-    "sass": "^1.13.4",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.20.1",
     "time-grunt": "^1.4.0"
   }
 }
