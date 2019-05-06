@@ -99,20 +99,6 @@ module.exports = function(grunt) {
       },
     },
 
-    // ImageOptim command
-    imageoptim: {
-      options: {
-        imageAlpha: true,
-        jpegMini: false,
-        quitAfter: true,
-      },
-      dist: {
-        src: [
-          '<%= path_build %>/assets/img',
-        ],
-      },
-    },
-
     // imagemin command
     imagemin: {
       dist: {
