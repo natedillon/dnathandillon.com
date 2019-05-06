@@ -11,4 +11,5 @@ node_modules/
 # Sass
 .sass-cache
 
-_build
+# Build directory
+build

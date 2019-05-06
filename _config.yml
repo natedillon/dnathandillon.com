@@ -9,6 +9,7 @@ github_username:  natedillon
 
 # Global configuration
 source: src
+destination: build
 permalink: pretty
 include:
 exclude:
