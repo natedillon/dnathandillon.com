@@ -14,6 +14,10 @@ links:
     url:
     type: # website, source, article
     active: false
+  - title: Inside ITS — ITS first ‘Decisions’ project is an enormous success
+    url: https://blogs.k-state.edu/its/2019/04/12/its-first-decisions-project-is-an-enormous-success/
+    type: article # website, source, article
+    active: false
 services:
   - Front-end development
   - Design
