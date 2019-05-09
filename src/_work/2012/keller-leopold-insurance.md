@@ -1,6 +1,6 @@
 ---
 published: true
-featured: false
+featured: true
 
 title: Keller Leopold Insurance
 date: 2012-04-02 # Last commits to the repo (for v1.0.0)

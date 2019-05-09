@@ -19,8 +19,11 @@
   margin-top: ($grid-gutter-width * 4);
   margin-bottom: ($grid-gutter-width * 4);
 
+  //width: calc(75% - #{$grid-gutter-width});
+
   .article-header__title,
   .article-header__description,
+  .article-header__description-more,
   .article-header__breadcrumbs {
     grid-column-end: span 3;
   }
@@ -34,7 +37,13 @@
 
   .article-header__description {
     order: 3;
-    margin-top: $grid-gutter-width;
+    margin: $grid-gutter-width 0 0;
+    font-size: 2.4rem;
+  }
+
+  .article-header__description-more {
+    order: 4;
+    margin: $grid-gutter-width 0 0;
     font-size: 2.4rem;
   }
 

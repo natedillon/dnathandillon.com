@@ -1,6 +1,6 @@
 ---
 published: true
-featured: true
+featured: false
 
 title: K-State Connect Navigation
 description: |

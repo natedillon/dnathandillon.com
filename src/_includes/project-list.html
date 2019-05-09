@@ -1,13 +1,16 @@
-{% if forloop.first %}<ul class="project-list">{% endif %}
-  <li class="project-list__item">
+{% if forloop.first %}<div class="project-list">{% endif %}
+  <article class="project-list__item">
     <a href="{{ project.url }}">
       {% if project.thumb %}
         {% capture thumb_src %}{{ project.thumb }}{% endcapture %}
       {% else %}
         {% capture thumb_src %}{{ site.path.project_thumb_default }}{% endcapture %}
       {% endif %}
-      <img src="{{ thumb_src }}" alt="{{ project.title | escape }}"><br>
-      {{ project.title | escape }}
+      <img src="{{ thumb_src }}" alt="{{ project.title | escape }}">
+      <h4>{{ project.title | escape }}</h4>
+      {% if project.services %}
+        <p>{% for service in project.services %}{{ service }}{% if forloop.last == false %}, {% endif %}{% endfor %}</p>
+      {% endif %}
     </a>
-  </li><!-- .project-list__item -->
-{% if forloop.last %}</ul><!-- .project-list -->{% endif %}
+  </article><!-- .project-list__item -->
+{% if forloop.last %}</div><!-- .project-list -->{% endif %}

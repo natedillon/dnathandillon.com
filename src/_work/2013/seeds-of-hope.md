@@ -1,6 +1,6 @@
 ---
 published: true
-featured: false
+featured: true
 
 title: 'Seeds of Hope: Jail Ministry & Re-entry Services'
 description:

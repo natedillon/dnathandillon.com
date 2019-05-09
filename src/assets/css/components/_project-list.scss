@@ -4,14 +4,13 @@
 
 
 .project-list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  line-height: normal;
+  //margin: 0;
+  //padding: 0;
+  //list-style-type: none;
 
   @media (min-width: $screen-md) {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: $grid-gutter-width * 2;
   }
 
@@ -24,22 +23,30 @@
 
     a {
       display: block;
+      color: inherit;
       text-decoration: none;
 
       &:hover,
-      &:focus {
-        text-decoration: underline;
-      }
+      &:focus {}
+    }
+
+    h4 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    p {
+      margin: 0;
+      color: $grey-alpha;
+      font-size: 1.6rem;
     }
 
     img {
       display: block;
-      margin-bottom: $grid-gutter-width / 2;
-      border: 1px solid $gray-lighter;
-    }
+      margin-bottom: ($grid-gutter-width / 2);
+      //border: 1px solid $gray-lighter;
 
-    br {
-      display: none;
+      width: 100%; // TODO
     }
   }
 }

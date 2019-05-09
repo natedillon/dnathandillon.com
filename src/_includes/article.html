@@ -5,6 +5,9 @@
       {% if page.description %}
         <p class="article-header__description">{{ page.description }}</p>
       {% endif %}
+      {% if page.description_more %}
+        <p class="article-header__description-more"><a href="{{ page.description_more.link }}">{{ page.description_more.text }} &rarr;</a></p>
+      {% endif %}
 
       {% comment %}
         https://stackoverflow.com/a/32004173/6997263
