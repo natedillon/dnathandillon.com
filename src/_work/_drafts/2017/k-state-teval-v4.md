@@ -11,7 +11,11 @@ links:
   - title: K-State Today — New Online Teval system is here
     url: https://www.k-state.edu/today/announcement.php?id=36968
     type: article
-    status:
+    active: true
+  - title: Inside ITS — Online Teval team celebrates project completion
+    url: https://blogs.k-state.edu/its/2017/11/09/online-teval-team-celebrates-project-completion/
+    type: article
+    active: false
 services:
   - Front-end development
 tools:
