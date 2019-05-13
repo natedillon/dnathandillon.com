@@ -4,13 +4,15 @@
 
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  padding: $grid-gutter-width;
-  border-bottom: 1px solid $content-border-color;
+  padding-top: ($grid-gutter-width * 2);
+  //border-bottom: 1px solid $content-border-color;
   font-size: $font-size-base;
   line-height: $line-height-base;
-  text-transform: uppercase;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
 
   a {
     text-decoration: none;
@@ -22,6 +24,7 @@
   color: white;
   background-color: $body-color;
   font-size: inherit;
+  text-transform: uppercase;
 
   a {
     display: block;

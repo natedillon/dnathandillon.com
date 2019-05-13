@@ -4,9 +4,14 @@
 
 
 .footer {
-  padding: $grid-gutter-width;
+  padding: $grid-gutter-width 0;
+  color: $grey-light;
   border-top: 1px solid $content-border-color;
   font-size: 1.4rem;
 
-  .footer__copyright {}
+  .container {}
+
+  .footer__copyright {
+    margin: 0;
+  }
 }
