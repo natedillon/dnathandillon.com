@@ -6,119 +6,65 @@ title: Resume
   <h1 class="resume-header__title">D. Nathan Dillon</h1>
 </header><!-- .resume-header -->
 
-<section class="resume-section resume-section--experience">
-  <header class="resume-section-header">
-    <h2 class="resume-section-header__title">Experience</h2>
-  </header><!-- .resume-section-header -->
+{% if site.data.resume.experience %}
+  <section class="resume-section resume-section--experience">
+    <header class="resume-section-header">
+      <h2 class="resume-section-header__title">Experience</h2>
+    </header><!-- .resume-section-header -->
 
-  <div class="resume-item">
-    <div class="resume-item__info">
-      <h3 class="resume-item__title">Kansas State University, Office of Mediated Education</h3>
-      <div class="resume-item__subtitle">Front-End Web Developer</div>
-      <div class="resume-item__location">Manhattan, Kansas</div>
-      <div class="resume-item__date">Aug 2013 – Present</div>
-    </div>
-    <ul class="resume-item__list">
-      <li>Responsible for front-end development on the Python Web Team using Django, Sass/CSS, JavaScript/jQuery, Bootstrap, npm, and Grunt</li>
-      <li>Provided front-end support for the Java App Development team, including updating JSP and Thymeleaf templates</li>
-      <li>Developed and maintained code in 18 web applications and libraries</li>
-      <li>Designed mockups and wireframes in Sketch and Adobe Creative Suite for web layouts and new application features</li>
-    </ul><!-- .resume-item__list -->
-  </div><!-- .resume-item -->
+    {% for item in site.data.resume.experience %}
+      <div class="resume-item">
+        <div class="resume-item__info">
+          <h3 class="resume-item__title">{{ item.company }}{% if item.department %}, {{ item.department }}{% endif %}</h3>
+          <div class="resume-item__subtitle">{{ item.title }}</div>
+          <div class="resume-item__location">{{ item.location }}</div>
+          <div class="resume-item__date">
+            {{ item.date_start | date:'%b %Y' }} – {% if item.date_end %}{{ item.date_end | date:'%b %Y' }}{% else %}Present{% endif %}
+          </div>
+        </div>
+        {% if item.notes %}
+          <ul class="resume-item__list">
+            {% for note in item.notes %}
+              <li>{{ note }}</li>
+            {% endfor %}
+          </ul><!-- .resume-item__list -->
+        {% endif %}
+      </div><!-- .resume-item -->
+    {% endfor %}
+  </section><!-- .resume-section -->
+{% endif %}
 
-  <div class="resume-item">
-    <div class="resume-item__info">
-      <h3 class="resume-item__title">New Boston Creative Group, LLC</h3>
-      <div class="resume-item__subtitle">Web Developer</div>
-      <div class="resume-item__location">Manhattan, Kansas</div>
-      <div class="resume-item__date">Sept 2011 – Aug 2013</div>
-    </div>
-    <ul class="resume-item__list">
-      <li>Designed and/or built 23 websites in Drupal using standards-compliant HTML, PHP, Less/CSS, and JavaScript/jQuery</li>
-      <li>Produced designs and templates for HTML e-mail campaigns sent through Campaign Monitor</li>
-      <li>Maintained the company’s web server, running Ubuntu Linux</li>
-      <li>Edited client videos for use on the web and DVD</li>
-    </ul><!-- .resume-item__list -->
-  </div><!-- .resume-item -->
+{% if site.data.resume.skills %}
+  <section class="resume-section resume-section--skills">
+    <header class="resume-section-header">
+      <h2 class="resume-section-header__title">Additional Skills</h2>
+    </header><!-- .resume-section-header -->
 
-  <div class="resume-item">
-    <div class="resume-item__info">
-      <h3 class="resume-item__title">Kansas State University, College of Human Ecology</h3>
-      <div class="resume-item__subtitle">Webmaster</div>
-      <div class="resume-item__location">Manhattan, Kansas</div>
-      <div class="resume-item__date">Oct 2005 – Oct 2011</div>
-    </div>
-    <ul class="resume-item__list">
-      <li>Designed, built, and maintained websites for the college using HTML, PHP, CSS, and JavaScript</li>
-      <li>Created templates for use with WordPress and Adobe Contribute</li>
-    </ul><!-- .resume-item__list -->
-  </div><!-- .resume-item -->
+    <div class="resume-item">
+      <ul class="resume-item__list">
+        {% for skill in site.data.resume.skills %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul><!-- .resume-item__list -->
+    </div><!-- .resume-item -->
+  </section><!-- .resume-section -->
+{% endif %}
 
-  <div class="resume-item">
-    <div class="resume-item__info">
-      <h3 class="resume-item__title">Kansas State University, Career and Employment Services</h3>
-      <div class="resume-item__subtitle">Video Intern</div>
-      <div class="resume-item__location">Manhattan, Kansas</div>
-      <div class="resume-item__date">Aug 2004 – Aug 2005</div>
-    </div>
-    <ul class="resume-item__list">
-      <li>Produced 16 videos for guest speakers and career-related events at Kansas State University</li>
-      <li>Edited videos and authored DVDs using Sony Vegas, Sony Sound Forge, Adobe Audition, and Sony DVD Architect</li>
-    </ul><!-- .resume-item__list -->
-  </div><!-- .resume-item -->
+{% if site.data.resume.education %}
+  <section class="resume-section resume-section--education">
+    <header class="resume-section-header">
+      <h2 class="resume-section-header__title">Education</h2>
+    </header><!-- .resume-section-header -->
 
-  <div class="resume-item">
-    <div class="resume-item__info">
-      <h3 class="resume-item__title">Kansas State University, Orion Online</h3>
-      <div class="resume-item__subtitle">Web Designer</div>
-      <div class="resume-item__location">Manhattan, Kansas</div>
-      <div class="resume-item__date">Aug 2004 – May 2005</div>
-    </div>
-    <ul class="resume-item__list">
-      <li>Updated website content for existing clients and created layouts for new clients</li>
-      <li>Designed and built a new website for the K-State College of Arts & Sciences</li>
-    </ul><!-- .resume-item__list -->
-  </div><!-- .resume-item -->
-
-  <div class="resume-item">
-    <div class="resume-item__info">
-      <h3 class="resume-item__title">Campus Crusade for Christ</h3>
-      <div class="resume-item__subtitle">Web Design Intern</div>
-      <div class="resume-item__location">Orlando, Florida</div>
-      <div class="resume-item__date">June 2002 – Aug 2002</div>
-    </div>
-    <ul class="resume-item__list">
-      <li>Worked as an intern for the Web Consulting Team at the Campus Crusade World Headquarters</li>
-      <li>Designed and developed the Orlando Summer Project 2002 website</li>
-    </ul><!-- .resume-item__list -->
-  </div><!-- .resume-item -->
-</section><!-- .resume-section -->
-
-<section class="resume-section resume-section--skills">
-  <header class="resume-section-header">
-    <h2 class="resume-section-header__title">Additional Skills</h2>
-  </header><!-- .resume-section-header -->
-
-  <div class="resume-item">
-    <ul class="resume-item__list">
-      <li>Extensive knowledge of building progressively enhanced websites using responsive web design and standards-compliant HTML, CSS, and JavaScript</li>
-      <li>Familiarity with several content management systems, including Drupal, WordPress, and Jekyll</li>
-      <li>Experience managing projects in a team environment using Git, hosted repository services such as GitHub and Bitbucket, and various project management tools such as JIRA, LeanKit, and Trello</li>
-    </ul><!-- .resume-item__list -->
-  </div><!-- .resume-item -->
-</section><!-- .resume-section -->
-
-<section class="resume-section resume-section--education">
-  <header class="resume-section-header">
-    <h2 class="resume-section-header__title">Education</h2>
-  </header><!-- .resume-section-header -->
-
-  <div class="resume-item">
-    <div class="resume-item__info">
-      <h3 class="resume-item__title">Kansas State University</h3>
-      <div class="resume-item__subtitle">Bachelor of Science in Mass Communications, Radio-Television sequence</div>
-      <div class="resume-item__location">Manhattan, Kansas</div>
-      <div class="resume-item__date">May 2003</div>
-    </div>
-  </div><!-- .resume-item -->
-</section><!-- .resume-section -->
+    {% for item in site.data.resume.education %}
+      <div class="resume-item">
+        <div class="resume-item__info">
+          <h3 class="resume-item__title">{{ item.title }}</h3>
+          <div class="resume-item__subtitle">{{ item.degree }} in {{ item.major }}</div>
+          <div class="resume-item__location">{{ item.location }}</div>
+          <div class="resume-item__date">{{ item.date_end | date:'%b %Y' }}</div>
+        </div>
+      </div><!-- .resume-item -->
+    {% endfor %}
+  </section><!-- .resume-section -->
+{% endif %}
