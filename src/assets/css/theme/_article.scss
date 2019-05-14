@@ -125,12 +125,13 @@
 
 .article--project .article-content .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "content content content sidebar";
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: ($grid-gutter-width * 2);
 }
 
 .project-info {
-  grid-column-start: 4;
+  grid-area: sidebar;
   font-size: 1.6rem;
 
   .project-info__section {}
@@ -156,9 +157,7 @@
 }
 
 .project-content {
-  grid-row-start: 1;
-  grid-column-start: 1;
-  grid-column-end: span 3;
+  grid-area: content;
 }
 
 
