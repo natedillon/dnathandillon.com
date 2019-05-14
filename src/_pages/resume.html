@@ -14,7 +14,12 @@ title: Resume
         <div class="resume-item__subtitle">{{ item.title }}</div>
         <div class="resume-item__location">{{ item.location }}</div>
         <div class="resume-item__date">
-          {{ item.date_start | date:'%b %Y' }} – {% if item.date_end %}{{ item.date_end | date:'%b %Y' }}{% else %}Present{% endif %}
+          <time datetime="{{ item.date_start | date:'%Y-%m' }}">{{ item.date_start | date:'%b %Y' }}</time> –
+          {% if item.date_end %}
+            <time datetime="{{ item.date_end | date:'%Y-%m' }}">{{ item.date_end | date:'%b %Y' }}</time>
+          {% else %}
+            Present
+          {% endif %}
         </div>
       </div>
       {% if item.notes %}
@@ -53,7 +58,7 @@ title: Resume
         <h3 class="resume-item__title">{{ item.title }}</h3>
         <div class="resume-item__subtitle">{{ item.degree }} in {{ item.major }}</div>
         <div class="resume-item__location">{{ item.location }}</div>
-        <div class="resume-item__date">{{ item.date_end | date:'%b %Y' }}</div>
+        <div class="resume-item__date"><time datetime="{{ item.date_end | date:'%Y-%m' }}">{{ item.date_end | date:'%b %Y' }}</time></div>
       </div>
     </div><!-- .resume-item -->
   {% endfor %}
