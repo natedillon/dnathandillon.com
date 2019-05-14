@@ -94,6 +94,13 @@
 .article-content {
   margin-top: ($grid-gutter-width * 4);
   margin-bottom: ($grid-gutter-width * 4);
+
+  .container {
+    display: grid;
+    grid-template-areas: "content content content sidebar";
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: ($grid-gutter-width * 2);
+  }
 }
 
 
@@ -122,13 +129,6 @@
 // -------------------------
 
 .article--project {}
-
-.article--project .article-content .container {
-  display: grid;
-  grid-template-areas: "content content content sidebar";
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: ($grid-gutter-width * 2);
-}
 
 .project-info {
   grid-area: sidebar;
