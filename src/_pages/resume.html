@@ -2,69 +2,59 @@
 title: Resume
 ---
 
-<header class="resume-header">
-  <h1 class="resume-header__title">D. Nathan Dillon</h1>
-</header><!-- .resume-header -->
+<section class="resume-section resume-section--experience">
+  <header class="resume-section-header">
+    <h2 class="resume-section-header__title">Experience</h2>
+  </header><!-- .resume-section-header -->
 
-{% if site.data.resume.experience %}
-  <section class="resume-section resume-section--experience">
-    <header class="resume-section-header">
-      <h2 class="resume-section-header__title">Experience</h2>
-    </header><!-- .resume-section-header -->
-
-    {% for item in site.data.resume.experience %}
-      <div class="resume-item">
-        <div class="resume-item__info">
-          <h3 class="resume-item__title">{{ item.company }}{% if item.department %}, {{ item.department }}{% endif %}</h3>
-          <div class="resume-item__subtitle">{{ item.title }}</div>
-          <div class="resume-item__location">{{ item.location }}</div>
-          <div class="resume-item__date">
-            {{ item.date_start | date:'%b %Y' }} – {% if item.date_end %}{{ item.date_end | date:'%b %Y' }}{% else %}Present{% endif %}
-          </div>
-        </div>
-        {% if item.notes %}
-          <ul class="resume-item__list">
-            {% for note in item.notes %}
-              <li>{{ note }}</li>
-            {% endfor %}
-          </ul><!-- .resume-item__list -->
-        {% endif %}
-      </div><!-- .resume-item -->
-    {% endfor %}
-  </section><!-- .resume-section -->
-{% endif %}
-
-{% if site.data.resume.skills %}
-  <section class="resume-section resume-section--skills">
-    <header class="resume-section-header">
-      <h2 class="resume-section-header__title">Additional Skills</h2>
-    </header><!-- .resume-section-header -->
-
+  {% for item in site.data.resume.experience %}
     <div class="resume-item">
-      <ul class="resume-item__list">
-        {% for skill in site.data.resume.skills %}
-          <li>{{ skill }}</li>
-        {% endfor %}
-      </ul><!-- .resume-item__list -->
-    </div><!-- .resume-item -->
-  </section><!-- .resume-section -->
-{% endif %}
-
-{% if site.data.resume.education %}
-  <section class="resume-section resume-section--education">
-    <header class="resume-section-header">
-      <h2 class="resume-section-header__title">Education</h2>
-    </header><!-- .resume-section-header -->
-
-    {% for item in site.data.resume.education %}
-      <div class="resume-item">
-        <div class="resume-item__info">
-          <h3 class="resume-item__title">{{ item.title }}</h3>
-          <div class="resume-item__subtitle">{{ item.degree }} in {{ item.major }}</div>
-          <div class="resume-item__location">{{ item.location }}</div>
-          <div class="resume-item__date">{{ item.date_end | date:'%b %Y' }}</div>
+      <div class="resume-item__info">
+        <h3 class="resume-item__title">{{ item.company }}{% if item.department %}, {{ item.department }}{% endif %}</h3>
+        <div class="resume-item__subtitle">{{ item.title }}</div>
+        <div class="resume-item__location">{{ item.location }}</div>
+        <div class="resume-item__date">
+          {{ item.date_start | date:'%b %Y' }} – {% if item.date_end %}{{ item.date_end | date:'%b %Y' }}{% else %}Present{% endif %}
         </div>
-      </div><!-- .resume-item -->
-    {% endfor %}
-  </section><!-- .resume-section -->
-{% endif %}
+      </div>
+      {% if item.notes %}
+        <ul class="resume-item__list">
+          {% for note in item.notes %}
+            <li>{{ note }}</li>
+          {% endfor %}
+        </ul><!-- .resume-item__list -->
+      {% endif %}
+    </div><!-- .resume-item -->
+  {% endfor %}
+</section><!-- .resume-section -->
+
+<section class="resume-section resume-section--skills">
+  <header class="resume-section-header">
+    <h2 class="resume-section-header__title">Additional Skills</h2>
+  </header><!-- .resume-section-header -->
+
+  <div class="resume-item">
+    <ul class="resume-item__list">
+      {% for skill in site.data.resume.skills %}
+        <li>{{ skill }}</li>
+      {% endfor %}
+    </ul><!-- .resume-item__list -->
+  </div><!-- .resume-item -->
+</section><!-- .resume-section -->
+
+<section class="resume-section resume-section--education">
+  <header class="resume-section-header">
+    <h2 class="resume-section-header__title">Education</h2>
+  </header><!-- .resume-section-header -->
+
+  {% for item in site.data.resume.education %}
+    <div class="resume-item">
+      <div class="resume-item__info">
+        <h3 class="resume-item__title">{{ item.title }}</h3>
+        <div class="resume-item__subtitle">{{ item.degree }} in {{ item.major }}</div>
+        <div class="resume-item__location">{{ item.location }}</div>
+        <div class="resume-item__date">{{ item.date_end | date:'%b %Y' }}</div>
+      </div>
+    </div><!-- .resume-item -->
+  {% endfor %}
+</section><!-- .resume-section -->
