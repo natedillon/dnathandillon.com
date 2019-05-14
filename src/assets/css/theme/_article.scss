@@ -107,7 +107,15 @@
 // Default article
 // -------------------------
 
-.article--default {}
+.article--default {
+
+  .article-content {
+
+    .container {
+      display: block;
+    }
+  }
+}
 
 
 
@@ -115,6 +123,10 @@
 // -------------------------
 
 .article--page {}
+
+.page-content {
+  grid-area: content;
+}
 
 
 
