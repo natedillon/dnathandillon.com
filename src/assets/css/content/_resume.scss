@@ -118,23 +118,3 @@
     .resume-item__list {}
   }
 }
-
-
-body.resume {
-
-  .article {
-    //@include make-container--nested-full();
-  }
-
-  // TODO: Many of these styles should probably be moved to a main print file
-  @media print {
-    font-family: $font-family-serif;
-    font-size: 10pt;
-
-    .header,
-    .article-header,
-    .footer {
-      display: none;
-    }
-  }
-}
