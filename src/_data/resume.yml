@@ -6,10 +6,10 @@ experience:
     date_start: 2013-08-26
     date_end:
     notes:
-      - Responsible for front-end development on the Python Web Team using Django, Sass/CSS, JavaScript/jQuery, Bootstrap, npm, and Grunt
+      - Responsible for front-end development on the Python Web Team using Django, CSS/Sass, JavaScript/jQuery, Bootstrap, npm, and Grunt
       - Provided front-end support for the Java App Development team, including updating JSP and Thymeleaf templates
-      - Developed and maintained code in 18 web applications and libraries
-      - Designed mockups and wireframes in Sketch and Adobe Creative Suite for web layouts and new application features
+      - Developed and maintained code in 19 web applications and libraries
+      - Designed mockups and wireframes using Sketch and Adobe Creative Suite for web layouts and new application features
   - company: New Boston Creative Group, LLC
     department:
     location: Manhattan, Kansas
