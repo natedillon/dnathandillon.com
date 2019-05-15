@@ -8,9 +8,6 @@
       {% endif %}
       <img src="{{ thumb_src }}" alt="{{ project.title | escape }}">
       <h4>{{ project.title | escape }}</h4>
-      {% if project.services %}
-        <p>{% for service in project.services %}{{ service }}{% if forloop.last == false %}, {% endif %}{% endfor %}</p>
-      {% endif %}
     </a>
   </article><!-- .project-list__item -->
 {% if forloop.last %}</div><!-- .project-list -->{% endif %}
