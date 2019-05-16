@@ -51,11 +51,11 @@ title: Project Status
 {% endfor %}
 
 <h2>Services</h2>
-<ul>
+<ol>
   {% for service in services %}
     <li>{{ service }}</li>
   {% endfor %}
-</ul>
+</ol>
 
 {% assign raw_tools = '' %}
 {% for project in projects %}
@@ -77,8 +77,8 @@ title: Project Status
 {% endfor %}
 
 <h2>Tools</h2>
-<ul>
+<ol>
   {% for tool in tools %}
     <li>{{ tool }}</li>
   {% endfor %}
-</ul>
+</ol>
