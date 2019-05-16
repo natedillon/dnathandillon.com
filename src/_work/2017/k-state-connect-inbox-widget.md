@@ -39,11 +39,11 @@ colors:
   - '#512888'
 team:
   - name: Keith Bauer
-    role:
+    role: Back-end development
   - name: Jon Faustman
-    role:
+    role: Front-end development
   - name: Amanda Tross
-    role:
+    role: Project management
 notes:
   - Started design work on March 28, 2017; last design file was made April 17, 2017
   - The “K-State Email” widget was re-named to “Inbox”

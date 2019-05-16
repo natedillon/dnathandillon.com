@@ -22,10 +22,9 @@ links:
     active: false # no longer up to date
 services:
   - Front-end development
-  - Drupal and PHP development
-  - Design modifications
+  - CMS development
 tools:
-  - Drupal 7
+  - Drupal # v7
   - PHP
   - CSS
   - Less
@@ -33,6 +32,8 @@ tools:
   - jQuery
   - Bootstrap
 tools_additional:
+  -
+fonts:
   -
 colors:
   - '#78944A'
@@ -44,5 +45,5 @@ team:
   - name:
     role:
 notes:
-  -
+  - Made significant modifications to the original design
 ---

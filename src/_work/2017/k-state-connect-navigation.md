@@ -43,7 +43,8 @@ icons:
 colors:
   - '#512888'
 team:
-  - Jon Faustman
+  - name: Jon Faustman
+    role: Front-end development
 notes:
   -
 ---

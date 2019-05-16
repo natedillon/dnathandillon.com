@@ -17,16 +17,20 @@ links:
     type: # website, source, article
     active: false # Website modified from original work
 services:
-  - Front-end development
   - Design
+  - Front-end development
+  - CMS development
 tools:
-  - Drupal 6
+  - Drupal # v6
   - PHP
-  - JavaScript/jQuery
+  - CSS
+  - JavaScript
+  - jQuery
 tools_additional:
   -
 fonts:
   - Bitter
+  - Lato
   - Open Sans
 icons:
   -

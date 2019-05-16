@@ -18,12 +18,14 @@ links:
     active: true
 services:
   - Front-end development
-  - Mobile website design
+  - CMS development
 tools:
-  - Drupal 7
+  - Drupal # v7
   - PHP
-  - CSS/Less
-  - JavaScript/jQuery
+  - CSS
+  - Less
+  - JavaScript
+  - jQuery
   - Bootstrap
 tools_additional:
   -
@@ -39,5 +41,6 @@ team:
   - name:
     role:
 notes:
-  -
+  - Designed the mobile version of the website
+  - My first responsive website?
 ---

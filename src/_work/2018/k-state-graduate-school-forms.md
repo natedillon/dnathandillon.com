@@ -23,8 +23,8 @@ links:
     type: article # website, source, article
     active: true
 services:
-  - Front-end development
   - Design
+  - Front-end development
 tools:
   - Decisions
   - Python

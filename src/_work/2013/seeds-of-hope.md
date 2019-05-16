@@ -17,13 +17,16 @@ links:
     type: # website, source, article
     active: true
 services:
-  - Front-end development
   - Design
+  - Front-end development
+  - CMS development
 tools:
-  - Drupal 7
+  - Drupal # v7
   - PHP
-  - CSS/Less
-  - JavaScript/jQuery
+  - CSS
+  - Less
+  - JavaScript
+  - jQuery
   - Bootstrap
 tools_additional:
   -
