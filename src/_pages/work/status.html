@@ -5,6 +5,7 @@ title: Project Status
 ---
 
 {% assign projects = site.work | sort:'date' | reverse %}
+
 <table class="table table-striped table-hover table-responsive">
   <thead>
     <tr>
@@ -29,3 +30,55 @@ title: Project Status
     {% endfor %}
   </tbody>
 </table>
+
+{% assign raw_services = '' %}
+{% for project in projects %}
+  {% assign project_services = project.services | join:'|' | append:'|' %}
+  {% assign raw_services = raw_services | append:project_services %}
+{% endfor %}
+{% assign raw_services = raw_services | split:'|' | sort %}
+
+{% assign services = '' %}
+{% for service in raw_services %}
+  {% if service != '' %}
+    {% if services == '' %}
+      {% assign services = service | split:'|' %}
+    {% endif %}
+    {% unless services contains service %}
+      {% assign services = services | join:'|' | append:'|' | append:service | split:'|' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+<h2>Services</h2>
+<ul>
+  {% for service in services %}
+    <li>{{ service }}</li>
+  {% endfor %}
+</ul>
+
+{% assign raw_tools = '' %}
+{% for project in projects %}
+  {% assign project_tools = project.tools | join:'|' | append:'|' %}
+  {% assign raw_tools = raw_tools | append:project_tools %}
+{% endfor %}
+{% assign raw_tools = raw_tools | split:'|' | sort %}
+
+{% assign tools = '' %}
+{% for tool in raw_tools %}
+  {% if tool != '' %}
+    {% if tools == '' %}
+      {% assign tools = tool | split:'|' %}
+    {% endif %}
+    {% unless tools contains tool %}
+      {% assign tools = tools | join:'|' | append:'|' | append:tool | split:'|' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+<h2>Tools</h2>
+<ul>
+  {% for tool in tools %}
+    <li>{{ tool }}</li>
+  {% endfor %}
+</ul>
