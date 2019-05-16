@@ -3,11 +3,13 @@ published: true
 featured: true
 
 title: Keller Leopold Insurance
+description: |
+  Website for Keller Leopold Insurance in Garden City, Kansas.
 date: 2012-04-02 # Last commits to the repo (for v1.0.0)
 date_start:
 agency: New Boston Creative Group, LLC
 client: Keller Leopold Insurance
-image:
+image: /assets/img/work/2012/keller-leopold-insurance/image.jpg
 thumb: /assets/img/work/2012/keller-leopold-insurance/thumb.jpg
 links:
   - title: Website
@@ -36,7 +38,3 @@ team:
 notes:
   -
 ---
-
-Website for Keller Leopold Insurance in Garden City, Kansas.
-
-![Keller Leopold Insurance screenshot](/assets/img/work/2012/keller-leopold-insurance/image.jpg)

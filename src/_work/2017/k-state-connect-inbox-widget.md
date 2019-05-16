@@ -8,7 +8,7 @@ date: 2017-06-27 # Released in v1.44.0
 date_start: 2017-03-28 # Design work started
 agency: Kansas State University, Office of Mediated Education
 client: Kansas State University, Office of Mediated Education
-image:
+image: /assets/img/work/2017/k-state-connect-inbox-widget/image.png
 thumb: /assets/img/work/2017/k-state-connect-inbox-widget/thumb.png
 links:
   - title: Website
@@ -50,5 +50,3 @@ notes:
   - The Decisions service was added to the widget for the Division of Financial Services; client contacts were Bryan Kraus and Rob McGaughey
   - While Bootstrap was still in use in Connect itself, it was not used for the widget code
 ---
-
-![K-State Connect Inbox Widget screenshot](/assets/img/work/2017/k-state-connect-inbox-widget/image.png)

@@ -9,7 +9,7 @@ date: 2017-03-28 # Released in Connect v1.41.0
 date_start:
 agency: Kansas State University, Office of Mediated Education
 client: Kansas State University
-image:
+image: /assets/img/work/2017/k-state-connect-navigation/image.png
 thumb: /assets/img/work/2017/k-state-connect-navigation/thumb.png
 links:
   - title: Website

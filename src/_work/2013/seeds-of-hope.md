@@ -3,12 +3,13 @@ published: true
 featured: true
 
 title: 'Seeds of Hope: Jail Ministry & Re-entry Services'
-description:
+description: |
+  Website for Seeds of Hope Jail Ministry & Re-Entry Services in Garden City, Kansas.
 date: 2013-01-11 # Last commits to the repo
 date_start: 2012-11-08 # Design work started
 agency: New Boston Creative Group, LLC
 client: Seeds of Hope Jail Ministry & Re-Entry Services
-image:
+image: /assets/img/work/2013/seeds-of-hope/image.jpg
 thumb: /assets/img/work/2013/seeds-of-hope/thumb.jpg
 links:
   - title: Website
@@ -39,7 +40,3 @@ team:
 notes:
   -
 ---
-
-Website for Seeds of Hope Jail Ministry & Re-Entry Services in Garden City, Kansas.
-
-![Seeds of Hope screenshot](/assets/img/work/2013/seeds-of-hope/image.jpg)
