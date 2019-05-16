@@ -134,7 +134,15 @@
 // Project index article
 // -------------------------
 
-.article--project-index {}
+.article--project-index {
+
+  .article-content {
+
+    .container {
+      display: block;
+    }
+  }
+}
 
 
 
