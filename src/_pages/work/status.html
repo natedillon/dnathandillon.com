@@ -4,7 +4,7 @@ layout: default
 title: Project Status
 ---
 
-{% assign projects = site.pages | where:'layout','project' | sort:'date' | reverse %}
+{% assign projects = site.work | sort:'date' | reverse %}
 <table class="table table-striped table-hover table-responsive">
   <thead>
     <tr>
