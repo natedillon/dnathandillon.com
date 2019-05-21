@@ -10,7 +10,7 @@ date_start:
 agency: New Boston Creative Group, LLC
 client: Keller Leopold Insurance
 image: /assets/img/work/2012/keller-leopold-insurance/image.jpg
-thumb: /assets/img/work/2012/keller-leopold-insurance/thumb.jpg
+thumb:
 links:
   - title: Website
     url: http://kellerleopold.com
@@ -35,7 +35,9 @@ fonts:
 icons:
   -
 colors:
-  -
+  - '#3A6172'
+  - '#853734'
+  - '#C59238'
 team:
   - name:
     role:

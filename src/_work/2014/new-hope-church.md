@@ -9,8 +9,8 @@ date: 2014-10-19 # v2.0.0 release date
 date_start:
 agency:
 client: New Hope Church
-image: /assets/img/work/2014/new-hope-church/image.png
-thumb: /assets/img/work/2014/new-hope-church/thumb.png
+image: /assets/img/work/2014/new-hope-church/image.jpg
+thumb:
 links:
   - title: Website
     url: http://newhopeks.org

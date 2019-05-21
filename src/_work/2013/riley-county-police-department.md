@@ -10,7 +10,7 @@ date_start: 2013-03-13 # Development work started
 agency: New Boston Creative Group, LLC
 client: Riley County Police Department
 image: /assets/img/work/2013/riley-county-police-department/image.jpg
-thumb: /assets/img/work/2013/riley-county-police-department/thumb.jpg
+thumb:
 links:
   - title: Website
     url: http://rileycountypolice.org
@@ -36,10 +36,15 @@ fonts:
 icons:
   - Glyphicons
 colors:
-  -
+  - '#0F729B'
+  - '#1a2942'
+  - '#841920'
+  - '#5c050d'
+  - '#c39c14'
+  - '#efeeea'
 team:
-  - name:
-    role:
+  - name: Shawn Dryden
+    role: Design
 notes:
   - Designed the mobile version of the website
   - My first responsive website?

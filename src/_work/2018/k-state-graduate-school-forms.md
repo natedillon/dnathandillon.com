@@ -7,8 +7,8 @@ date: 2018-08-17 # Dashboard and first form released to production
 date_start: 2017-08-01 # First meeting
 agency: Kansas State University, Office of Mediated Education
 client: Kansas State University, Graduate School
-image: /assets/img/work/2018/k-state-graduate-school-forms/image.png
-thumb: /assets/img/work/2018/k-state-graduate-school-forms/thumb.png
+image: /assets/img/work/2018/k-state-graduate-school-forms/image.jpg
+thumb:
 links:
   - title:
     url:
@@ -41,7 +41,17 @@ fonts:
 icons:
   -
 colors:
-  - '#512888'
+  - '#512888' # ksu-purple
+  - '#f0Ce86' # ksu-neutral-light
+  - '#baab99' # ksu-neutral-medium
+  - '#919195' # ksu-neutral-dark
+  - '#dbce86' # ksu-accent-soft-yellow
+  - '#ffedba' # ksu-accent-light-yellow
+  - '#edaf11' # ksu-accent-dark-yellow
+  - '#cea36c' # ksu-accent-orange
+  - '#9f9170' # ksu-accent-brown
+  - '#9e776f' # ksu-accent-red
+  - '#3b778f' # ksu-accent-blue
 team:
   - name: Paul Abitz
     role:

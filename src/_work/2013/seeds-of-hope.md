@@ -10,7 +10,7 @@ date_start: 2012-11-08 # Design work started
 agency: New Boston Creative Group, LLC
 client: Seeds of Hope Jail Ministry & Re-Entry Services
 image: /assets/img/work/2013/seeds-of-hope/image.jpg
-thumb: /assets/img/work/2013/seeds-of-hope/thumb.jpg
+thumb:
 links:
   - title: Website
     url: http://seedsofhopejailministry.org
@@ -36,7 +36,9 @@ fonts:
 icons:
   - Symbolset Social
 colors:
-  -
+  - '#587073'
+  - '#5c6d32'
+  - '#a49046'
 team:
   - name:
     role:

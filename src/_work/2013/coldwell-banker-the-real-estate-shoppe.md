@@ -10,7 +10,7 @@ date_start:
 agency: New Boston Creative Group, LLC
 client: Coldwell Banker, The Real Estate Shoppe, Inc.
 image: /assets/img/work/2013/coldwell-banker-the-real-estate-shoppe/image.jpg
-thumb: /assets/img/work/2013/coldwell-banker-the-real-estate-shoppe/thumb.jpg
+thumb:
 links:
   - title: Website
     url: http://gccoldwellbanker.com
@@ -35,7 +35,9 @@ fonts:
 icons:
   - Symbolset Social
 colors:
-  -
+  - '#4b6899'
+  - '#FFCC33'
+  - '#80B94B'
 team:
   - name:
     role:
