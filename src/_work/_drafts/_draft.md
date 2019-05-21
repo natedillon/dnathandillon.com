@@ -18,6 +18,7 @@ date:
 date_start:
 agency:
 client:
+logo:
 image:
 thumb:
 links:
