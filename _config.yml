@@ -17,6 +17,10 @@ exclude:
 keep_files:
   - assets
 
+# Plugins
+plugins:
+  - jekyll-paginate-v2
+
 # Collections
 collections:
   pages:
@@ -49,6 +53,27 @@ defaults:
       type: conferences
     values:
       layout: conference
+
+# Plugin: Pagination (jekyll-paginate-v2)
+pagination:
+  enabled: true
+  debug: false
+  per_page: 2
+  permalink: '/page/:num/'
+  title: ':title'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+# Plugin: Auto Pages (jekyll-paginate-v2)
+autopages:
+  enabled: false
+  categories:
+    enabled: false
+  collections:
+    enabled: false
+  tags:
+    enabled: false
 
 # File paths
 path:
