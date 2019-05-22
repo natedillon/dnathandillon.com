@@ -23,9 +23,6 @@ plugins:
 
 # Collections
 collections:
-  pages:
-    output: true
-    permalink: /:path/
   work:
     output: true
     permalink: /:collection/:path/
