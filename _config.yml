@@ -55,7 +55,7 @@ defaults:
 pagination:
   enabled: true
   debug: false
-  per_page: 2
+  per_page: 10
   permalink: '/page/:num/'
   title: ':title'
   limit: 0
