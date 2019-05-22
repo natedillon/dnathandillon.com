@@ -32,24 +32,29 @@ collections:
 
 # Front matter defaults
 defaults:
-  -
-    scope:
+  - scope:
       path: ''
       type: pages
     values:
       layout: page
-  -
-    scope:
-      path: ''
+  - scope:
+      path: _work
       type: work
     values:
       layout: project
-  -
-    scope:
-      path: ''
+      breadcrumbs: true
+  - scope:
+      path: work
+      type: pages
+    values:
+      layout: page
+      breadcrumbs: true
+  - scope:
+      path: _conferences
       type: conferences
     values:
       layout: conference
+      breadcrumbs: true
 
 # Plugin: Pagination (jekyll-paginate-v2)
 pagination:
