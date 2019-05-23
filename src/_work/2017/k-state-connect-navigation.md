@@ -42,7 +42,17 @@ fonts:
 icons:
   - Font Awesome
 colors:
-  - '#512888'
+  - '#512888' # ksu-purple
+  - '#f0Ce86' # ksu-neutral-light
+  - '#baab99' # ksu-neutral-medium
+  - '#919195' # ksu-neutral-dark
+  - '#dbce86' # ksu-accent-soft-yellow
+  - '#ffedba' # ksu-accent-light-yellow
+  - '#edaf11' # ksu-accent-dark-yellow
+  - '#cea36c' # ksu-accent-orange
+  - '#9f9170' # ksu-accent-brown
+  - '#9e776f' # ksu-accent-red
+  - '#3b778f' # ksu-accent-blue
 team:
   - name: Jon Faustman
     role: Front-end development
