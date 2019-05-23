@@ -9,6 +9,7 @@ date: 2012-04-02 # Last commits to the repo (for v1.0.0)
 date_start:
 agency: New Boston Creative Group, LLC
 client: Keller Leopold Insurance
+logo:
 image: /assets/img/work/2012/keller-leopold-insurance/image.jpg
 thumb:
 links:

@@ -9,6 +9,7 @@ date: 2014-10-19 # v2.0.0 release date
 date_start:
 agency:
 client: New Hope Church
+logo:
 image: /assets/img/work/2014/new-hope-church/image.jpg
 thumb:
 links:
@@ -35,12 +36,12 @@ tools_additional:
   -
 fonts:
   -
+icons:
+  -
 colors:
   - '#78944A'
   - '#66ADB1'
   - '#635B4C'
-notes:
-  -
 team:
   - name:
     role:

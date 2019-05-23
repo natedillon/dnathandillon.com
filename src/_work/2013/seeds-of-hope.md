@@ -9,6 +9,7 @@ date: 2013-01-11 # Last commits to the repo
 date_start: 2012-11-08 # Design work started
 agency: New Boston Creative Group, LLC
 client: Seeds of Hope Jail Ministry & Re-Entry Services
+logo:
 image: /assets/img/work/2013/seeds-of-hope/image.jpg
 thumb:
 links:

@@ -9,6 +9,7 @@ date: 2013-02-27 # Last commits to the repo (for v1.0.0)
 date_start:
 agency: New Boston Creative Group, LLC
 client: Coldwell Banker, The Real Estate Shoppe, Inc.
+logo:
 image: /assets/img/work/2013/coldwell-banker-the-real-estate-shoppe/image.jpg
 thumb:
 links:
