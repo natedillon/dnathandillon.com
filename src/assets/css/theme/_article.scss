@@ -52,6 +52,14 @@
     order: 1;
     margin-bottom: 5px;
   }
+
+  .article-header__nav {
+    order: 5;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    grid-column-start: 4;
+    grid-column-end: span 1;
+  }
 }
 
 
@@ -85,6 +93,48 @@
 
     &:hover,
     &:focus {}
+  }
+}
+
+
+// Navigation
+// -------------------------
+
+// TODO: Some of these styles overlap with the pagination styles
+
+.article-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  .article-nav__item {
+    margin-right: -1px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .article-nav__item-wrapper {
+      display: block;
+      padding: 5px 10px;
+      border: 1px solid #eee; // TODO: Use a color variable
+    }
+
+    .article-nav__item-text {
+      display: none;
+    }
+
+    &.disabled {
+      color: $grey-lighter;
+      cursor: not-allowed;
+    }
   }
 }
 

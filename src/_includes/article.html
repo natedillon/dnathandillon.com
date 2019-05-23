@@ -32,6 +32,31 @@
             </ol><!-- .breadcrumbs -->
           </nav><!-- .article-header__breadcrumbs -->
         {% endif %}
+
+        {% if page.previous.url or page.next.url %}
+          <nav class="article-header__nav">
+            <ul class="article-nav">
+              {% if page.next.url %}
+                <li class="article-nav__item">
+                  <a href="{{ page.next.url }}" title="Previous" class="article-nav__item-wrapper">&larr; <span class="article-nav__item-text">Previous</span></a>
+                </li>
+              {% else %}
+                <li  class="article-nav__item disabled">
+                  <span class="article-nav__item-wrapper">&larr; <span class="article-nav__item-text">Previous</span></span>
+                </li>
+              {% endif %}
+              {% if page.previous.url %}
+                <li class="article-nav__item">
+                  <a href="{{ page.previous.url }}" title="Next" class="article-nav__item-wrapper"><span class="article-nav__item-text">Next</span> &rarr;</a>
+                </li>
+              {% else %}
+                <li  class="article-nav__item disabled">
+                  <span class="article-nav__item-wrapper"><span class="article-nav__item-text">Next</span> &rarr;</span>
+                </li>
+              {% endif %}
+            </ul>
+          </nav><!-- .article-header__nav -->
+        {% endif %}
       </div><!-- .container -->
     </header><!-- .article-header -->
   {% endif %}
