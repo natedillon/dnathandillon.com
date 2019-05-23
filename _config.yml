@@ -4,8 +4,19 @@ description:  The portfolio website of D. Nathan Dillon.
 url:          https://dnathandillon.com
 
 # Social
-twitter_username: NatoriousFAT
-github_username:  natedillon
+social:
+  - name: Twitter
+    username: NatoriousFAT
+    link: https://twitter.com/NatoriousFAT
+  - name: GitHub
+    username: natedillon
+    link: https://github.com/natedillon
+  - name: Dribbble
+    username: natedillon
+    link: https://dribbble.com/natedillon
+  - name: LinkedIn
+    username: natedillon
+    link: https://www.linkedin.com/in/natedillon
 
 # Global configuration
 source: src

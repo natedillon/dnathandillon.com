@@ -1,5 +1,10 @@
 <footer class="footer">
   <div class="container">
-    <p class="footer__copyright">Copyright &copy; {{ 'now' | date: "%Y" }} D. Nathan Dillon</p>
+    <ul class="footer-social">
+      {% for item in site.social %}
+        <li class="footer-social__item"><a href="{{ item.link }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+    <p class="footer-copyright">Copyright &copy; {{ 'now' | date: "%Y" }} D. Nathan Dillon</p>
   </div><!-- .container -->
 </footer><!-- .footer -->
