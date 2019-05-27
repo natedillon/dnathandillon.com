@@ -2,18 +2,18 @@
 published: false
 featured: false
 
-title: Cattle Empire
+title: Manhattan Medical Center
 description:
-date: 2013-08-23 # My last commits to the project
-date_start: 2011-11-01 # Started sometime in November 2011
+date: 2012-03-30
+date_start: 2011-10-31
 agency: New Boston Creative Group, LLC
-client: Cattle Empire, LLC
+client: Manhattan Medical Center
 logo:
 image:
 thumb:
 links:
   - title: Website
-    url: http://cattle-empire.net/
+    url: http://manhattanmedicalcenter.org/
     type: website
     active: true
 services:
@@ -29,17 +29,17 @@ tools:
 tools_additional:
   - 960 Grid System
 fonts:
-  - Museo Slab
+  - Open Sans
 icons:
   -
 colors:
-  - '#C2151E'
-  - '#5D8484'
-  - '#759052'
+  - '#2B5A6E'
+  - '#F9592A'
 team:
   - name:
     role:
 notes:
-  - Project folder labeled 2011-11
-  - Site was released sometime after I left New Boston
+  - Project directory labeled 2011-10
+  - Design started 2011-10-31
+  - Tweet on 2012-03-30 indicated the site went live that week
 ---

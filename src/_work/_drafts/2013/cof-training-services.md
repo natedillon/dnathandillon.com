@@ -2,22 +2,21 @@
 published: false
 featured: false
 
-title: Bolt Data
+title: COF Training Services
 description:
-date: 2013-08-23 # Last commits to the repo
-date_start: 2013-06-13
+date: 2013-03-11 # v1.0.1 released
+date_start: 2012-10-26 # First commits to the repo
 agency: New Boston Creative Group, LLC
-client: Bolt Data
+client: COF Training Services, Inc.
 logo:
 image:
 thumb:
 links:
   - title: Website
-    url: http://bolt-data.com/
+    url: http://cofts.org/
     type: website
-    active: false # Site has been modified
+    active: true
 services:
-  - Design
   - CMS development
   - Front-end development
 tools:
@@ -31,18 +30,20 @@ tools:
 tools_additional:
   -
 fonts:
-  - Lato
-  - PT Sans
+  - Source Sans Pro
+  - Bitter
 icons:
-  - Glyphicons Halflings
+  -
 colors:
-  - '#FFD900'
-  - '#007AA3'
+  - '#15296b'
+  - '#b78639'
+  - '#6f9536'
+  - '#8d373a'
 team:
   - name:
     role:
 notes:
-  - Design started 2013-06-13
-  - Started development 2013-07-24
-  - Site released sometime after I left New Boston
+  - v1.0.1 tag 2013-03-11
+  - v1.0.2 tag 2013-03-21
+  - v1.1 and v1.1.1 tags 2013-04-23
 ---

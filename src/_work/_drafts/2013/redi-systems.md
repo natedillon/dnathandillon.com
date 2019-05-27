@@ -2,18 +2,18 @@
 published: false
 featured: false
 
-title: Bolt Data
+title: Redi Systems
 description:
-date: 2013-08-23 # Last commits to the repo
-date_start: 2013-06-13
+date: 2013-04-16 # Released
+date_start: 2012-06-28
 agency: New Boston Creative Group, LLC
-client: Bolt Data
+client: REDI Systems, Inc.
 logo:
 image:
 thumb:
 links:
   - title: Website
-    url: http://bolt-data.com/
+    url: http://www.redisystemsinc.com
     type: website
     active: false # Site has been modified
 services:
@@ -27,22 +27,23 @@ tools:
   - Less
   - JavaScript
   - jQuery
-  - Bootstrap
 tools_additional:
-  -
+  - 960 Grid System
+  - Bootstrap # Found in project, but it doesn't look like it was used
 fonts:
-  - Lato
-  - PT Sans
+  - Open Sans
+  - Oblik
 icons:
-  - Glyphicons Halflings
+  -
 colors:
-  - '#FFD900'
-  - '#007AA3'
+  - '#2C4E66'
+  - '#8dc63f'
+  - '#f1592a'
 team:
   - name:
     role:
 notes:
-  - Design started 2013-06-13
-  - Started development 2013-07-24
-  - Site released sometime after I left New Boston
+  - Design started 2012-06-28
+  - First commit to repo 2012-08-08
+  - v1.0 tag 2013-04-16
 ---
