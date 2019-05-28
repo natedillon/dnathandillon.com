@@ -2,7 +2,7 @@
 layout: default
 pagination:
   enabled: true
-  collection: work
+  collection: projects
 ---
 
 {% assign projects = paginator.posts | where:'services',page.title %}
@@ -13,7 +13,7 @@ pagination:
 {% include pagination.html %}
 
 {% comment %}
-{% assign projects = site.work | where:'services',page.title | sort:'date' | reverse %}
+{% assign projects = site.projects | where:'services',page.title | sort:'date' | reverse %}
 {% for project in projects %}
   {% include project-list.html %}
 {% endfor %}

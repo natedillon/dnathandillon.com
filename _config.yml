@@ -34,9 +34,9 @@ plugins:
 
 # Collections
 collections:
-  work:
+  projects:
     output: true
-    permalink: /:collection/:path/
+    permalink: /work/:path/
   conferences:
     output: true
     permalink: /:collection/:title/
@@ -49,16 +49,16 @@ defaults:
     values:
       layout: page
   - scope:
-      path: _work
-      type: work
-    values:
-      layout: project
-      breadcrumbs: true
-  - scope:
       path: work
       type: pages
     values:
       layout: page
+      breadcrumbs: true
+  - scope:
+      path: _projects
+      type: projects
+    values:
+      layout: project
       breadcrumbs: true
   - scope:
       path: _conferences

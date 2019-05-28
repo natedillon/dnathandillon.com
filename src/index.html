@@ -10,7 +10,7 @@ description_more:
 ---
 
 <h2>Featured Work</h2>
-{% assign projects = site.work | where:'featured',true | sort:'date' | reverse %}
+{% assign projects = site.projects | where:'featured',true | sort:'date' | reverse %}
 {% for project in projects limit:4 %}
   {% include project-list.html %}
 {% endfor %}

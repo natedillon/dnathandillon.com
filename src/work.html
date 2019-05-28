@@ -2,12 +2,11 @@
 layout: default
 pagination:
   enabled: true
-  collection: work
+  collection: projects
 
 title: Work
 ---
 
-{% assign projects = site.work | sort:'date' | reverse %}
 {% for project in paginator.posts %}
   {% include project-list.html %}
 {% endfor %}

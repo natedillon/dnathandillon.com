@@ -4,9 +4,8 @@ layout: default
 title: Services
 ---
 
-{% assign projects = site.work %}
 {% assign raw_services = '' %}
-{% for project in projects %}
+{% for project in site.projects %}
   {% assign project_services = project.services | join:'|' | append:'|' %}
   {% assign raw_services = raw_services | append:project_services %}
 {% endfor %}

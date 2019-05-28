@@ -4,7 +4,7 @@ layout: default
 
 {{ content }}
 
-{% assign projects = site.work | sort:'date' | reverse %}
+{% assign projects = site.projects | sort:'date' | reverse %}
 {% assign projects_in_current_path = projects | where_exp:'project','project.url contains page.url' %}
 {% for project in projects_in_current_path %}
   {% include project-list.html %}
