@@ -4,7 +4,7 @@ layout: default
 title: Archive
 ---
 
-{% assign projects = site.pages | where:'layout','project' | sort:'date' | reverse %}
+{% assign projects = site.projects | sort:'date' | reverse %}
 {% assign projects_by_year = projects | group_by_exp:'project', 'project.date | date:"%Y"'  %}
 {% for year in projects_by_year %}
   <h2>
