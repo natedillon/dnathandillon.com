@@ -10,6 +10,27 @@ experience:
       - Provided front-end support for the Java App Development team, including updating JSP and Thymeleaf templates
       - Developed and maintained code in 19 web applications and libraries
       - Designed mockups and wireframes using Sketch and Adobe Creative Suite for web layouts and new application features
+    tools:
+      - HTML
+      - CSS
+      - Sass
+      - JavaScript
+      - jQuery
+      - Git
+      - GitHub
+      - Python
+      - Django
+      - Java
+      - JSP
+      - Thymeleaf
+      - npm
+      - Grunt
+      - Bootstrap
+      - Vagrant
+      - Sketch
+      - JIRA
+      - LeanKit
+      - ServiceNow
   - company: New Boston Creative Group, LLC
     department:
     location: Manhattan, Kansas
@@ -21,6 +42,24 @@ experience:
       - Produced designs and templates for HTML e-mail campaigns sent through Campaign Monitor
       - Maintained the company’s web server, running Ubuntu Linux
       - Edited client videos for use on the web and DVD
+    tools:
+      - HTML
+      - CSS
+      - Less
+      - JavaScript
+      - jQuery
+      - Git
+      - BitBucket
+      - Beanstalk
+      - Drupal
+      - PHP
+      - Bootstrap
+      - Adobe Creative Suite
+      - Adobe Fireworks
+      - Adobe Photoshop
+      - Ubuntu
+      - Rackspace
+      - Campaign Monitor
   - company: Kansas State University
     department: College of Human Ecology
     location: Manhattan, Kansas
@@ -30,6 +69,7 @@ experience:
     notes:
       - Designed, built, and maintained websites for the college using HTML, PHP, CSS, and JavaScript
       - Created templates for use with WordPress and Adobe Contribute
+    tools:
   - company: Kansas State University
     department: Career and Employment Services
     location: Manhattan, Kansas
@@ -39,6 +79,7 @@ experience:
     notes:
       - Produced 16 videos for guest speakers and career-related events at Kansas State University
       - Edited videos and authored DVDs using Sony Vegas, Sony Sound Forge, Adobe Audition, and Sony DVD Architect
+    tools:
   - company: Kansas State University
     department: Orion Online
     location: Manhattan, Kansas
@@ -48,6 +89,7 @@ experience:
     notes:
       - Updated website content for existing clients and created layouts for new clients
       - Designed and built a new website for the K-State College of Arts & Sciences
+    tools:
   - company: Campus Crusade for Christ
     department: # Web Consulting Team
     location: Orlando, Florida
@@ -57,6 +99,7 @@ experience:
     notes:
       - Worked as an intern for the Web Consulting Team at the Campus Crusade World Headquarters
       - Designed and developed the Orlando Summer Project 2002 website
+    tools:
 skills:
   - Extensive knowledge of building progressively enhanced websites using responsive web design and standards-compliant HTML, CSS, and JavaScript
   - Familiarity with several content management systems, including Drupal, WordPress, and Jekyll
