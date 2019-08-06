@@ -31,6 +31,8 @@ experience:
       - JIRA
       - LeanKit
       - ServiceNow
+    tools_additional:
+      - Adobe Creative Suite
   - company: New Boston Creative Group, LLC
     department:
     location: Manhattan, Kansas
@@ -54,12 +56,13 @@ experience:
       - Drupal
       - PHP
       - Bootstrap
-      - Adobe Creative Suite
       - Adobe Fireworks
-      - Adobe Photoshop
       - Ubuntu
       - Rackspace
       - Campaign Monitor
+    tools_additional:
+      - Adobe Creative Suite
+      - Adobe Photoshop
   - company: Kansas State University
     department: College of Human Ecology
     location: Manhattan, Kansas
@@ -70,6 +73,7 @@ experience:
       - Designed, built, and maintained websites for the college using HTML, PHP, CSS, and JavaScript
       - Created templates for use with WordPress and Adobe Contribute
     tools:
+    tools_additional:
   - company: Kansas State University
     department: Career and Employment Services
     location: Manhattan, Kansas
@@ -80,6 +84,7 @@ experience:
       - Produced 16 videos for guest speakers and career-related events at Kansas State University
       - Edited videos and authored DVDs using Sony Vegas, Sony Sound Forge, Adobe Audition, and Sony DVD Architect
     tools:
+    tools_additional:
   - company: Kansas State University
     department: Orion Online
     location: Manhattan, Kansas
@@ -90,6 +95,7 @@ experience:
       - Updated website content for existing clients and created layouts for new clients
       - Designed and built a new website for the K-State College of Arts & Sciences
     tools:
+    tools_additional:
   - company: Campus Crusade for Christ
     department: # Web Consulting Team
     location: Orlando, Florida
@@ -100,6 +106,7 @@ experience:
       - Worked as an intern for the Web Consulting Team at the Campus Crusade World Headquarters
       - Designed and developed the Orlando Summer Project 2002 website
     tools:
+    tools_additional:
 skills:
   - Extensive knowledge of building progressively enhanced websites using responsive web design and standards-compliant HTML, CSS, and JavaScript
   - Familiarity with several content management systems, including Drupal, WordPress, and Jekyll
