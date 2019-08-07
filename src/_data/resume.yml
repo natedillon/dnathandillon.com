@@ -73,6 +73,13 @@ experience:
       - Designed, built, and maintained websites for the college using HTML, PHP, CSS, and JavaScript
       - Created templates for use with WordPress and Adobe Contribute
     tools:
+      - HTML
+      - CSS
+      - JavaScript
+      - Adobe Contribute
+      - Adobe Fireworks
+      - WordPress
+      - PHP
     tools_additional:
   - company: Kansas State University
     department: Career and Employment Services
@@ -84,6 +91,10 @@ experience:
       - Produced 16 videos for guest speakers and career-related events at Kansas State University
       - Edited videos and authored DVDs using Sony Vegas, Sony Sound Forge, Adobe Audition, and Sony DVD Architect
     tools:
+      - Sony Vegas
+      - Sony Sound Forge
+      - Sony DVD Architect
+      - Adobe Audition
     tools_additional:
   - company: Kansas State University
     department: Orion Online
