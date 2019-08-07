@@ -7,9 +7,9 @@ experience:
     date_end:
     notes:
       - Responsible for front-end development on the Python Web Team using Django, CSS/Sass, JavaScript/jQuery, Bootstrap, npm, and Grunt
+      - Designed layouts and new application features using Sketch and Adobe Creative Suite
       - Provided front-end support for the Java App Development team, including updating JSP and Thymeleaf templates
       - Developed and maintained code in 19 web applications and libraries
-      - Designed mockups and wireframes using Sketch and Adobe Creative Suite for web layouts and new application features
     tools:
       - HTML
       - CSS
@@ -40,8 +40,8 @@ experience:
     date_start: 2011-09-29
     date_end: 2013-08-23
     notes:
-      - Designed and/or built 23 websites in Drupal using standards-compliant HTML, PHP, Less/CSS, and JavaScript/jQuery
-      - Produced designs and templates for HTML e-mail campaigns sent through Campaign Monitor
+      - Designed and/or built 23 websites in Drupal using standards-compliant HTML, PHP, CSS/Less, and JavaScript/jQuery
+      - Produced designs and templates for HTML e-mail campaigns with Campaign Monitor
       - Maintained the company’s web server, running Ubuntu Linux
       - Edited client videos for use on the web and DVD
     tools:
