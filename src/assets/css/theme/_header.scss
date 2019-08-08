@@ -9,8 +9,11 @@
   line-height: $line-height-base;
 
   .container {
-    display: flex;
-    justify-content: space-between;
+
+    @media (min-width: $screen-sm) {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   a {
@@ -20,28 +23,31 @@
 
 .header-logo {
   margin: 0;
-  color: white;
-  background-color: $body-color;
   font-size: inherit;
   text-transform: uppercase;
 
   a {
-    display: block;
+    display: inline-block;
     padding: 0 10px;
-    color: inherit;
+    color: white;
+    background-color: $body-color;
   }
 }
 
 .header-nav {
 
   .header-nav__list {
-    display: flex;
-    margin: 0;
+    margin: $grid-gutter-width 0 0;
     padding: 0;
     list-style-type: none;
 
-    .header-nav__list-item {
-      margin-left: $grid-gutter-width;
+    @media (min-width: $screen-sm) {
+      display: flex;
+      margin-top: 0;
+
+      .header-nav__list-item {
+        margin-left: $grid-gutter-width;
+      }
     }
   }
 
