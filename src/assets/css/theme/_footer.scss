@@ -10,8 +10,11 @@
   font-size: 1.4rem;
 
   .container {
-    display: flex;
-    justify-content: space-between;
+
+    @media (min-width: $screen-md) {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   .footer-social,
@@ -49,6 +52,10 @@
 
   .footer-copyright {
     order: 1;
-    margin: 0;
+    margin: ($line-height-computed / 2) 0 0;
+
+    @media (min-width: $screen-md) {
+      margin-top: 0;
+    }
   }
 }
