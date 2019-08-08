@@ -15,18 +15,24 @@
 .article-header {
 
   .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: ($grid-gutter-width * 2);
     margin-top: ($grid-gutter-width * 4);
     margin-bottom: ($grid-gutter-width * 4);
+
+    @media (min-width: $screen-lg) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-column-gap: ($grid-gutter-width * 2);
+    }
   }
 
   .article-header__title,
   .article-header__description,
   .article-header__description-more,
   .article-header__breadcrumbs {
-    grid-column-end: span 3;
+
+    @media (min-width: $screen-lg) {
+      grid-column-end: span 3;
+    }
   }
 
   .article-header__title {
