@@ -11,6 +11,14 @@ layout: default
 {% endif %}
 -->
 
+<div class="project-content">
+  {% if page.image %}
+    <div class="project-image">
+      <img src="{{ page.image }}" alt="Project image">
+    </div>
+  {% endif %}
+</div><!-- .project-content -->
+
 <aside class="project-info">
   {% if page.services %}
     <section class="project-info__section">
@@ -34,11 +42,3 @@ layout: default
     </section><!-- .project-info__section -->
   {% endif %}
 </aside><!-- .project-info -->
-
-<div class="project-content">
-  {% if page.image %}
-    <div class="project-image">
-      <img src="{{ page.image }}" alt="Project image">
-    </div>
-  {% endif %}
-</div><!-- .project-content -->
