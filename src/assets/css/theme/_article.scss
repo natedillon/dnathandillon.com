@@ -15,6 +15,8 @@
 .article-header {
 
   .container {
+    display: flex;
+    flex-direction: column;
     margin-top: ($grid-gutter-width * 4);
     margin-bottom: ($grid-gutter-width * 4);
 
@@ -113,11 +115,15 @@
 // TODO: Some of these styles overlap with the pagination styles
 
 .article-nav {
-  display: flex;
-  justify-content: flex-end;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+  display: none;
+
+  @media (min-width: $screen-lg) {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
 
   .article-nav__item {
     margin-right: -1px;
@@ -157,10 +163,13 @@
   margin-bottom: ($grid-gutter-width * 4);
 
   .container {
-    display: grid;
-    grid-template-areas: "content content content sidebar";
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: ($grid-gutter-width * 2);
+
+    @media (min-width: $screen-lg) {
+      display: grid;
+      grid-template-areas: "content content content sidebar";
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: ($grid-gutter-width * 2);
+    }
   }
 }
 
