@@ -10,7 +10,7 @@
   "license": "UNLICENSED",
   "private": true,
   "devDependencies": {
-    "autoprefixer": "^9.5.1",
+    "autoprefixer": "^9.6.1",
     "grunt": "^1.0.4",
     "grunt-concurrent": "^2.3.1",
     "grunt-contrib-clean": "^2.0.0",
@@ -22,7 +22,7 @@
     "grunt-shell": "^2.1.0",
     "load-grunt-tasks": "^4.0.0",
     "normalize.css": "^8.0.1",
-    "sass": "^1.20.1",
+    "sass": "^1.22.9",
     "time-grunt": "^1.4.0"
   }
 }
