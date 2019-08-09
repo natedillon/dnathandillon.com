@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="project-content">
+  {% if page.image %}
+    <div class="project-image">
+      <img src="{{ page.image }}" alt="Project image">
+    </div>
+  {% endif %}
+</div><!-- .project-content -->
+
+<aside class="project-info">
+  {% if page.services %}
+    <section class="project-info__section">
+      <h2 class="project-info__title">Services</h2>
+      <ul class="project-info__list">
+        {% for item in page.services %}
+          <li class="project-info__list-item">{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </section><!-- .project-info__section -->
+  {% endif %}
+
+  {% if page.tools %}
+    <section class="project-info__section">
+      <h2 class="project-info__title">Tools</h2>
+      <ul class="project-info__list">
+        {% for item in page.tools %}
+          <li class="project-info__list-item">{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </section><!-- .project-info__section -->
+  {% endif %}
+</aside><!-- .project-info -->

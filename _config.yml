@@ -1,41 +1,94 @@
 # Site information
 title:        D. Nathan Dillon
 description:  The portfolio website of D. Nathan Dillon.
-url:          http://dnathandillon.com
+url:          https://dnathandillon.com
 
 # Social
-twitter_username: NatoriousFAT
-github_username:  natedillon
-
-# Permalinks
-permalink: pretty
+social:
+  - name: Twitter
+    username: NatoriousFAT
+    link: https://twitter.com/NatoriousFAT
+  - name: GitHub
+    username: natedillon
+    link: https://github.com/natedillon
+  - name: Dribbble
+    username: natedillon
+    link: https://dribbble.com/natedillon
+  - name: LinkedIn
+    username: natedillon
+    link: https://www.linkedin.com/in/natedillon
 
 # Global configuration
+source: src
+destination: build
+permalink: pretty
+include:
 exclude:
-  - src
-  - CNAME
-  - Gemfile
-  - Gruntfile.js
-  - node_modules
-  - package.json
-  - README.md
+  - assets
+keep_files:
+  - assets
 
-# Defaults
+# Plugins
+plugins:
+  - jekyll-paginate-v2
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /work/:path/
+  conferences:
+    output: true
+    permalink: /:collection/:title/
+
+# Front matter defaults
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
       type: pages
     values:
       layout: page
-  -
-    scope:
+  - scope:
       path: work
       type: pages
     values:
+      layout: page
+      breadcrumbs: true
+  - scope:
+      path: _projects
+      type: projects
+    values:
       layout: project
+      breadcrumbs: true
+  - scope:
+      path: _conferences
+      type: conferences
+    values:
+      layout: conference
+      breadcrumbs: true
+
+# Plugin: Pagination (jekyll-paginate-v2)
+pagination:
+  enabled: true
+  debug: false
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+# Plugin: Auto Pages (jekyll-paginate-v2)
+autopages:
+  enabled: false
+  categories:
+    enabled: false
+  collections:
+    enabled: false
+  tags:
+    enabled: false
 
 # File paths
 path:
-  img:                    /dist/img
-  project_thumb_default:  /dist/img/projects/thumb.png
+  img:                    /assets/img
+  project_thumb_default:  /assets/img/projects/thumb.svg

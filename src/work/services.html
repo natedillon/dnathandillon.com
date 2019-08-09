@@ -1,0 +1,47 @@
+---
+published: false
+layout: default
+
+title: Services
+---
+
+{% assign raw_services = '' %}
+{% for project in site.projects %}
+  {% assign project_services = project.services | join:'|' | append:'|' %}
+  {% assign raw_services = raw_services | append:project_services %}
+{% endfor %}
+{% assign raw_services = raw_services | split:'|' | sort %}
+
+{% assign services = '' %}
+{% for service in raw_services %}
+  {% if service != '' %}
+    {% if services == '' %}
+      {% assign services = service | split:'|' %}
+    {% endif %}
+    {% unless services contains service %}
+      {% assign services = services | join:'|' | append:'|' | append:service | split:'|' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% assign service_pages = '' %}
+{% for page in site.pages %}
+  {% if page.path contains 'work/services/' %}
+    {% assign service_page = page.name | remove:'.md' | append:'|' %}
+    {% assign service_pages = service_pages | append:service_page %}
+  {% endif %}
+{% endfor %}
+{% assign service_pages = service_pages | split:'|' %}
+
+<ul>
+  {% for service in services %}
+    <li>
+      {% assign service_slug = service | slugify %}
+      {% if service_pages contains service_slug %}
+        <a href="{{ service_slug }}">{{ service }}</a>
+      {% else %}
+        {{ service }}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

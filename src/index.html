@@ -1,0 +1,16 @@
+---
+layout: default
+
+title: Hello, my name is Nate.
+description: |
+  I’m a front-end web developer working at <a href="https://k-state.edu/">Kansas State University</a>. I love building responsive, progressively enhanced websites using standards compliant HTML, CSS, and JavaScript.
+description_more:
+  text: See my work
+  link: /work
+---
+
+<h2>Featured Work</h2>
+{% assign projects = site.projects | where:'featured',true | sort:'date' | reverse %}
+{% for project in projects limit:4 %}
+  {% include project-list.html %}
+{% endfor %}

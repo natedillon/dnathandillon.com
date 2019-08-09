@@ -1,0 +1,12 @@
+//
+// Section heading
+// --------------------------------------------------
+
+
+.section-heading {
+  margin-bottom: ($grid-gutter-width * 2);
+  font-size: inherit;
+  text-transform: uppercase;
+
+  color: $grey-light;
+}

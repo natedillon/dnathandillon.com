@@ -1,5 +1,7 @@
 module.exports = function(grunt) {
 
+  const sass = require('sass');
+
   // Display the elapsed execution time of Grunt tasks
   require('time-grunt')(grunt);
 
@@ -10,25 +12,32 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
+    // File locations
+    path_src: 'src',
+    path_build: 'build',
+
+    // Local server port
+    port: '8002',
+
     // Shell commands for use in Grunt tasks
     shell: {
       jekyllBuild: {
         command: 'jekyll build --config _config.yml,_config.dev.yml'
       },
       jekyllServe: {
-        command: 'jekyll serve --config _config.yml,_config.dev.yml --port 8002'
+        command: 'jekyll serve --config _config.yml,_config.dev.yml --port <%= port %>'
       },
     },
 
     // Clean command
     clean: [
-      '_site/',
-      'dist/',
+      '<%= path_build %>',
     ],
 
     // Sass command
     sass: {
       options: {
+        implementation: sass,
         sourceMap: true,
       },
       build: {
@@ -37,9 +46,9 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'src/css/',
+          cwd: '<%= path_src %>/assets/css/',
           src: ['**/*.{scss,sass}'],
-          dest: 'dist/css',
+          dest: '<%= path_build %>/assets/css',
           ext: '.css',
         }],
       },
@@ -49,9 +58,9 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'src/css/',
+          cwd: '<%= path_src %>/assets/css/',
           src: ['**/*.{scss,sass}'],
-          dest: 'dist/css',
+          dest: '<%= path_build %>/assets/css',
           ext: '.css',
         }],
       },
@@ -66,41 +75,43 @@ module.exports = function(grunt) {
           })
         ],
       },
-      dist: {
-        src: 'dist/css/*.css',
+      build: {
+        src: '<%= path_build %>/assets/css/*.css',
       },
     },
 
     // Copy command
     copy: {
-      dist: {
+      build: {
         files: [
           {
             expand: true,
-            cwd: 'src/',
+            cwd: 'src/assets/',
             src: [
               '**',
               '!**/css/**',
               '!**/*.{sketch,eps,psd,ai}',
               '!**/img/**/_drafts/**',
             ],
-            dest: 'dist/',
+            dest: '<%= path_build %>/assets/',
           }
         ],
       },
     },
 
-    // ImageOptim command
-    imageoptim: {
-      options: {
-        imageAlpha: true,
-        jpegMini: false,
-        quitAfter: true,
-      },
+    // imagemin command
+    imagemin: {
       dist: {
-        src: [
-          'dist/img',
-        ],
+        options: {
+          optimizationLevel: 3,
+          progressive: true
+        },
+        files: [{
+          expand: true,
+          cwd: '<%= path_build %>/assets/img',
+          src: ['**/*.{png,jpg,jpeg,gif}'],
+          dest: '<%= path_build %>/assets/img',
+        }],
       },
     },
 
@@ -108,7 +119,7 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: [
-          'src/css/**/*.{scss,sass}'
+          '<%= path_src %>/assets/css/**/*.{scss,sass}'
         ],
         tasks: [
           'sass:build',
@@ -120,7 +131,7 @@ module.exports = function(grunt) {
           livereload: true,
         },
         files: [
-          '_site/dist/css/**/*.css'
+          '<%= path_build %>/assets/css/**/*.css'
         ],
       },
     },
@@ -140,20 +151,16 @@ module.exports = function(grunt) {
   // Build task
   grunt.registerTask('build', [
     'clean',
+    'shell:jekyllBuild',
     'sass:build',
     'postcss',
     'copy',
-    'shell:jekyllBuild',
   ]);
 
   // Dist task
   grunt.registerTask('dist', [
-    'clean',
-    'sass:dist',
-    'postcss',
-    'copy',
-    'imageoptim:dist',
-    'shell:jekyllBuild',
+    'build',
+    'imagemin',
   ]);
 
   // Serve task
@@ -164,5 +171,4 @@ module.exports = function(grunt) {
 
   // Default task
   grunt.registerTask('default', 'serve');
-
 };

@@ -1,0 +1,13 @@
+{% if forloop.first %}<div class="project-list">{% endif %}
+  <article class="project-list__item">
+    <a href="{{ project.url }}">
+      {% if project.image %}
+        {% capture thumb_src %}{{ project.image }}{% endcapture %}
+      {% else %}
+        {% capture thumb_src %}{{ site.path.project_thumb_default }}{% endcapture %}
+      {% endif %}
+      <img src="{{ thumb_src }}" alt="{{ project.title | escape }}">
+      <h4>{{ project.title | escape }}</h4>
+    </a>
+  </article><!-- .project-list__item -->
+{% if forloop.last %}</div><!-- .project-list -->{% endif %}

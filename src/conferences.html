@@ -1,0 +1,16 @@
+---
+pagination:
+  enabled: true
+  collection: conferences
+
+title: Conferences
+---
+
+{% assign sorted_conferences = site.conferences | sort:'date' | reverse %}
+<ul>
+  {% for conference in paginator.posts %}
+    <li><a href="{{ conference.url }}">{{ conference.title }}</a></li>
+  {% endfor %}
+</ul>
+
+{% include pagination.html %}
