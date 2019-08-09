@@ -1,0 +1,135 @@
+experience:
+  - company: Kansas State University
+    department: Office of Mediated Education
+    location: Manhattan, Kansas
+    title: Front-End Web Developer
+    date_start: 2013-08-26
+    date_end:
+    notes:
+      - Responsible for front-end development on the Python Web Team using Django, CSS/Sass, JavaScript/jQuery, Bootstrap, npm, and Grunt
+      - Designed layouts and new application features using Sketch and Adobe Creative Suite
+      - Provided front-end support for the Java App Development team, including updating JSP and Thymeleaf templates
+      - Developed and maintained code in 19 web applications and libraries
+    tools:
+      - HTML
+      - CSS
+      - Sass
+      - JavaScript
+      - jQuery
+      - Git
+      - GitHub
+      - Python
+      - Django
+      - Java
+      - JSP
+      - Thymeleaf
+      - npm
+      - Grunt
+      - Bootstrap
+      - Vagrant
+      - Sketch
+      - JIRA
+      - LeanKit
+      - ServiceNow
+    tools_additional:
+      - Adobe Creative Suite
+  - company: New Boston Creative Group, LLC
+    department:
+    location: Manhattan, Kansas
+    title: Web Developer
+    date_start: 2011-09-29
+    date_end: 2013-08-23
+    notes:
+      - Designed and/or built 23 websites in Drupal using standards-compliant HTML, PHP, CSS/Less, and JavaScript/jQuery
+      - Produced designs and templates for HTML e-mail campaigns with Campaign Monitor
+      - Maintained the company’s web server, running Ubuntu Linux
+      - Edited client videos for use on the web and DVD
+    tools:
+      - HTML
+      - CSS
+      - Less
+      - JavaScript
+      - jQuery
+      - Git
+      - BitBucket
+      - Beanstalk
+      - Drupal
+      - PHP
+      - Bootstrap
+      - Adobe Fireworks
+      - Ubuntu
+      - Rackspace
+      - Campaign Monitor
+    tools_additional:
+      - Adobe Creative Suite
+      - Adobe Photoshop
+  - company: Kansas State University
+    department: College of Human Ecology
+    location: Manhattan, Kansas
+    title: Webmaster
+    date_start: 2005-10-10
+    date_end: 2011-09-26
+    notes:
+      - Designed, built, and maintained websites for the college using HTML, PHP, CSS, and JavaScript
+      - Created templates for use with WordPress and Adobe Contribute
+    tools:
+      - HTML
+      - CSS
+      - JavaScript
+      - Adobe Contribute
+      - Adobe Fireworks
+      - WordPress
+      - PHP
+    tools_additional:
+  - company: Kansas State University
+    department: Career and Employment Services
+    location: Manhattan, Kansas
+    title: Video Intern
+    date_start: 2004-08-30 # excact date unknown, interview 2004-08-24, first CES meeting on calendar 2004-08-30
+    date_end: 2005-08-12 # excact date unknown, last pay day 2005-08-12
+    notes:
+      - Produced 16 videos for guest speakers and career-related events at Kansas State University
+      - Edited videos and authored DVDs using Sony Vegas, Sony Sound Forge, Adobe Audition, and Sony DVD Architect
+    tools:
+      - Sony Vegas
+      - Sony Sound Forge
+      - Sony DVD Architect
+      - Adobe Audition
+    tools_additional:
+  - company: Kansas State University
+    department: Orion Online
+    location: Manhattan, Kansas
+    title: Web Designer
+    date_start: 2004-07-30 # excact date unknown, first time sheet due 2004-07-30, first pay day 2004-08-13
+    date_end: 2005-05-20 # excact date unknown, last time sheet due 2005-05-20
+    notes:
+      - Updated website content for existing clients and created layouts for new clients
+      - Designed and built a new website for the K-State College of Arts & Sciences
+    tools:
+    tools_additional:
+  - company: Campus Crusade for Christ
+    department: # Web Consulting Team
+    location: Orlando, Florida
+    title: Web Design Intern
+    date_start: 2002-06-12 # left for Orlando 2002-06-10, started working 2002-06-12
+    date_end: 2002-08-15 # last day at work 2002-08-15, returned from Orlando 2002-08-17
+    notes:
+      - Worked as an intern for the Web Consulting Team at the Campus Crusade World Headquarters
+      - Designed and developed the Orlando Summer Project 2002 website
+    tools:
+    tools_additional:
+skills:
+  - Extensive knowledge of building progressively enhanced websites using responsive web design and standards-compliant HTML, CSS, and JavaScript
+  - Familiarity with several content management systems, including Drupal, WordPress, and Jekyll
+  - Experience managing projects in a team environment using Git, hosted repository services such as GitHub and Bitbucket, and various project management tools such as JIRA, LeanKit, and Trello
+education:
+  - title: Kansas State University
+    location: Manhattan, Kansas
+    date: 2003-05-17
+    date_start: 1998-08-24
+    date_end: 2003-05-17
+    degree: Bachelor of Science
+    major: Mass Communications, Radio-Television sequence
+    courses:
+      - title:
+        instructor:

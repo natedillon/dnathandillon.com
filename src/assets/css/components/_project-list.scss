@@ -1,0 +1,49 @@
+//
+// Project list
+// --------------------------------------------------
+
+
+.project-list {
+  margin-bottom: $line-height-computed;
+
+  @media (min-width: $screen-md) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: $grid-gutter-width * 2;
+  }
+
+  .project-list__item {
+    margin-bottom: ($grid-gutter-width * 2);
+
+    @media (min-width: $screen-md) {
+      margin-bottom: 0;
+    }
+
+    a {
+      display: block;
+      color: inherit;
+      text-decoration: none;
+
+      &:hover,
+      &:focus {}
+    }
+
+    h4 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    p {
+      margin: 0;
+      color: $grey-light;
+      font-size: 1.6rem;
+    }
+
+    img {
+      display: block;
+      margin-bottom: ($grid-gutter-width / 2);
+
+      width: 100%; // TODO
+    }
+  }
+}

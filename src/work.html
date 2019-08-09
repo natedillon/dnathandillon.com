@@ -1,0 +1,14 @@
+---
+layout: default
+pagination:
+  enabled: true
+  collection: projects
+
+title: Work
+---
+
+{% for project in paginator.posts %}
+  {% include project-list.html %}
+{% endfor %}
+
+{% include pagination.html %}

@@ -1,0 +1,20 @@
+---
+layout: default
+pagination:
+  enabled: true
+  collection: projects
+---
+
+{% assign projects = paginator.posts | where:'services',page.title %}
+{% for project in paginator.posts %}
+  {% include project-list.html %}
+{% endfor %}
+
+{% include pagination.html %}
+
+{% comment %}
+{% assign projects = site.projects | where:'services',page.title | sort:'date' | reverse %}
+{% for project in projects %}
+  {% include project-list.html %}
+{% endfor %}
+{% endcomment %}

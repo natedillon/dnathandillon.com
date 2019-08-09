@@ -1,0 +1,69 @@
+<article class="article article--{{ page.layout }}">
+  {% if page.title %}
+    <header class="article-header">
+      <div class="container">
+        <h1 class="article-header__title">{{ page_title | escape }}</h1>
+        {% if page.description %}
+          <p class="article-header__description">{{ page.description }}</p>
+        {% endif %}
+        {% if page.description_more %}
+          <p class="article-header__description-more"><a href="{{ page.description_more.link }}">{{ page.description_more.text }} &rarr;</a></p>
+        {% endif %}
+
+        {% comment %}
+          https://stackoverflow.com/a/32004173/6997263
+        {% endcomment %}
+        {% if page.breadcrumbs %}
+          {% assign breadcrumbs = page.url | remove:'/index.html' | split: '/' %}
+          <nav class="article-header__breadcrumbs">
+            <ol class="breadcrumbs">
+              <li class="breadcrumbs__item"><a href="/">Home</a></li>
+              {% for breadcrumb in breadcrumbs offset: 1 %}
+                {% if forloop.last == false %}
+                  {% assign breadcrumb_limit = forloop.index | plus: 1 %}
+                  {% assign breadcrumb_link = '' %}
+                  {% for breadcrumb in breadcrumbs limit: breadcrumb_limit %}
+                    {% assign breadcrumb_link = breadcrumb_link | append: breadcrumb | append: '/' %}
+                  {% endfor %}
+                  <li class="breadcrumbs__item"><a href="{{ breadcrumb_link }}">{{ breadcrumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
+                {% endif %}
+              {% endfor %}
+              <li class="breadcrumbs__item">{{ page.title }}</li>
+            </ol><!-- .breadcrumbs -->
+          </nav><!-- .article-header__breadcrumbs -->
+        {% endif %}
+
+        {% if page.previous.url or page.next.url %}
+          <nav class="article-header__nav">
+            <ul class="article-nav">
+              {% if page.next.url %}
+                <li class="article-nav__item">
+                  <a href="{{ page.next.url }}" title="Previous" class="article-nav__item-wrapper">&larr; <span class="article-nav__item-text">Previous</span></a>
+                </li>
+              {% else %}
+                <li  class="article-nav__item disabled">
+                  <span class="article-nav__item-wrapper">&larr; <span class="article-nav__item-text">Previous</span></span>
+                </li>
+              {% endif %}
+              {% if page.previous.url %}
+                <li class="article-nav__item">
+                  <a href="{{ page.previous.url }}" title="Next" class="article-nav__item-wrapper"><span class="article-nav__item-text">Next</span> &rarr;</a>
+                </li>
+              {% else %}
+                <li  class="article-nav__item disabled">
+                  <span class="article-nav__item-wrapper"><span class="article-nav__item-text">Next</span> &rarr;</span>
+                </li>
+              {% endif %}
+            </ul>
+          </nav><!-- .article-header__nav -->
+        {% endif %}
+      </div><!-- .container -->
+    </header><!-- .article-header -->
+  {% endif %}
+
+  <div class="article-content">
+    <div class="container">
+      {{ content }}
+    </div><!-- .container -->
+  </div><!-- .article-content -->
+</article><!-- .article -->

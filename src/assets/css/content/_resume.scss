@@ -1,0 +1,120 @@
+//
+// Theme: Resume
+// --------------------------------------------------
+
+
+// Resume header
+// -------------------------
+
+.resume-header {
+
+  .resume-header__title {}
+}
+
+
+// Resume section
+// -------------------------
+
+.resume-section {}
+
+.resume-section--experience {}
+
+.resume-section--skills {}
+
+.resume-section--education {}
+
+
+// Resume section header
+// -------------------------
+
+.resume-section-header {
+
+  .resume-section-header__title {}
+}
+
+
+// Resume item
+// -------------------------
+
+.resume-item {
+
+  .resume-item__info {
+
+    .resume-item__title {}
+
+    .resume-item__subtitle {}
+
+    .resume-item__location {}
+
+    .resume-item__date {}
+  }
+
+  .resume-item__title {
+    margin-bottom: 0;
+    font-size: $font-size-base;
+  }
+
+  .resume-item__subtitle {
+    font-style: italic;
+  }
+
+  .resume-item__location {}
+
+  .resume-item__date {}
+
+  .resume-item__list {
+    padding-left: 0;
+  }
+
+  @media (min-width: $screen-md) {
+
+    .resume-item__info {
+      display: flex;
+      flex-wrap: wrap;
+
+      .resume-item__title,
+      .resume-item__subtitle {
+        width: percentage( 3 / 4 );
+        padding-right: $grid-gutter-width / 2;
+      }
+
+      .resume-item__title {
+        order: 1;
+      }
+
+      .resume-item__subtitle {
+        order: 3;
+      }
+
+      .resume-item__location,
+      .resume-item__date {
+        width: percentage( 1 / 4 );
+        padding-left: $grid-gutter-width / 2;
+        color: $gray-light;
+      }
+
+      .resume-item__location {
+        order: 2;
+      }
+
+      .resume-item__date {
+        order: 4;
+      }
+    }
+
+    .resume-item__title {}
+
+    .resume-item__subtitle {}
+
+    .resume-item__location,
+    .resume-item__date {
+
+    }
+
+    .resume-item__location {}
+
+    .resume-item__date {}
+
+    .resume-item__list {}
+  }
+}
