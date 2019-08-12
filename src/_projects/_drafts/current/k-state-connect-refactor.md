@@ -27,5 +27,5 @@ team:
 notes:
   - The Sass refactor work was released 2017-07-10 in v1.45.0
   - Upgraded the templates 2018-10-04 in v1.49.0
-  - Merged PR removing Bootstrap grid 2019-04-02
+  - Merged PR removing Bootstrap grid 2019-04-02, changes released in v1.52.0 on 2019-08-12
 ---
