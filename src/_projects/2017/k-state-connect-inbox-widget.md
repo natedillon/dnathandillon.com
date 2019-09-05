@@ -15,7 +15,7 @@ links:
   - title: Website
     url: https://connect.k-state.edu
     type: # website, source, article
-    active: true
+    active: false
 services:
   - Design
   - Front-end development

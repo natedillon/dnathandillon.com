@@ -32,4 +32,20 @@ layout: default
       </ul>
     </section><!-- .project-info__section -->
   {% endif %}
+
+  {% if page.links %}
+    {% assign active_links = page.links | where:'active',true %}
+    {% if active_links.size > 0 %}
+      <section class="project-info__section project-info__section--links">
+        <h2 class="project-info__title visually-hidden">Links</h2>
+        <ul class="project-info__list">
+          {% for item in active_links %}
+            {% if item.active %}
+              <li class="project-info__list-item"><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </section><!-- .project-info__section -->
+    {% endif %}
+  {% endif %}
 </aside><!-- .project-info -->

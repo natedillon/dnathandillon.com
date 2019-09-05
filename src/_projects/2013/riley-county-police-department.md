@@ -13,7 +13,7 @@ logo:
 image: /assets/img/work/2013/riley-county-police-department/image.jpg
 thumb:
 links:
-  - title: Website
+  - title: Visit site
     url: http://rileycountypolice.org
     type: # website, source, article
     active: true

@@ -13,7 +13,7 @@ logo:
 image: /assets/img/work/2013/seeds-of-hope/image.jpg
 thumb:
 links:
-  - title: Website
+  - title: Visit site
     url: http://seedsofhopejailministry.org
     type: # website, source, article
     active: true

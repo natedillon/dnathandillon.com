@@ -18,11 +18,11 @@ links:
   - title: IT News — Graduate School student forms now available online
     url: https://blogs.k-state.edu/it-news/2019/03/29/graduate-school-student-forms-now-available-online/
     type: article # website, source, article
-    active: true
+    active: false
   - title: Inside ITS — ITS first ‘Decisions’ project is an enormous success
     url: https://blogs.k-state.edu/its/2019/04/12/its-first-decisions-project-is-an-enormous-success/
     type: article # website, source, article
-    active: true
+    active: false
 services:
   - Design
   - Front-end development
