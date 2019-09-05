@@ -2,30 +2,30 @@
 published: false
 featured: false
 
-title:
+title: K-State Connect ITS Widget
 description:
 date:
-date_start:
+date_start: 2019-08-19
 agency: Kansas State University, Office of Mediated Education
-client:
+client: Kansas State University, Office of Mediated Education
 logo:
 image:
 thumb:
 links:
-  - title:
-    url:
+  - title: Website
+    url: https://connect.k-state.edu
     type: # website, source, article
-    active: false
+    active: true
 services: # Design, CMS development, Front-end development
-  -
+  - Design
 tools:
-  -
+  - Sketch
 tools_additional:
   -
 fonts:
   -
 icons:
-  -
+  - Font Awesome
 colors:
   - '#512888' # ksu-purple
   - '#f0Ce86' # ksu-neutral-light
@@ -42,7 +42,8 @@ team:
   - name:
     role:
 notes:
-  -
+  - 2019-08-19 - Talked to Jon about the project
+  - 2019-08-26 - Began design work
 
 # Last commits to the repo
 # Last commits to the repo (for v1.0.0)
