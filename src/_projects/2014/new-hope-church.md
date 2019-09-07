@@ -13,7 +13,7 @@ logo:
 image: /assets/img/work/2014/new-hope-church/image.jpg
 thumb:
 links:
-  - title: Website
+  - title: Visit site
     url: http://newhopeks.org
     type: # website, source, article
     active: true

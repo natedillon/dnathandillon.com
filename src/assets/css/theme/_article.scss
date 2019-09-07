@@ -231,6 +231,10 @@
 
 .article--project {}
 
+.project-content {
+  grid-area: content;
+}
+
 .project-info {
   grid-area: sidebar;
   margin-top: $line-height-computed;
@@ -260,10 +264,27 @@
       white-space: nowrap;
     }
   }
-}
 
-.project-content {
-  grid-area: content;
+  .project-info__section--links {
+
+    .project-info__list {
+      display: block;
+    }
+
+    .project-info__list-item {
+      padding: 0;
+      background-color: transparent;
+
+      a {
+        display: inline-block;
+        padding: 0 5px;
+        color: white;
+        background-color: $link-color;
+        text-decoration: none;
+        white-space: normal;
+      }
+    }
+  }
 }
 
 

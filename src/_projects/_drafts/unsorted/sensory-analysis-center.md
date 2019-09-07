@@ -26,7 +26,7 @@ links:
     type: # website, source, article
     status:
 services: # Design, CMS development, Front-end development
-  -
+  - Design
 tools:
   -
 tools_additional:
@@ -41,6 +41,6 @@ team:
   - name:
     role:
 notes:
-  - I’m not sure if this site was ever completed
+  - I’m not sure if this site was ever completed, but design and development work was at least partially done
   - Meeting with Edgar Chambers on September 28, 2007
 ---

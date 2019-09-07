@@ -13,7 +13,9 @@ links:
   - title:
     url:
 services:
-  -
+  - Design
+  - Front-end development
+  - CMS development
 tools:
   -
 tools_additional:
